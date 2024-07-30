@@ -1,0 +1,66 @@
+.bottom{
+    position:absolute;
+    right:40px;
+    bottom:25px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:20px;z-index:10;
+}
+.bottom button{
+    width:250px;
+    height:80px;
+    position:relative;
+    border:0;
+    padding:5px 0 0 0;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 20px;
+    background: #168FFF url(../images/bg-btn-pattern.png) no-repeat center;
+    background-size:contain !important;
+    box-shadow: 1px 2px 1px 0 rgba(255, 255, 255, 0.40) inset, 0 -1px 4px 0 #0065C2 inset, 0 3px 0 0 #0065C2;
+}
+.bottom button.btn-msg{
+    background: #A7A7A7 url(../images/bg-btn-pattern.png) no-repeat center;
+    box-shadow: 1px 2px 1px 0 rgba(255, 255, 255, 0.40) inset, 0 -1px 4px 0 #717171 inset, 0 3px 0 0 #717171;
+}
+.bottom button.btn-reset{
+    border-radius: 20px;
+    background: #71669F url(../images/bg-btn-pattern.png) no-repeat center;
+    box-shadow: 1px 2px 1px 0 rgba(255, 255, 255, 0.30) inset, 0 -1px 4px 0 #473B7C inset, 0 3px 0 0 #473B7C;
+}
+.bottom button img{
+    width:40px;
+    height:40px;
+    display:flex;
+}
+.bottom button span{
+    display:flex;
+    font-size:40px;
+    color:#fff;
+    font-weight:800;
+    margin-left:10px;
+}
+.bottom button strong{
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    border-radius:50%;
+    background:#F06415;
+    box-shadow: 0 1.125px 1.125px 0 #FFAC0C inset, 0 -1.125px 1.125px 0 #C54700 inset;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    font-size:36px;
+    color:#fff;font-weight:700;
+    position:absolute;right:-25px;top:-25px;
+}
+.bottom button.hide{
+    display:none;
+}
+.bottom button[disabled]{
+    background: #A7A7A7 url(../images/bg-btn-pattern.png) no-repeat center;
+    box-shadow: 1px 2px 1px 0 rgba(255, 255, 255, 0.40) inset, 0 -1px 4px 0 #717171 inset, 0 3px 0 0 #717171;
+}

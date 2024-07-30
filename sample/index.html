@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/pagingButton.js"></script>
+  <script src="js/pagingList.js"></script>
+  <script src="js/pagingStatus.js"></script>
+</head>
+<body onresize="contentResize();">
+
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents intro">
+
+      <dl class="question-sheet-wrap">
+        <dt>
+          <div class="num notranslate">1<span class="hidden" aria-label="번"></span></div>
+          <div class="txt">우리 학교에 있는 이미지 데이터를 찾아 써 보세요.</div>
+          <button type="button" onclick="audioPlay('audio01')"><img src="./images/btn-sound-small.png" alt=""></button>
+          <div class="etc">(예) 책 표지 그림</div>
+        </dt>
+        <dd>
+          <div class="textarea-wrap">
+            <label for="textarea01" class="hidden">여기에 답을 입력하세요.</label>
+            <textarea placeholder="입력하세요." id="textarea01" onkeyup="answerWriting('#page01');" maxlength="400"></textarea>
+          </div>
+        </dd>
+      </dl>
+
+      <!-- 페이징 -->
+      <div class="paging notranslate">
+        <button type="button" class="btn-back" onclick="pagePrev();" disabled><img src="./images/btn-back.png" alt="이전 페이지로 이동"></button>
+        <ul>
+          <li class="on" tabindex="0" onclick="pagingEvent(0)" data-page="0"><span class="hidden current" aria-label="현재 페이지"></span>1<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(1)" data-page="1"><span class="hidden current" aria-label="현재 페이지"></span>2<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(2)" data-page="2"><span class="hidden current" aria-label="현재 페이지"></span>3<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(3)" data-page="3"><span class="hidden current" aria-label="현재 페이지"></span>4<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(4)" data-page="4"><span class="hidden current" aria-label="현재 페이지"></span>5<span class="hidden move" aria-label="페이지로 이동"></span></li>
+        </ul>
+        <button type="button" class="btn-next" disabled onclick="pageNext();"><img src="./images/btn-next.png" alt="다음 페이지로 이동"></button>
+      </div>
+
+      <!-- 하단 버튼 영역 -->
+      <div class="bottom">
+        <button type="button" class="btn-msg">
+          <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+          <span>확인하기</span>
+        </button>
+        <button type="button" class="btn-confirm hide">
+          <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+          <span>확인하기</span>
+        </button>
+        <button type="button" class="btn-commentary hide">
+          <span>해설 보기</span>
+        </button>
+        <button type="button" class="btn-reset hide">
+          <span>다시 하기</span>
+        </button>
+      </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html> 
