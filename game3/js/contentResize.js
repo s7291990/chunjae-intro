@@ -12,10 +12,16 @@ window.onload = function(){
   });
   $("body").on("click", ".select-list-wrap a", function(){
     var _val = $(".select-value").find("span").text();
+    var _url = $(this).attr("data-url");
     $(".select-value").removeClass("on");
     $(".select-value").find("span").text($(this).text());
+    $(".select-value").attr("data-url", _url);
     $(this).text(_val);
   });
+}
+function gameLink(){
+  var _url = $(".select-value").attr("data-url");
+  location.href = _url;
 }
 function contentResize(){
 	const wrap = document.querySelector('.container');
