@@ -12,11 +12,12 @@ window.onload = function(){
 	});
   $("body").on("click", ".select-list-wrap a", function(){
   	var _val = $(".select-value").find("span").text();
+		var _dataUrl = $(".select-value").attr("data-url");
     var _url = $(this).attr("data-url");
     $(".select-value").removeClass("on");
     $(".select-value").find("span").text($(this).text());
     $(".select-value").attr("data-url", _url);
-    $(this).text(_val);
+    $(this).text(_val).attr("data-url", _dataUrl);
   });
 }
 function gameLink(){
