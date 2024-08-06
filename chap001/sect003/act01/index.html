@@ -1,0 +1,106 @@
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/pagingButton.js"></script>
+  <script src="js/pagingList.js"></script>
+  <script src="js/pagingStatus.js"></script>
+</head>
+<body onresize="contentResize();">
+
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents">
+
+
+      <div id="page01" class="question on">
+
+        <div class="about-type-wrap">
+          <ul>
+            <li>한 변의 길이가 1인 정사각형이 있다.
+              <br>이 정사각형을 이어 붙여서 서로 다른 모양의 직사각형을 만들어 보자.
+              <br>이때 서로 완전히 포개어지는 직사각형은 같은 것으로 생각한다.</li>
+            <li>한 변의 길이가 1인 정사각형 두 개를 이어 붙여서 만들 수 있는 직사각형은 가로, 세로의 길이가 1,2인 직사각형뿐이다. 즉, 두 개의 정사각형을 이어 붙여서 만들 수 있는 직사각형은 오직 한 가지이다.</li>
+          </ul>
+          <div class="mpic">
+            <img src="./images/etc-box01.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div id="page02" class="question">
+
+        <div class="about-type-wrap">
+          <ul>
+            <li>22한 변의 길이가 1인 정사각형이 있다.
+              <br>이 정사각형을 이어 붙여서 서로 다른 모양의 직사각형을 만들어 보자.
+              <br>이때 서로 완전히 포개어지는 직사각형은 같은 것으로 생각한다.</li>
+            <li>한 변의 길이가 1인 정사각형 두 개를 이어 붙여서 만들 수 있는 직사각형은 가로, 세로의 길이가 1,2인 직사각형뿐이다. 즉, 두 개의 정사각형을 이어 붙여서 만들 수 있는 직사각형은 오직 한 가지이다.</li>
+          </ul>
+          <div class="mpic">
+            <img src="./images/etc-box01.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div id="page03" class="question">
+
+        <div class="about-type-wrap">
+          <ul>
+            <li>333한 변의 길이가 1인 정사각형이 있다.
+              <br>이 정사각형을 이어 붙여서 서로 다른 모양의 직사각형을 만들어 보자.
+              <br>이때 서로 완전히 포개어지는 직사각형은 같은 것으로 생각한다.</li>
+            <li>한 변의 길이가 1인 정사각형 두 개를 이어 붙여서 만들 수 있는 직사각형은 가로, 세로의 길이가 1,2인 직사각형뿐이다. 즉, 두 개의 정사각형을 이어 붙여서 만들 수 있는 직사각형은 오직 한 가지이다.</li>
+          </ul>
+          <div class="mpic">
+            <img src="./images/etc-box01.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- 페이징 -->
+      <div class="paging notranslate">
+        <button type="button" class="btn-back" onclick="pagePrev();" disabled><img src="./images/btn-back.png" alt="이전 페이지로 이동"></button>
+        <ul>
+          <li class="on" tabindex="0" onclick="pagingEvent(0)" data-page="0"><span class="hidden current" aria-label="현재 페이지"></span>1<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(1)" data-page="1"><span class="hidden current" aria-label="현재 페이지"></span>2<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(2)" data-page="2"><span class="hidden current" aria-label="현재 페이지"></span>3<span class="hidden move" aria-label="페이지로 이동"></span></li>
+        </ul>
+        <button type="button" class="btn-next" onclick="pageNext();"><img src="./images/btn-next.png" alt="다음 페이지로 이동"></button>
+      </div>
+
+      <!-- 하단 버튼 영역 -->
+      <div class="bottom">
+        <button type="button" class="btn-reset">
+          <span>나가기</span>
+        </button>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html> 

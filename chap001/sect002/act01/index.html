@@ -1,0 +1,402 @@
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/handleConfirm.js"></script>
+  <script src="js/handleNext.js"></script>
+<!--  <script src="js/pagingButton.js"></script>-->
+<!--  <script src="js/pagingList.js"></script>-->
+<!--  <script src="js/pagingStatus.js"></script>-->
+</head>
+<body onresize="contentResize();">
+
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents">
+
+
+      <div id="page01" class="question on">
+
+        <div class="page-num-wrap notranslate">1/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">1</div>
+            <div class="desc">다음 중 소수가 <span class="underline">아닌</span> 수는?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page01-rd01">
+              <input type="radio" name="page01-rd" id="page01-rd01" value="1" onchange="handleRadio('#page01')">
+              <span>1</span>
+            </label>
+            <label for="page01-rd02">
+              <input type="radio" name="page01-rd" id="page01-rd02" value="2" onchange="handleRadio('#page01')">
+              <span>2</span>
+            </label>
+            <label for="page01-rd03">
+              <input type="radio" name="page01-rd" id="page01-rd03" value="3" onchange="handleRadio('#page01')">
+              <span>3</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">1</span>은 소수도 합성수도 아니다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">1</span>은 소수도 합성수도 아니다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page02');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page01');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page02" class="question">
+
+        <div class="page-num-wrap notranslate">2/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">2</div>
+            <div class="desc">다음 중 <span class="notranslate">108</span>을 소인수분해 한 것은?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page02-rd01">
+              <input type="radio" name="page02-rd" id="page02-rd01" value="1" onchange="handleRadio('#page02')">
+              <span>2_3<span class="cup">3</span></span>
+            </label>
+            <label for="page02-rd02">
+              <input type="radio" name="page02-rd" id="page02-rd02" value="2" onchange="handleRadio('#page02')">
+              <span>2<span class="cup">2</span>_3<span class="cup">2</span>_5</span>
+            </label>
+            <label for="page02-rd03">
+              <input type="radio" name="page02-rd" id="page02-rd03" value="3" onchange="handleRadio('#page02')">
+              <span>2<span class="cup">2</span>_3<span class="cup">3</span></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <strong><span class="notranslate">108</span>을 소인수분해 하면</strong>
+                <br><span class="notranslate">2_54=2_3_18=2_3_2_3_3=2<span class="cup">2</span>_3<span class="cup">3</span></span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value"><span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate">2<span class="cup">3</span></span>이다.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page03');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page02');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page03" class="question">
+
+        <div class="page-num-wrap notranslate">3/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">3</div>
+            <div class="desc"><span class="notranslate">2_2_2_2_2</span>를 거듭제곱으로 나타낼 때, 밑과 지수의 합은?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page03-rd01">
+              <input type="radio" name="page03-rd" id="page03-rd01" value="1"  onchange="handleRadio('#page03')">
+              <span>7</span>
+            </label>
+            <label for="page03-rd02">
+              <input type="radio" name="page03-rd" id="page03-rd02" value="2" onchange="handleRadio('#page03')">
+              <span>10</span>
+            </label>
+            <label for="page03-rd03">
+              <input type="radio" name="page03-rd" id="page03-rd03" value="3" onchange="handleRadio('#page03')">
+              <span>14</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2_2_2_2_2</span>을 거듭제곱으로 나타내면 <span class="notranslate">2<span class="cup">5</span></span>이다. 이때
+                <br>밑은 <span class="notranslate">2</span>이고 지수는 <span class="notranslate">5</span>이므로 밑과 지우의 합은 7이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2_2_2_2_2</span>을 거듭제곱으로 나타내면 <span class="notranslate">2<span class="cup">5</span></span>이다. 이때
+                <br>밑은 <span class="notranslate">2</span>이고 지수는 <span class="notranslate">5</span>이므로 밑과 지우의 합은 7이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page04');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page03');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page04" class="question">
+
+        <div class="page-num-wrap notranslate">4/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">4</div>
+            <div class="desc">
+              <span class="notranslate">2_2_2_3_3</span>을 거듭제곱을 이용하여 나타내면?
+            </div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page04-rd01">
+              <input type="radio" name="page04-rd" id="page04-rd01" value="1" onchange="handleRadio('#page04')">
+              <span>2<span class="cup">3</span>_3<span class="cup">2</span></span>
+            </label>
+            <label for="page04-rd02">
+              <input type="radio" name="page04-rd" id="page04-rd02" value="2" onchange="handleRadio('#page04')">
+              <span>2<span class="cup">2</span>_3<span class="cup">3</span></span>
+            </label>
+            <label for="page04-rd03">
+              <input type="radio" name="page04-rd" id="page04-rd03" value="3" onchange="handleRadio('#page04')">
+              <span>2<span class="cup">3</span>_3<span class="cup">2</span></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2_2_2_3_3</span>은 <span class="notranslate">2</span>를 세 번 곱하고,
+                <br><span class="notranslate">3</span>을 두 번 곱하므로 <span class="notranslate">2<span class="cup">3</span>_3<span class="cup">2</span></span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2_2_2_3_3</span>은 <span class="notranslate">2</span>를 세 번 곱하고,
+                <br><span class="notranslate">3</span>을 두 번 곱하므로 <span class="notranslate">2<span class="cup">3</span>_3<span class="cup">2</span></span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page05');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page04');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page05" class="question">
+
+        <div class="page-num-wrap notranslate">5/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">5</div>
+            <div class="desc">다음 중 <span class="notranslate">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수가 아닌 것은?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page05-rd01">
+              <input type="radio" name="page05-rd" id="page05-rd01" value="1" onchange="handleRadio('#page05')">
+              <span>2_3</span>
+            </label>
+            <label for="page05-rd02">
+              <input type="radio" name="page05-rd" id="page05-rd02" value="2" onchange="handleRadio('#page05')">
+              <span>2<span class="cup">2</span>_5</span>
+            </label>
+            <label for="page05-rd03">
+              <input type="radio" name="page05-rd" id="page05-rd03" value="3" onchange="handleRadio('#page05')">
+              <span>2_3<span class="cup">2</span>_5<span class="cup">3</span></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수는 <span class="notranslate">2</span>의 약수 또는 <span class="notranslate">3<span class="cup">2</span></span>의 약수 또는
+                <br><span class="notranslate">5<span class="cup">3</span></span>의 약수를 곱하여 나타낼 수 있다. 그런데 두 번째 보기는
+                <br><span class="notranslate">2<span class="cup">2</span></span>이 포함되어있으므로 약수가 아니다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수는 <span class="notranslate">2</span>의 약수 또는 <span class="notranslate">3<span class="cup">2</span></span>의 약수 또는
+                <br><span class="notranslate">5<span class="cup">3</span></span>의 약수를 곱하여 나타낼 수 있다. 그런데 두 번째 보기는
+                <br><span class="notranslate">2<span class="cup">2</span></span>이 포함되어있으므로 약수가 아니다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page05');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html> 

@@ -1,0 +1,414 @@
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/handleConfirm.js"></script>
+  <script src="js/handleNext.js"></script>
+<!--  <script src="js/pagingButton.js"></script>-->
+<!--  <script src="js/pagingList.js"></script>-->
+<!--  <script src="js/pagingStatus.js"></script>-->
+</head>
+<body onresize="contentResize();">
+
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents">
+
+
+      <div id="page01" class="question on">
+
+        <div class="page-num-wrap notranslate">1/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">1</div>
+            <div class="desc">다음 중 합성수인 것은?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page01-rd01">
+              <input type="radio" name="page01-rd" id="page01-rd01" value="1" onchange="handleRadio('#page01')">
+              <span>11</span>
+            </label>
+            <label for="page01-rd02">
+              <input type="radio" name="page01-rd" id="page01-rd02" value="2" onchange="handleRadio('#page01')">
+              <span>37</span>
+            </label>
+            <label for="page01-rd03">
+              <input type="radio" name="page01-rd" id="page01-rd03" value="3" onchange="handleRadio('#page01')">
+              <span>93</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
+                <span class="notranslate">1, 37</span>이므로 소수이다.
+                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
+                <span class="notranslate">1, 37</span>이므로 소수이다.
+                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page02');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page01');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page02" class="question">
+
+        <div class="page-num-wrap notranslate">2/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">2</div>
+            <div class="desc"><span class="notranslate">2_2_2</span>를 거듭제곱을 이용하여 나타내면?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page02-rd01">
+              <input type="radio" name="page02-rd" id="page02-rd01" value="1" onchange="handleRadio('#page02')">
+              <span>3_2</span>
+            </label>
+            <label for="page02-rd02">
+              <input type="radio" name="page02-rd" id="page02-rd02" value="2" onchange="handleRadio('#page02')">
+              <span>2<span class="cup">3</span></span>
+            </label>
+            <label for="page02-rd03">
+              <input type="radio" name="page02-rd" id="page02-rd03" value="3" onchange="handleRadio('#page02')">
+              <span>3<span class="cup">2</span></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate">2<span class="cup">3</span></span>이다.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value"><span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate">2<span class="cup">3</span></span>이다.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page03');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page02');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page03" class="question">
+
+        <div class="page-num-wrap notranslate">3/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">3</div>
+            <div class="desc">다음 중 <span class="notranslate">12</span>와 서로소인 것은?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page03-rd01">
+              <input type="radio" name="page03-rd" id="page03-rd01" value="1"  onchange="handleRadio('#page03')">
+              <span>18</span>
+            </label>
+            <label for="page03-rd02">
+              <input type="radio" name="page03-rd" id="page03-rd02" value="2" onchange="handleRadio('#page03')">
+              <span>25</span>
+            </label>
+            <label for="page03-rd03">
+              <input type="radio" name="page03-rd" id="page03-rd03" value="3" onchange="handleRadio('#page03')">
+              <span>45</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
+                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
+                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
+                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
+                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
+                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
+                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
+                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
+                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page04');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page03');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page04" class="question">
+
+        <div class="page-num-wrap notranslate">4/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">4</div>
+            <div class="desc">다음 중 두 수 <span class="notranslate">2<span class="cup">3</span>_3<span class="cup">2</span>, 2<span class="cup">4</span>_3</span>의 최대공약수는?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page04-rd01">
+              <input type="radio" name="page04-rd" id="page04-rd01" value="1" onchange="handleRadio('#page04')">
+              <span>2<span class="cup">3</span>_3</span>
+            </label>
+            <label for="page04-rd02">
+              <input type="radio" name="page04-rd" id="page04-rd02" value="2" onchange="handleRadio('#page04')">
+              <span>2<span class="cup">3</span>_3<span class="cup">2</span></span>
+            </label>
+            <label for="page04-rd03">
+              <input type="radio" name="page04-rd" id="page04-rd03" value="3" onchange="handleRadio('#page04')">
+              <span>2<span class="cup">4</span>_3<span class="cup">2</span></span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                주어진 자연수들의 최대공약수는 공통인 소인수의
+                <br>거듭제곱 중에서 지수가 같으면 그대로,
+                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
+                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
+                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                주어진 자연수들의 최대공약수는 공통인 소인수의
+                <br>거듭제곱 중에서 지수가 같으면 그대로,
+                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
+                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
+                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-next hide" onclick="handleNext('#page05');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page04');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page05" class="question">
+
+        <div class="page-num-wrap notranslate">5/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">5</div>
+            <div class="desc">다음 중 두 수 <span class="notranslate">2_7, 2_3<span class="cup">2</span>_7</span>의 최소공배수는?</div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+            <label for="page05-rd01">
+              <input type="radio" name="page05-rd" id="page05-rd01" value="1" onchange="handleRadio('#page05')">
+              <span>2_3_7</span>
+            </label>
+            <label for="page05-rd02">
+              <input type="radio" name="page05-rd" id="page05-rd02" value="2" onchange="handleRadio('#page05')">
+              <span>2<span class="cup">2</span>_3_7</span>
+            </label>
+            <label for="page05-rd03">
+              <input type="radio" name="page05-rd" id="page05-rd03" value="3" onchange="handleRadio('#page05')">
+              <span>2_3<span class="cup">2</span>_7</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                주어진 자연수들의 최소공배수는 공통인 소인수의
+                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
+                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
+                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
+                <br><span class="notranslate">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate">2_3<span class="cup">2</span>_7</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                주어진 자연수들의 최소공배수는 공통인 소인수의
+                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
+                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
+                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
+                <br><span class="notranslate">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate">2_3<span class="cup">2</span>_7</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page05');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html> 
