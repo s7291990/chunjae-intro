@@ -1,0 +1,168 @@
+  <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/pagingButton.js"></script>
+  <script src="js/pagingList.js"></script>
+  <script src="js/pagingStatus.js"></script>
+  <script src="js/handleConfirm.js"></script>
+</head>
+<body onresize="contentResize();">
+
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents">
+
+
+      <div id="page01" class="question on">
+
+        <dl class="question-sheet-wrap">
+          <dt>에라토스테네스의 체를 이용하여 소수를 구하는 방법은 다음과 같습니다.</dt>
+          <dd>
+            <div class="textarea-wrap">
+              (1)   1은 소수가 아니므로 지운다.
+              <br>(2)   남은 자연수 중 처음 수는 남기고, 그 수의 배수를 지운다.
+            </div>
+          </dd>
+        </dl>
+
+      </div>
+
+      <div id="page02" class="question">
+
+        <dl class="question-sheet-wrap">
+          <dt>다음 수 중 하나를 선택해서 1부터 선택한 숫자의 자연수 중 소수를 찾아 봅시다.</dt>
+          <dd>
+            <div class="find-type-wrap notranslate">
+              <input type="hidden" class="answer-value" value="1">
+              <button type="button" onclick="handleConfirm(1)">30</button>
+              <button type="button" onclick="handleConfirm(2)">50</button>
+              <button type="button" onclick="handleConfirm(3)">100</button>
+            </div>
+          </dd>
+        </dl>
+
+      </div>
+
+      <div id="page03" class="question">
+
+        <dl class="question-sheet-wrap">
+          <dt>1부터 30까지의 자연수 중 소수를 모두 구해 봅시다.</dt>
+          <dd>
+            <div class="textarea-wrap">
+              1은 소수가 아니므로 지웁니다.
+              <br>남은 자연수 2부터 30 중에서 처음 수 2는 남기고, 2의 배수는 지웁니다.
+              <br>따라서 4,6,8,10,12,14,16,18,20,22,24,26,28,30이 지워집니다.
+              <br>남은 자연수 중 처음 수 3은 남기고 3의 배수는 지웁니다. 따라서 6,9,12,15,18,21,24,27,30이 지워집니다.
+              <br>이때 앞에서 2의 배수를 지우면서 6,12,18,24,30은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 5는 남기고, 5의 배수는 지웁니다.
+              <br>따라서 10,15,20,25,30이 지워집니다. 이때 앞에서 2의 배수와 3의 배수를 지우면서 10,15,20,30은 이미
+              <br>지워졌습니다. 30 이하의 소수는 2,3,5,7,11,13,17,19,23,29로 총 10개 입니다.
+            </div>
+          </dd>
+        </dl>
+
+      </div>
+
+      <div id="page04" class="question">
+
+        <dl class="question-sheet-wrap">
+          <dt>1부터 50까지의 자연수 중 소수를 모두 구해 봅시다.</dt>
+          <dd>
+            <div class="textarea-wrap">
+              1은 소수가 아니므로 지웁니다.
+              <br>남은 자연수 2부터 50 중에서 처음 수 2는 남기고, 2의 배수는 지웁니다.
+              <br>따라서 4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50이 지워집니다.
+              <br>남은 자연수 중 처음 수 3은 남기고 3의 배수는 지웁니다. 따라서 6,9,12,15,18,21,24,27,30,33,36,39,42,
+              <br>45,48이 지워집니다. 이때 앞에서 2의 배수를 지우면서 6,12,18,24,30,36,42,48은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 5는 남기고, 5의 배수는 지웁니다.
+              <br>따라서 10,15,20,25,30,35,40,45,50이 지워집니다. 이때 앞에서 2의 배수와 3의 배수를 지우면서 10,15,20,30,40,45,50은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 7은 남기고, 7의 배수는 지웁니다.
+              <br>따라서 14,21,28,35,42,49가 지워집니다. 이때 앞에서 2의 배수와 3의 배수와 5의 배수를 지우면서 14,21,28,35,42는 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 11은 남기고, 11의 배수는 지웁니다.
+              <br>따라서 22,33,44가 지워집니다. 이때 앞에서 2의 배수와 3의 배수를 지우면서 22,33,44는 모두 이미 지워졌습니다.
+
+              <br><br>50 이하의 소수는 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47로 총 15개입니다.
+            </div>
+          </dd>
+        </dl>
+
+      </div>
+
+      <div id="page05" class="question">
+
+        <dl class="question-sheet-wrap">
+          <dt>1부터 100까지의 자연수 중 소수를 모두 구해 봅시다.</dt>
+          <dd>
+            <div class="textarea-wrap">
+              1부터 100까지의 자연수 중 소수를 모두 구해 봅시다.
+
+              <br><br>1은 소수가 아니므로 지웁니다.
+              <br>남은 자연수 2부터 100 중에서 처음 수 2는 남기고, 2의 배수는 지웁니다.
+              <br>따라서 4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,
+              <br>40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,90,92,94,96,98,100이 지워집니다.
+              <br>남은 자연수 중 처음 수 3은 남기고 3의 배수는 지웁니다.
+
+              <br>남은 자연수 중 처음 수 3은 남기고 3의 배수는 지웁니다. 따라서 6,9,12,15,18,21,24,27,30,33,36,39,42,45,48,51,54,57,60,63,66,69,72,75,78,81,84,87,90,93,96,99가 지워집니다. 이때 앞에서 2의 배수를 지우면서 6,12,18,24,30,36,42,48,54,60,66,72,78,84,90,96은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 5는 남기고, 5의 배수는 지웁니다.
+              <br>따라서 10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100이 지워집니다. 이때 앞에서 2의 배수와 3의 배수를 지우면서 10,15,20,30,40,45,50,60,70,75,80,90,100은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 7은 남기고, 7의 배수는 지웁니다.
+
+              <br>따라서 14,21,28,35,42,49,56,63,70,77,84,91,98이 지워집니다. 이때 앞에서 2의 배수와 3의 배수와 5의 배수를 지우면서 14,21,28,35,42,56,63,70,84,98은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 11은 남기고, 11의 배수는 지웁니다.
+              <br>따라서 22,33,44,55,66,77,88,99가 지워집니다. 이때 앞에서 2의 배수와 3의 배수와 5의 배수와 7의 배수를 지우면서 22,33,44,55,66,77,88,99는 모두 이미 지워졌습니다.
+              <br>100이하의 소수는 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97로 총 25개입니다.
+            </div>
+          </dd>
+        </dl>
+
+      </div>
+
+
+      <!-- 페이징 -->
+      <div class="paging notranslate">
+        <button type="button" class="btn-back" onclick="pagePrev();" disabled><img src="./images/btn-back.png" alt="이전 페이지로 이동"></button>
+        <ul>
+          <li class="on" tabindex="0" onclick="pagingEvent(0)" data-page="0"><span class="hidden current" aria-label="현재 페이지"></span>1<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(1)" data-page="1"><span class="hidden current" aria-label="현재 페이지"></span>2<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(2)" data-page="2"><span class="hidden current" aria-label="현재 페이지"></span>3<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(3)" data-page="3"><span class="hidden current" aria-label="현재 페이지"></span>4<span class="hidden move" aria-label="페이지로 이동"></span></li>
+          <li tabindex="0" onclick="pagingEvent(4)" data-page="4"><span class="hidden current" aria-label="현재 페이지"></span>5<span class="hidden move" aria-label="페이지로 이동"></span></li>
+        </ul>
+        <button type="button" class="btn-next" onclick="pageNext();"><img src="./images/btn-next.png" alt="다음 페이지로 이동"></button>
+      </div>
+
+      <!-- 하단 버튼 영역 -->
+      <div class="bottom">
+        <button type="button" class="btn-green">
+          <span>다른 숫자 선택하기</span>
+        </button>
+        <button type="button" class="btn-reset">
+          <span>나가기</span>
+        </button>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html> 

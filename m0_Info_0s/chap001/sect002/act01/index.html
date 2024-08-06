@@ -18,6 +18,36 @@
 </head>
 <body onresize="contentResize();">
 
+<!--
+aria-labelledby="id"
+-->
+<div class="hidden" id="page01-label01">이 곱하기 삼의 세제곱</div>
+<div class="hidden" id="page01-label02">이의 제곱 곱하기 삼의 제곱 곱하기 오</div>
+<div class="hidden" id="page01-label03">이의 제곱 곱하기 삼의 세제곱</div>
+<div class="hidden" id="page01-label04">이 곱하기 오십사는 이 곱하기 삼 곱하기 십팔는 이 곱하기 삼 곱하기 이 곱하기 삼 곱하기 삼 곱하기는 이에 이제곱 곱하기 삼의 삼제곱</div>
+<div class="hidden" id="page01-label05">이 곱하기 이 곱하기 이 곱하기 이 곱하기 이</div>
+<!-- 문제 3-->
+<div class="hidden" id="page03-label01">이 곱하기 이 곱하기 이 곱하기 이 곱하기 이</div>
+<div class="hidden" id="page03-label02">이의 다섯제곱</div>
+
+<!-- 문제 4-->
+<div class="hidden" id="page04-label01">이 곱하기 이 곱하기 이 곱하기 삼 곱하기 삼</div>
+<div class="hidden" id="page04-label02">이의 세제곱 더하기 삼의 제곱</div>
+<div class="hidden" id="page04-label03">이의 제곱 곱하기 삼의 세제곱</div>
+<div class="hidden" id="page04-label04">이의 세제곱 곱하기 삼의 제곱</div>
+<div class="hidden" id="page04-label05">이 곱하기 이 곱하기 이 곱하기 삼 곱하기 삼</div>
+<div class="hidden" id="page04-label06">이의 삼제곱 곱하기 삼의 이제곱</div>
+<div class="hidden" id="page04-label07">이 곱하기 이 곱하기 이 곱하기 삼 곱하기 삼</div>
+<div class="hidden" id="page04-label08">이의 삼제곱 곱하기 삼의 이제곱</div>
+
+<!-- 문제 5-->
+<div class="hidden" id="page05-label01">이 곱하기 삼의 이제곱 곱하기 오의 삼제곱</div>
+<div class="hidden" id="page05-label02">이 곱하기 삼</div>
+<div class="hidden" id="page05-label03">이의 삽제곱 곱하기 오</div>
+<div class="hidden" id="page05-label04">이 곱하기 삼의 이제곱 곱하기 오의 삼제곱</div>
+<div class="hidden" id="page05-label05">이 곱하기 삼의 이제곱 곱하기 오의 삼제곱</div>
+<div class="hidden" id="page05-label06">오의 삼제곱</div>
+<div class="hidden" id="page05-label07">이의 이제곱</div>
 
 <div class="wrapper"><!-- start : wrapper -->
 
@@ -34,20 +64,20 @@
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">1</div>
-            <div class="desc">다음 중 합성수인 것은?</div>
+            <div class="desc">다음 중 소수가 <span class="underline">아닌</span> 수는?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <label for="page01-rd01">
               <input type="radio" name="page01-rd" id="page01-rd01" value="1" onchange="handleRadio('#page01')">
-              <span>11</span>
+              <span>1</span>
             </label>
             <label for="page01-rd02">
               <input type="radio" name="page01-rd" id="page01-rd02" value="2" onchange="handleRadio('#page01')">
-              <span>37</span>
+              <span>2</span>
             </label>
             <label for="page01-rd03">
               <input type="radio" name="page01-rd" id="page01-rd03" value="3" onchange="handleRadio('#page01')">
-              <span>93</span>
+              <span>3</span>
             </label>
           </div>
         </div>
@@ -60,9 +90,9 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                <span class="notranslate">1</span>은 소수도 합성수도 아니다.
+              </div>
             </div>
           </div>
         </div>
@@ -75,9 +105,9 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                <span class="notranslate">1</span>은 소수도 합성수도 아니다.
+              </div>
             </div>
           </div>
         </div>
@@ -102,23 +132,23 @@
         <div class="page-num-wrap notranslate">2/5</div>
 
         <div class="select-type-wrap">
-          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">2</div>
-            <div class="desc"><span class="notranslate">2_2_2</span>를 거듭제곱을 이용하여 나타내면?</div>
+            <div class="desc">다음 중 <span class="notranslate">108</span>을 소인수분해 한 것은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <label for="page02-rd01">
               <input type="radio" name="page02-rd" id="page02-rd01" value="1" onchange="handleRadio('#page02')">
-              <span>3_2</span>
+              <span aria-label="이 곱하기 삼의 세제곱">2_3<span class="cup">3</span></span>
             </label>
             <label for="page02-rd02">
               <input type="radio" name="page02-rd" id="page02-rd02" value="2" onchange="handleRadio('#page02')">
-              <span>2<span class="cup">3</span></span>
+              <span aria-label="이의 제곱 곱하기 삼의 제곱 곱하기 오">2<span class="cup">2</span>_3<span class="cup">2</span>_5</span>
             </label>
             <label for="page02-rd03">
               <input type="radio" name="page02-rd" id="page02-rd03" value="3" onchange="handleRadio('#page02')">
-              <span>3<span class="cup">2</span></span>
+              <span aria-label="이의 제곱 곱하기 삼의 세제곱">2<span class="cup">2</span>_3<span class="cup">3</span></span>
             </label>
           </div>
         </div>
@@ -132,7 +162,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate">2<span class="cup">3</span></span>이다.</div>
+                <strong><span class="notranslate">108</span>을 소인수분해 하면</strong>
+                <br><span class="notranslate" aria-label="이 곱하기 오십사는 이 곱하기 삼 곱하기 십팔는 이 곱하기 삼 곱하기 이 곱하기 삼 곱하기 삼 곱하기는 이에 이제곱 곱하기 삼의 삼제곱">2_54=2_3_18=2_3_2_3_3=2<span class="cup">2</span>_3<span class="cup">3</span></span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -145,7 +177,10 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate">2<span class="cup">3</span></span>이다.</div>
+              <div class="value">
+                <strong><span class="notranslate">108</span>을 소인수분해 하면</strong>
+                <br><span class="notranslate" aria-label="이 곱하기 오십사는 이 곱하기 삼 곱하기 십팔는 이 곱하기 삼 곱하기 이 곱하기 삼 곱하기 삼 곱하기는 이에 이제곱 곱하기 삼의 삼제곱">2_54=2_3_18=2_3_2_3_3=2<span class="cup">2</span>_3<span class="cup">3</span></span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -170,23 +205,23 @@
         <div class="page-num-wrap notranslate">3/5</div>
 
         <div class="select-type-wrap">
-          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">3</div>
-            <div class="desc">다음 중 <span class="notranslate">12</span>와 서로소인 것은?</div>
+            <div class="desc"><span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 이 곱하기 이">2_2_2_2_2</span>를 거듭제곱으로 나타낼 때, 밑과 지수의 합은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <label for="page03-rd01">
               <input type="radio" name="page03-rd" id="page03-rd01" value="1"  onchange="handleRadio('#page03')">
-              <span>18</span>
+              <span>7</span>
             </label>
             <label for="page03-rd02">
               <input type="radio" name="page03-rd" id="page03-rd02" value="2" onchange="handleRadio('#page03')">
-              <span>25</span>
+              <span>10</span>
             </label>
             <label for="page03-rd03">
               <input type="radio" name="page03-rd" id="page03-rd03" value="3" onchange="handleRadio('#page03')">
-              <span>45</span>
+              <span>14</span>
             </label>
           </div>
         </div>
@@ -200,11 +235,8 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                <span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 이 곱하기 이">2_2_2_2_2</span>을 거듭제곱으로 나타내면 <span class="notranslate" aria-label="이의 다섯제곱">2<span class="cup">5</span></span>이다. 이때
+                <br>밑은 <span class="notranslate">2</span>이고 지수는 <span class="notranslate">5</span>이므로 밑과 지우의 합은 7이다.
               </div>
             </div>
           </div>
@@ -219,11 +251,8 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                <span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 이 곱하기 이">2_2_2_2_2</span>을 거듭제곱으로 나타내면 <span class="notranslate" aria-label="이의 다섯제곱">2<span class="cup">5</span></span>이다. 이때
+                <br>밑은 <span class="notranslate">2</span>이고 지수는 <span class="notranslate">5</span>이므로 밑과 지우의 합은 7이다.
               </div>
             </div>
           </div>
@@ -249,23 +278,25 @@
         <div class="page-num-wrap notranslate">4/5</div>
 
         <div class="select-type-wrap">
-          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">4</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate">2<span class="cup">3</span>_3<span class="cup">2</span>, 2<span class="cup">4</span>_3</span>의 최대공약수는?</div>
+            <div class="desc">
+              <span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 삼 곱하기 삼">2_2_2_3_3</span>을 거듭제곱을 이용하여 나타내면?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <label for="page04-rd01">
               <input type="radio" name="page04-rd" id="page04-rd01" value="1" onchange="handleRadio('#page04')">
-              <span>2<span class="cup">3</span>_3</span>
+              <span aria-label="이의 세제곱 더하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
             </label>
             <label for="page04-rd02">
               <input type="radio" name="page04-rd" id="page04-rd02" value="2" onchange="handleRadio('#page04')">
-              <span>2<span class="cup">3</span>_3<span class="cup">2</span></span>
+              <span aria-label="이의 제곱 곱하기 삼의 세제곱">2<span class="cup">2</span>_3<span class="cup">3</span></span>
             </label>
             <label for="page04-rd03">
               <input type="radio" name="page04-rd" id="page04-rd03" value="3" onchange="handleRadio('#page04')">
-              <span>2<span class="cup">4</span>_3<span class="cup">2</span></span>
+              <span aria-label="이의 세제곱 곱하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
             </label>
           </div>
         </div>
@@ -279,11 +310,8 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+                <span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 삼 곱하기 삼">2_2_2_3_3</span>은 <span class="notranslate">2</span>를 세 번 곱하고,
+                <br><span class="notranslate">3</span>을 두 번 곱하므로 <span class="notranslate" aria-label="이의 삼제곱 곱하기 삼의 이제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>이다.
               </div>
             </div>
           </div>
@@ -298,11 +326,8 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+                <span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 삼 곱하기 삼">2_2_2_3_3</span>은 <span class="notranslate">2</span>를 세 번 곱하고,
+                <br><span class="notranslate">3</span>을 두 번 곱하므로 <span class="notranslate" aria-label="이의 삼제곱 곱하기 삼의 이제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>이다.
               </div>
             </div>
           </div>
@@ -328,23 +353,23 @@
         <div class="page-num-wrap notranslate">5/5</div>
 
         <div class="select-type-wrap">
-          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">5</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate">2_7, 2_3<span class="cup">2</span>_7</span>의 최소공배수는?</div>
+            <div class="desc">다음 중 <span class="notranslate" aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수가 아닌 것은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <label for="page05-rd01">
               <input type="radio" name="page05-rd" id="page05-rd01" value="1" onchange="handleRadio('#page05')">
-              <span>2_3_7</span>
+              <span aria-label="이 곱하기 삼">2_3</span>
             </label>
             <label for="page05-rd02">
               <input type="radio" name="page05-rd" id="page05-rd02" value="2" onchange="handleRadio('#page05')">
-              <span>2<span class="cup">2</span>_3_7</span>
+              <span aria-label="이의 삽제곱 곱하기 오">2<span class="cup">2</span>_5</span>
             </label>
             <label for="page05-rd03">
               <input type="radio" name="page05-rd" id="page05-rd03" value="3" onchange="handleRadio('#page05')">
-              <span>2_3<span class="cup">2</span>_7</span>
+              <span aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>
             </label>
           </div>
         </div>
@@ -358,11 +383,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate">2_3<span class="cup">2</span>_7</span>이다.
+                <span class="notranslate" aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수는 <span class="notranslate">2</span>의 약수 또는 <span class="notranslate" aria-label="삼의 이제곱">3<span class="cup">2</span></span>의 약수 또는
+                <br><span class="notranslate" aria-label="오의 삼제곱">5<span class="cup">3</span></span>의 약수를 곱하여 나타낼 수 있다. 그런데 두 번째 보기는
+                <br><span class="notranslate" aria-label="이의 이제곱">2<span class="cup">2</span></span>이 포함되어있으므로 약수가 아니다.
               </div>
             </div>
           </div>
@@ -377,11 +400,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate">2_3<span class="cup">2</span>_7</span>이다.
+                <span class="notranslate" aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수는 <span class="notranslate">2</span>의 약수 또는 <span class="notranslate" aria-label="삼의 이제곱">3<span class="cup">2</span></span>의 약수 또는
+                <br><span class="notranslate" aria-label="오의 삼제곱">5<span class="cup">3</span></span>의 약수를 곱하여 나타낼 수 있다. 그런데 두 번째 보기는
+                <br><span class="notranslate" aria-label="이의 이제곱">2<span class="cup">2</span></span>이 포함되어있으므로 약수가 아니다.
               </div>
             </div>
           </div>

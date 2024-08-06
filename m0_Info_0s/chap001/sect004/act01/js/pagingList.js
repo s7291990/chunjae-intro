@@ -8,7 +8,7 @@ $(function(){
 	});
 });
 function pagingEvent(n){
-	audioPlay('audio04');
+	//audioPlay('audio04');
 
 	var _paging = ".paging ul li";
 	$(_paging).find(".current").attr("aria-hidden", "true");
@@ -21,29 +21,27 @@ function pagingEvent(n){
 	if(n === 0){
 		$(pageListItem).removeClass("end");
 	}else if(n === 1){
-		if(!pageValidation[0]["status"]){
-			if(!pageValidation[0]["complete"]){
-				popOpen('#pop-unidentified');
-				return false;
-			}
-		}
 		$(pageListItem).removeClass("end");
 		$(pageListItem).eq(0).addClass("end");
 	}else if(n === 2){
-		if(!pageValidation[1]["status"]){
-			if(!pageValidation[1]["complete"]){
-				popOpen('#pop-unidentified');
-				return false;
-			}
-		}
 		$(pageListItem).removeClass("end");
 		$(pageListItem).eq(0).addClass("end");
 		$(pageListItem).eq(1).addClass("end");
+	}else if(n === 3){
+		$(pageListItem).removeClass("end");
+		$(pageListItem).eq(0).addClass("end");
+		$(pageListItem).eq(1).addClass("end");
+		$(pageListItem).eq(2).addClass("end");
+	}else if(n === 4){
+		$(pageListItem).removeClass("end");
+		$(pageListItem).eq(0).addClass("end");
+		$(pageListItem).eq(1).addClass("end");
+		$(pageListItem).eq(2).addClass("end");
+		$(pageListItem).eq(3).addClass("end");
 	}
 
 
 	currentPage = n;
-	$(".pop-item-wrap ul").removeClass("on").eq(currentPage).addClass("on");
 	$(pageListItem).removeClass("on").eq(currentPage).addClass("on");
 
 	$(".question").removeClass("on").eq(currentPage).addClass("on");
