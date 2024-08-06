@@ -1,15 +1,15 @@
 var work = [
 	/*기타*/
-	{ "cate": "m01", "dep01": "중등UDL", "dep02": "냥냥붕어빵", "url": "m0_Info_0s/chap001/sect001/act01/index.html", "date": "2024-08-07", "status": ""
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "수와 연산 소인수분해", "url": "m0_Info_0s/chap001/sect001/act01/index.html", "date": "2024-08-07", "status": ""
 	},
 
-	{ "cate": "m01", "dep01": "중등UDL", "dep02": "당꾸를 찾아라", "url": "m0_Info_0s/chap001/sect002/act01/index.html", "date": "2024-08-07", "status": ""
+	{ "cate": "m01", "dep01": "당꾸를 찾아라", "dep02": "1. 소인수분해", "url": "m0_Info_0s/chap001/sect002/act01/index.html", "date": "2024-08-07", "status": ""
 	},
 
-	{ "cate": "m01", "dep01": "중등UDL", "dep02": "테트라스퀘어로 몬드리안 따라하기", "url": "m0_Info_0s/chap001/sect003/act01/index.html", "date": "2024-08-07", "status": ""
+	{ "cate": "m01", "dep01": "테트라스퀘어로 몬드리안 따라하기", "dep02": "00", "url": "m0_Info_0s/chap001/sect003/act01/index.html", "date": "2024-08-07", "status": ""
 	},
 
-	{ "cate": "m01", "dep01": "중등UDL", "dep02": "에라토스테네스의 체", "url": "m0_Info_0s/chap001/sect004/act01/index.html", "date": "2024-08-07", "status": ""
+	{ "cate": "m01", "dep01": "에라토스테네스의 체", "dep02": "00", "url": "m0_Info_0s/chap001/sect004/act01/index.html", "date": "2024-08-07", "status": ""
 	},
 
 
