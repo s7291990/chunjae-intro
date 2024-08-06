@@ -1,7 +1,20 @@
 var isFirst = true;
 window.onload = function(){
   contentResize();
+
+  $("body").on("click", ".btn-game", function(){
+    var ck = $(this).hasClass("on");
+    if(ck){
+      $(this).removeClass("on");
+    }else{
+      $(this).addClass("on");
+    }
+  });
 }
+function gameLink() {
+	var _url = "./cocos/index.html"
+	location.href = _url;
+  }
 function contentResize(){
 	const wrap = document.querySelector('.container');
 	const ratio = 1920 / 1080;
