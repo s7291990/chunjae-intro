@@ -13,6 +13,7 @@
   <script src="js/pagingButton.js"></script>
   <script src="js/pagingList.js"></script>
   <script src="js/pagingStatus.js"></script>
+  <script src="js/handleConfirm.js"></script>
 </head>
 <body onresize="contentResize();">
 
@@ -26,49 +27,51 @@
 
       <div id="page01" class="question on">
 
-        <div class="about-type-wrap">
-          <ul>
-            <li>한 변의 길이가 1인 정사각형이 있다.
-              <br>이 정사각형을 이어 붙여서 서로 다른 모양의 직사각형을 만들어 보자.
-              <br>이때 서로 완전히 포개어지는 직사각형은 같은 것으로 생각한다.</li>
-            <li>한 변의 길이가 1인 정사각형 두 개를 이어 붙여서 만들 수 있는 직사각형은 가로, 세로의 길이가 1,2인 직사각형뿐이다. 즉, 두 개의 정사각형을 이어 붙여서 만들 수 있는 직사각형은 오직 한 가지이다.</li>
-          </ul>
-          <div class="mpic">
-            <img src="./images/etc-box01.svg" alt="">
-          </div>
-        </div>
+        <dl class="question-sheet-wrap">
+          <dt>에라토스테네스의 체를 이용하여 소수를 구하는 방법은 다음과 같습니다.</dt>
+          <dd>
+            <div class="textarea-wrap">
+              (1)   1은 소수가 아니므로 지운다.
+              <br>(2)   남은 자연수 중 처음 수는 남기고, 그 수의 배수를 지운다.
+            </div>
+          </dd>
+        </dl>
 
       </div>
 
       <div id="page02" class="question">
 
-        <div class="about-type-wrap">
-          <ul>
-            <li>22한 변의 길이가 1인 정사각형이 있다.
-              <br>이 정사각형을 이어 붙여서 서로 다른 모양의 직사각형을 만들어 보자.
-              <br>이때 서로 완전히 포개어지는 직사각형은 같은 것으로 생각한다.</li>
-            <li>한 변의 길이가 1인 정사각형 두 개를 이어 붙여서 만들 수 있는 직사각형은 가로, 세로의 길이가 1,2인 직사각형뿐이다. 즉, 두 개의 정사각형을 이어 붙여서 만들 수 있는 직사각형은 오직 한 가지이다.</li>
-          </ul>
-          <div class="mpic">
-            <img src="./images/etc-box01.svg" alt="">
-          </div>
-        </div>
+        <dl class="question-sheet-wrap">
+          <dt>다음 수 중 하나를 선택해서 1부터 선택한 숫자의 자연수 중 소수를 찾아 봅시다.</dt>
+          <dd>
+            <div class="find-type-wrap notranslate">
+              <input type="hidden" class="answer-value" value="1">
+              <button type="button" onclick="handleConfirm(1)">30</button>
+              <button type="button" onclick="handleConfirm(2)">50</button>
+              <button type="button" onclick="handleConfirm(3)">100</button>
+            </div>
+          </dd>
+        </dl>
 
       </div>
 
       <div id="page03" class="question">
 
-        <div class="about-type-wrap">
-          <ul>
-            <li>333한 변의 길이가 1인 정사각형이 있다.
-              <br>이 정사각형을 이어 붙여서 서로 다른 모양의 직사각형을 만들어 보자.
-              <br>이때 서로 완전히 포개어지는 직사각형은 같은 것으로 생각한다.</li>
-            <li>한 변의 길이가 1인 정사각형 두 개를 이어 붙여서 만들 수 있는 직사각형은 가로, 세로의 길이가 1,2인 직사각형뿐이다. 즉, 두 개의 정사각형을 이어 붙여서 만들 수 있는 직사각형은 오직 한 가지이다.</li>
-          </ul>
-          <div class="mpic">
-            <img src="./images/etc-box01.svg" alt="">
-          </div>
-        </div>
+        <dl class="question-sheet-wrap">
+          <dt>에라토스테네스의 체를 이용하여 소수를 구하는 방법은 다음과 같습니다.</dt>
+          <dd>
+            <div class="textarea-wrap">
+              1은 소수가 아니므로 지웁니다.
+              <br>남은 자연수 2부터 30 중에서 처음 수 2는 남기고, 2의 배수는 지웁니다.
+              <br>따라서 4,6,8,10,12,14,16,18,20,22,24,26,28,30이 지워집니다.
+              <br>남은 자연수 중 처음 수 3은 남기고 3의 배수는 지웁니다. 따라서 6,9,12,15,18,21,24,27,30이 지워집니다.
+              <br>이때 앞에서 2의 배수를 지우면서 6,12,18,24,30은 이미 지워졌습니다.
+              <br>남은 자연수 중 처음 수 5는 남기고, 5의 배수는 지웁니다.
+              <br>따라서 10,15,20,25,30이 지워집니다. 이때 앞에서 2의 배수와 3의 배수를 지우면서 10,15,20,30은 이미
+              <br>지워졌습니다. 30 이하의 소수는 2,3,5,7,11,13,17,19,23,29로 총 10개 입니다.
+            </div>
+          </dd>
+        </dl>
 
       </div>
 
@@ -86,6 +89,9 @@
 
       <!-- 하단 버튼 영역 -->
       <div class="bottom">
+        <button type="button" class="btn-green">
+          <span>다른 숫자 선택하기</span>
+        </button>
         <button type="button" class="btn-reset">
           <span>나가기</span>
         </button>
