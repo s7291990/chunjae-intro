@@ -1,22 +1,14 @@
 var isFirst = true;
-window.onload = function(){
-  contentResize();
+window.onload = function () {
+	contentResize();
 
-  $("body").on("click", ".select-value", function(){
+  $("body").on("click", ".btn-game", function(){
     var ck = $(this).hasClass("on");
     if(ck){
       $(this).removeClass("on");
     }else{
       $(this).addClass("on");
     }
-  });
-  $("body").on("click", ".select-list-wrap a", function(){
-    var _val = $(".select-value").find("span").text();
-    var _url = $(this).attr("data-url");
-    $(".select-value").removeClass("on");
-    $(".select-value").find("span").text($(this).text());
-    $(".select-value").attr("data-url", _url);
-    $(this).text(_val);
   });
 }
 function gameLink(){
