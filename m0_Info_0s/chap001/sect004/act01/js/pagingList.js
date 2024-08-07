@@ -18,27 +18,7 @@ function pagingEvent(n){
 
 
 	var pageListItem = ".paging li";
-	if(n === 0){
-		$(pageListItem).removeClass("end");
-	}else if(n === 1){
-		$(pageListItem).removeClass("end");
-		$(pageListItem).eq(0).addClass("end");
-	}else if(n === 2){
-		$(pageListItem).removeClass("end");
-		$(pageListItem).eq(0).addClass("end");
-		$(pageListItem).eq(1).addClass("end");
-	}else if(n === 3){
-		$(pageListItem).removeClass("end");
-		$(pageListItem).eq(0).addClass("end");
-		$(pageListItem).eq(1).addClass("end");
-		$(pageListItem).eq(2).addClass("end");
-	}else if(n === 4){
-		$(pageListItem).removeClass("end");
-		$(pageListItem).eq(0).addClass("end");
-		$(pageListItem).eq(1).addClass("end");
-		$(pageListItem).eq(2).addClass("end");
-		$(pageListItem).eq(3).addClass("end");
-	}
+
 
 
 	currentPage = n;

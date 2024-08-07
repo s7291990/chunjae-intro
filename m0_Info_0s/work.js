@@ -12,6 +12,12 @@ var work = [
 	{ "cate": "m04", "dep01": "에라토스테네스의 체", "dep02": "00", "url": "chap001/sect004/act01/index.html", "date": "2024-08-07", "status": ""
 	},
 
+	{ "cate": "m05", "dep01": "소수 찾기", "dep02": "01", "url": "chap001/sect005/act01/index.html", "date": "2024-08-08", "status": ""
+	},
+
+	{ "cate": "m06", "dep01": "마법의 색칠 대모험", "dep02": "01", "url": "chap001/sect006/act01/index.html", "date": "2024-08-08", "status": ""
+	},
+
 
 
 

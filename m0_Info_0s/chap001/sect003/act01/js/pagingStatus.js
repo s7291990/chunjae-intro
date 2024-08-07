@@ -1,18 +1,14 @@
 function pageStatus(){
 	//
-	switch(currentPage) {
-		case 0:
-			$(".btn-back").prop("disabled", true);
-			$(".btn-next").prop("disabled", false);
-			break;
-		case 1:
-			$(".btn-back").prop("disabled", false);
-			$(".btn-next").prop("disabled", false);
-			break;
-		case 2:
-			$(".btn-back").prop("disabled", false);
-			$(".btn-next").prop("disabled", true);
-			break;
+	if(currentPage === 0){
+		$(".btn-back").prop("disabled", true);
+		$(".btn-next").prop("disabled", false);
+	}else if(currentPage === 10){
+		$(".btn-back").prop("disabled", false);
+		$(".btn-next").prop("disabled", true);
+	}else{
+		$(".btn-back").prop("disabled", false);
+		$(".btn-next").prop("disabled", false);
 	}
 
 }

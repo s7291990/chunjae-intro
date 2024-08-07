@@ -65,7 +65,7 @@ body{
 
 /* 변동 컨텐츠 */
 .question-sheet-wrap{
-  width:1564px;
+  width:calc( 100% - 240px );
   height:auto;
   display:flex;
   justify-content:flex-start;
@@ -82,13 +82,15 @@ body{
   box-sizing: border-box;padding-left:53px;
   font-size:44px;color:#D04C02;font-weight:700;line-height:100%;
 }
+.question-sheet-wrap dt span{
+  font-size:44px;color:#D04C02;font-weight:400;font-family: amsusic_italic;
+}
 .question-sheet-wrap dd{width:100%;margin-top:23px;height:auto;}
 .question-sheet-wrap dd .textarea-wrap{
   border-radius: 20px;
   border: 3px solid rgba(240, 145, 0, 0.40);
   background: #FFF;
   width:100%;box-sizing: border-box;
-  min-height:255px;
   height:auto;
   max-height:625px;
   padding:50px 60px;
@@ -96,6 +98,9 @@ body{
   overflow-y:auto;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.10);box-sizing: border-box;
   font-size:36px;color:#222;font-weight:600;line-height:180%;
+}
+.question-sheet-wrap dd .textarea-wrap span{
+  font-size:36px;color:#222;font-weight:400;font-family: amsusic_italic;
 }
 
 .page-num-wrap{width:121px;height:74px;overflow:hidden;background:url(../images/bg-page-num.svg) no-repeat;

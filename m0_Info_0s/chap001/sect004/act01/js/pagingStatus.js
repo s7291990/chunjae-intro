@@ -2,27 +2,23 @@ function pageStatus(){
 	//
 	var _back = $(".btn-back");
 	var _next = $(".btn-next");
-	switch(currentPage) {
-		case 0:
-			_back.prop("disabled", true);
-			_next.prop("disabled", false);
-			break;
-		case 1:
-			_back.prop("disabled", false);
-			_next.prop("disabled", false);
-			break;
-		case 2:
-			_back.prop("disabled", false);
-			_next.prop("disabled", false);
-			break;
-		case 3:
-			_back.prop("disabled", false);
-			_next.prop("disabled", false);
-			break;
-		case 4:
-			_back.prop("disabled", false);
-			_next.prop("disabled", true);
-			break;
+
+	if(currentPage === 0){
+		_back.prop("disabled", true);
+		_next.prop("disabled", false);
+	}else if(currentPage === 8){
+		_back.prop("disabled", false);
+		_next.prop("disabled", true);
+	}else{
+		_back.prop("disabled", false);
+		_next.prop("disabled", false);
 	}
+
+	$(".btn-green").addClass("hide");
+
+	if(currentPage > 1){
+		$(".btn-green").removeClass("hide");
+	}
+
 
 }
