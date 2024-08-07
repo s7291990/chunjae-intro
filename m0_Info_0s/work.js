@@ -5,6 +5,10 @@ var work = [
 
 	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "1. 소인수분해", "url": "chap001/sect002/act01/index.html", "date": "2024-08-07", "status": ""
 	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "2. 최대공약수와 최소공배수", "url": "chap001/sect002/act02/index.html", "date": "2024-08-08", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "3. 정수와 유리수의 뜻과 대소 관계", "url": "chap001/sect002/act03/index.html", "date": "2024-08-08", "status": ""
+	},
 
 	{ "cate": "m03", "dep01": "테트라스퀘어로 몬드리안 따라하기", "dep02": "00", "url": "chap001/sect003/act01/index.html", "date": "2024-08-07", "status": ""
 	},
