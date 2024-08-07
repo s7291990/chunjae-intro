@@ -2,7 +2,7 @@ function handleConfirm(id){
 	//audioPlay('audio01');
 
 	var answer = $(id + " .answer-value").val();
-	var selectValue = $(id + " input:checked").val();
+	var selectValue = $(id + " .select-value").val();
 
 	$(id + " .select-type-wrap").addClass("hide");
 	if(selectValue === answer ){ // 정답일때

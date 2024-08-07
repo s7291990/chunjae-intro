@@ -33,3 +33,7 @@ function handleRadio(id){
 		$(id+" .btn-confirm").prop("disabled", false);
 	}
 }
+
+function handleOut(){
+  history.back();
+}

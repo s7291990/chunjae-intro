@@ -41,17 +41,29 @@
     background: #30994B url(../images/bg-btn-pattern.png) no-repeat center;
     box-shadow: 1px 2px 1px 0 rgba(255, 255, 255, 0.30) inset, 0 -1px 4px 0 #12762C inset, 0 3px 0 0 #12762C;
 }
+.bottom button:hover{
+    background-color:#167BE7;
+}
+.bottom button.btn-reset:hover{
+    background-color:#52477E;
+}
+.bottom button.btn-next:hover{
+    background-color:#45890F;
+}
+.bottom button.btn-green:hover{
+    background-color:#45890F;
+}
 .bottom button img{
     width:40px;
     height:40px;
     display:flex;
+    margin-right:10px;
 }
 .bottom button span{
     display:flex;
     font-size:40px;
     color:#fff;
     font-weight:500;
-    margin-left:10px;
 }
 .bottom button strong{
     width:50px;

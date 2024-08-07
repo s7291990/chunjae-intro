@@ -62,23 +62,26 @@ aria-labelledby="id"
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">1</div>
             <div class="desc">다음 중 소수가 <span class="underline">아닌</span> 수는?</div>
           </div>
           <div class="select-cont-wrap notranslate">
-            <label for="page01-rd01">
-              <input type="radio" name="page01-rd" id="page01-rd01" value="1" onchange="handleRadio('#page01')">
-              <span>1</span>
-            </label>
-            <label for="page01-rd02">
-              <input type="radio" name="page01-rd" id="page01-rd02" value="2" onchange="handleRadio('#page01')">
-              <span>2</span>
-            </label>
-            <label for="page01-rd03">
-              <input type="radio" name="page01-rd" id="page01-rd03" value="3" onchange="handleRadio('#page01')">
-              <span>3</span>
-            </label>
+
+            <button type="button" onclick="handleSelect('#page01', 1)">
+              <span class="ico"></span>
+              <span class="txt">1</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page01', 2)">
+              <span class="ico"></span>
+              <span class="txt">2</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page01', 3)">
+              <span class="ico"></span>
+              <span class="txt">3</span>
+            </button>
+
           </div>
         </div>
 
@@ -121,7 +124,7 @@ aria-labelledby="id"
             <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
             <span>정답확인</span>
           </button>
-          <button type="button" class="btn-reset">
+          <button type="button" class="btn-reset" onclick="handleOut()">
             <span>나가기</span>
           </button>
         </div>
@@ -133,23 +136,26 @@ aria-labelledby="id"
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">2</div>
             <div class="desc">다음 중 <span class="notranslate">108</span>을 소인수분해 한 것은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
-            <label for="page02-rd01">
-              <input type="radio" name="page02-rd" id="page02-rd01" value="1" onchange="handleRadio('#page02')">
-              <span aria-label="이 곱하기 삼의 세제곱">2_3<span class="cup">3</span></span>
-            </label>
-            <label for="page02-rd02">
-              <input type="radio" name="page02-rd" id="page02-rd02" value="2" onchange="handleRadio('#page02')">
-              <span aria-label="이의 제곱 곱하기 삼의 제곱 곱하기 오">2<span class="cup">2</span>_3<span class="cup">2</span>_5</span>
-            </label>
-            <label for="page02-rd03">
-              <input type="radio" name="page02-rd" id="page02-rd03" value="3" onchange="handleRadio('#page02')">
-              <span aria-label="이의 제곱 곱하기 삼의 세제곱">2<span class="cup">2</span>_3<span class="cup">3</span></span>
-            </label>
+
+            <button type="button" onclick="handleSelect('#page02', 1)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이 곱하기 삼의 세제곱">2_3<span class="cup">3</span></span>
+            </button>
+            <button type="button" onclick="handleSelect('#page02', 2)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이의 제곱 곱하기 삼의 제곱 곱하기 오">2<span class="cup">2</span>_3<span class="cup">2</span>_5</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page02', 3)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이의 제곱 곱하기 삼의 세제곱">2<span class="cup">2</span>_3<span class="cup">3</span></span>
+            </button>
+
           </div>
         </div>
 
@@ -194,7 +200,7 @@ aria-labelledby="id"
             <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
             <span>정답확인</span>
           </button>
-          <button type="button" class="btn-reset">
+          <button type="button" class="btn-reset" onclick="handleOut()">
             <span>나가기</span>
           </button>
         </div>
@@ -206,23 +212,25 @@ aria-labelledby="id"
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">3</div>
             <div class="desc"><span class="notranslate" aria-label="이 곱하기 이 곱하기 이 곱하기 이 곱하기 이">2_2_2_2_2</span>를 거듭제곱으로 나타낼 때, 밑과 지수의 합은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
-            <label for="page03-rd01">
-              <input type="radio" name="page03-rd" id="page03-rd01" value="1"  onchange="handleRadio('#page03')">
-              <span>7</span>
-            </label>
-            <label for="page03-rd02">
-              <input type="radio" name="page03-rd" id="page03-rd02" value="2" onchange="handleRadio('#page03')">
-              <span>10</span>
-            </label>
-            <label for="page03-rd03">
-              <input type="radio" name="page03-rd" id="page03-rd03" value="3" onchange="handleRadio('#page03')">
-              <span>14</span>
-            </label>
+
+            <button type="button" onclick="handleSelect('#page03', 1)">
+              <span class="ico"></span>
+              <span class="txt">7</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page03', 2)">
+              <span class="ico"></span>
+              <span class="txt">10</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page03', 3)">
+              <span class="ico"></span>
+              <span class="txt">14</span>
+            </button>
           </div>
         </div>
 
@@ -267,7 +275,7 @@ aria-labelledby="id"
             <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
             <span>정답확인</span>
           </button>
-          <button type="button" class="btn-reset">
+          <button type="button" class="btn-reset" onclick="handleOut()">
             <span>나가기</span>
           </button>
         </div>
@@ -279,6 +287,7 @@ aria-labelledby="id"
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">4</div>
             <div class="desc">
@@ -286,18 +295,19 @@ aria-labelledby="id"
             </div>
           </div>
           <div class="select-cont-wrap notranslate">
-            <label for="page04-rd01">
-              <input type="radio" name="page04-rd" id="page04-rd01" value="1" onchange="handleRadio('#page04')">
-              <span aria-label="이의 세제곱 더하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
-            </label>
-            <label for="page04-rd02">
-              <input type="radio" name="page04-rd" id="page04-rd02" value="2" onchange="handleRadio('#page04')">
-              <span aria-label="이의 제곱 곱하기 삼의 세제곱">2<span class="cup">2</span>_3<span class="cup">3</span></span>
-            </label>
-            <label for="page04-rd03">
-              <input type="radio" name="page04-rd" id="page04-rd03" value="3" onchange="handleRadio('#page04')">
-              <span aria-label="이의 세제곱 곱하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
-            </label>
+
+            <button type="button" onclick="handleSelect('#page04', 1)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이의 세제곱 더하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
+            </button>
+            <button type="button" onclick="handleSelect('#page04', 2)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이의 제곱 곱하기 삼의 세제곱">2<span class="cup">2</span>_3<span class="cup">3</span></span>
+            </button>
+            <button type="button" onclick="handleSelect('#page04', 3)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이의 세제곱 곱하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
+            </button>
           </div>
         </div>
 
@@ -342,7 +352,7 @@ aria-labelledby="id"
             <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
             <span>정답확인</span>
           </button>
-          <button type="button" class="btn-reset">
+          <button type="button" class="btn-reset" onclick="handleOut()">
             <span>나가기</span>
           </button>
         </div>
@@ -354,23 +364,25 @@ aria-labelledby="id"
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">5</div>
             <div class="desc">다음 중 <span class="notranslate" aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>의 약수가 아닌 것은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
-            <label for="page05-rd01">
-              <input type="radio" name="page05-rd" id="page05-rd01" value="1" onchange="handleRadio('#page05')">
-              <span aria-label="이 곱하기 삼">2_3</span>
-            </label>
-            <label for="page05-rd02">
-              <input type="radio" name="page05-rd" id="page05-rd02" value="2" onchange="handleRadio('#page05')">
-              <span aria-label="이의 삽제곱 곱하기 오">2<span class="cup">2</span>_5</span>
-            </label>
-            <label for="page05-rd03">
-              <input type="radio" name="page05-rd" id="page05-rd03" value="3" onchange="handleRadio('#page05')">
-              <span aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>
-            </label>
+            <button type="button" onclick="handleSelect('#page05', 1)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이 곱하기 삼">2_3</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page05', 2)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이의 삽제곱 곱하기 오">2<span class="cup">2</span>_5</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page05', 3)">
+              <span class="ico"></span>
+              <span class="txt" aria-label="이 곱하기 삼의 이제곱 곱하기 오의 삼제곱">2_3<span class="cup">2</span>_5<span class="cup">3</span></span>
+            </button>
+
           </div>
         </div>
 
@@ -414,7 +426,7 @@ aria-labelledby="id"
             <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
             <span>정답확인</span>
           </button>
-          <button type="button" class="btn-reset">
+          <button type="button" class="btn-reset" onclick="handleOut()">
             <span>나가기</span>
           </button>
         </div>

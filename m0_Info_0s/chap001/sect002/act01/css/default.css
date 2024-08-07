@@ -197,9 +197,28 @@ input[type=radio]:checked::-ms-check{color:transparent;
 .select-type-wrap .select-cont-wrap label span{display:flex;margin-left:16px;font-size:54px;color:#003760;font-weight:400;line-height:100%;
   font-family: amsusic_italic;transform:translateY(5px);
 }
+
+.select-type-wrap .select-cont-wrap button{
+  display:flex;justify-content:center;
+  align-items:center;width:450px;border:0;padding:0;background:transparent;
+}
+.select-type-wrap .select-cont-wrap button .ico{display:flex;width:97px;height:97px;overflow:hidden;
+  background:url(../images/bg-chk.png) no-repeat;background-size:97px 97px;
+}
+.select-type-wrap .select-cont-wrap button .txt{
+  display:flex;margin-left:16px;font-size:54px;color:#003760;font-weight:400;line-height:100%;
+  font-family: amsusic_italic;transform:translateY(5px);
+}
+.select-type-wrap .select-cont-wrap button.on{
+
+}
+.select-type-wrap .select-cont-wrap button.on .ico{
+  background:url(../images/bg-chk-on.png) no-repeat;background-size:97px 97px;
+}
+
 .cup{
   font-family: amsusic_italic !important;
-  transform: translate(-10px, -10px) !important;
+    transform: translate(5px, -20px) !important;
   font-size: 35px !important;;
 }
 
@@ -219,9 +238,9 @@ input[type=radio]:checked::-ms-check{color:transparent;
   right: 14px;
   bottom: 16px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  text-align: center;
+  text-align: left;
   box-sizing: border-box;
   padding: 40px;
   overflow-y: auto;

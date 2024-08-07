@@ -33,3 +33,15 @@ function handleRadio(id){
 		$(id+" .btn-confirm").prop("disabled", false);
 	}
 }
+
+function handleSelect(id, n){
+  //audioPlay('audio01');
+  $(id + " .select-value").val(n);
+  $(id + " .select-cont-wrap button").removeClass("on");
+  $(id + " .select-cont-wrap button").eq(n-1).addClass("on");
+  $(id+" .btn-confirm").prop("disabled", false);
+}
+
+function handleOut(){
+  history.back();
+}
