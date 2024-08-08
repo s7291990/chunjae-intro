@@ -7,11 +7,35 @@ var work = [
 
   { "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "인트로", "url": "chap001/sect002/game/index.html", "date": "2024-08-08", "status": ""
   },
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "1. 소인수분해", "url": "chap001/sect002/act01/index.html", "date": "2024-08-07", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "01", "url": "chap001/sect002/act01/index.html", "date": "2024-08-07", "status": ""
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "2. 최대공약수와 최소공배수", "url": "chap001/sect002/act02/index.html", "date": "2024-08-08", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "02", "url": "chap001/sect002/act02/index.html", "date": "2024-08-08", "status": ""
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "3. 정수와 유리수의 뜻과 대소 관계", "url": "chap001/sect002/act03/index.html", "date": "2024-08-08", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "03", "url": "chap001/sect002/act03/index.html", "date": "2024-08-08", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "04", "url": "chap001/sect002/act04/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "05", "url": "chap001/sect002/act05/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "06", "url": "chap001/sect002/act06/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "07", "url": "chap001/sect002/act07/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "08", "url": "chap001/sect002/act08/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "09", "url": "chap001/sect002/act09/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "10", "url": "chap001/sect002/act10/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "11", "url": "chap001/sect002/act11/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "12", "url": "chap001/sect002/act12/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "13", "url": "chap001/sect002/act13/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "14", "url": "chap001/sect002/act14/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "15", "url": "chap001/sect002/act15/index.html", "date": "2024-08-09", "status": ""
 	},
 
   { "cate": "m03", "dep01": "테트라스퀘어로 몬드리안 따라하기", "dep02": "인트로", "url": "chap001/sect003/game/index.html", "date": "2024-08-08", "status": ""
