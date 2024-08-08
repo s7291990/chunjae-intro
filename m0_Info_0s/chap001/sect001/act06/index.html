@@ -12,6 +12,7 @@
   <script src="js/contentResize.js"></script>
   <script src="js/handleConfirm.js"></script>
   <script src="js/handleNext.js"></script>
+  <script id="MathJax-script" async src="js/lib/tex-mml-chtml.js"></script>
 <!--  <script src="js/pagingButton.js"></script>-->
 <!--  <script src="js/pagingList.js"></script>-->
 <!--  <script src="js/pagingStatus.js"></script>-->
@@ -35,20 +36,24 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">1</div>
-            <div class="desc">다음 중 합성수인 것은?</div>
+            <div class="desc">
+              정비례 관계 <span class="notranslate">y=ax(a+0)</span>의 그래프 위에 점
+              <span class="notranslate">(2, 8)</span>이 있을 때,
+              수 <span class="notranslate">a</span>의 값은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt">11</span>
+              <span class="txt">2</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt">37</span>
+              <span class="txt">4</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt">93</span>
+              <span class="txt">8</span>
             </button>
           </div>
         </div>
@@ -61,9 +66,12 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                주어진 그래프는 점 <span class="notranslate">(2, 8)</span>을 지나므로
+                <span class="notranslate">y=ax</span>에
+                <br><span class="notranslate">x=2, y=8</span>을
+                <br>대입하면 <span class="notranslate">8=2a, a=4</span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -76,9 +84,12 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                주어진 그래프는 점 <span class="notranslate">(2, 8)</span>을 지나므로
+                <span class="notranslate">y=ax</span>에
+                <br><span class="notranslate">x=2, y=8</span>을
+                <br>대입하면 <span class="notranslate">8=2a, a=4</span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -107,20 +118,22 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">2</div>
-            <div class="desc"><span class="notranslate" aria-label="이 곱하기 이 곱하기 이">2_2_2</span>를 거듭제곱을 이용하여 나타내면?</div>
+            <div class="desc">
+              다음 중 정비례 관계 <span class="notranslate" aria-label="">y=-2x</span>의 그래프 위의 점은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱">3_2</span>
+              <span class="txt" aria-label="">(-2, -4)</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱">2<span class="cup">3</span></span>
+              <span class="txt" aria-label="">(1, -2)</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="삼의 제곱">3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">(3, 6)</span>
             </button>
           </div>
         </div>
@@ -134,7 +147,12 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>이다.</div>
+                <span class="notranslate">y=-2x</span>에 <span class="notranslate">x=-2, y=-4</span>를 대입하면
+                <br><span class="notranslate">-4+-2_(-2)</span>
+                <br><span class="notranslate">x=1, y=-2</span>를 대입하면 <span class="notranslate">-2=-2_1</span>
+                <br><span class="notranslate">x=3, y=6</span>를 대입하면 <span class="notranslate">6+-2_3</span>
+                <br>따라서 보기 중 주어진 그래프 위의 점은 <span class="notranslate">(1, -2)</span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -147,7 +165,13 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>이다.</div>
+              <div class="value">
+                <span class="notranslate">y=-2x</span>에 <span class="notranslate">x=-2, y=-4</span>를 대입하면
+                <br><span class="notranslate">-4+-2_(-2)</span>
+                <br><span class="notranslate">x=1, y=-2</span>를 대입하면 <span class="notranslate">-2=-2_1</span>
+                <br><span class="notranslate">x=3, y=6</span>를 대입하면 <span class="notranslate">6+-2_3</span>
+                <br>따라서 보기 중 주어진 그래프 위의 점은 <span class="notranslate">(1, -2)</span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -177,20 +201,23 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">3</div>
-            <div class="desc">다음 중 <span class="notranslate">12</span>와 서로소인 것은?</div>
+            <div class="desc">
+              반비례 관계 <span class="notranslate">y=\[ \frac{a}{x}\](a+0)</span>의 그래프 위에 점 <span class="notranslate">(5, -2)</span>가 있을 때,
+              <br>수 <span class="notranslate">a</span>의 값은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt">18</span>
+              <span class="txt">-10</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt">25</span>
+              <span class="txt">10</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt">45</span>
+              <span class="txt">-20</span>
             </button>
           </div>
         </div>
@@ -204,11 +231,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                <span class="notranslate">y=\[ \frac{a}{x}\]</span> 에
+                <span class="notranslate">x=5, y=-2</span>를 대입하면
+                <span class="notranslate">-2=\[ \frac{a}{5}\]</span>에서
+                <br><span class="notranslate">a=10</span>이다.
               </div>
             </div>
           </div>
@@ -223,11 +249,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                <span class="notranslate">y=\[ \frac{a}{x}\]</span> 에
+                <span class="notranslate">x=5, y=-2</span>를 대입하면
+                <span class="notranslate">-2=\[ \frac{a}{5}\]</span>에서
+                <br><span class="notranslate">a=10</span>이다.
               </div>
             </div>
           </div>
@@ -258,20 +283,22 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">4</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate" aria-label="이의 세 제곱 곱하기, 이의 네 제곱 곱하기 삼">2<span class="cup">3</span>_3<span class="cup">2</span>, 2<span class="cup">4</span>_3</span>의 최대공약수는?</div>
+            <div class="desc">
+              다음 중 <span class="notranslate">y</span>가 <span class="notranslate">x</span>에 반비례하는 식은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱 곱하기 삼">2<span class="cup">3</span>_3</span>
+              <span class="txt" aria-label="">x=\[ \frac{y}{8}\]</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱 곱하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">y=\[ \frac{15}{x}\]</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 네 제곱 곱하기 삼의 제곱">2<span class="cup">4</span>_3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">\[ \frac{y}{x}\]=6</span>
             </button>
           </div>
         </div>
@@ -285,11 +312,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>와 <span class="notranslate" aria-label="이의 사 제곱">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate" aria-label="삼의 두 제곱">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate" aria-label="이의 세 제곱 곱하기 삼">2<span class="cup">3</span>_3</span>이다.
+                첫 번째 식은 <span class="notranslate" aria-label="">y=8x</span>이고, 세 번째 식은
+                <span class="notranslate" aria-label="">y=6x</span>이므로
+                <br>두 그래프는
+                <br>정비례 관계의 그래프이다.
               </div>
             </div>
           </div>
@@ -304,11 +330,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+                첫 번째 식은 <span class="notranslate" aria-label="">y=8x</span>이고, 세 번째 식은
+                <span class="notranslate" aria-label="">y=6x</span>이므로
+                <br>두 그래프는
+                <br>정비례 관계의 그래프이다.
               </div>
             </div>
           </div>
@@ -338,20 +363,22 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">5</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate" aria-label="이 곱하기 칠, 이 곱하기 삼의 제곱 곱하기 칠">2_7, 2_3<span class="cup">2</span>_7</span>의 최소공배수는?</div>
+            <div class="desc">
+              다음 중 반비례 관계 <span class="notranslate" aria-label="">y=\[ \frac{9}{x}\]</span>의 그래프 위의 점이 아닌 것은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이 곱하기 삼 곱하기 칠">2_3_7</span>
+              <span class="txt" aria-label="">(-3, -3)</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 제곱 곱하기 삼 곱하기 칠">2<span class="cup">2</span>_3_7</span>
+              <span class="txt" aria-label="">(1, 9)</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>
+              <span class="txt" aria-label="">(6, \[ \frac{2}{3}\])</span>
             </button>
 
           </div>
@@ -366,11 +393,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate" aria-label="삼의 제곱">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>이다.
+                <span class="notranslate">y=\[ \frac{9}{x}\]</span>에 <span class="notranslate">x=-3, y=-3</span>을 대입하면 <span class="notranslate">-3=</span>
+                <br><span class="notranslate">x=1, y=9</span>을 대입하면 <span class="notranslate">9=\[ \frac{9}{1}\]</span>이므로 등호가 성립한다.
+                <br><span class="notranslate">\[ \frac{2}{3}\]+\[ \frac{9}{6}\]</span>이므로 등호가
+                <br>성립하지 않는다.
               </div>
             </div>
           </div>
@@ -385,11 +411,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate" aria-label="삼의 제곱">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>이다.
+                <span class="notranslate">y=\[ \frac{9}{x}\]</span>에 <span class="notranslate">x=-3, y=-3</span>을 대입하면 <span class="notranslate">-3=</span>
+                <br><span class="notranslate">x=1, y=9</span>을 대입하면 <span class="notranslate">9=\[ \frac{9}{1}\]</span>이므로 등호가 성립한다.
+                <br><span class="notranslate">\[ \frac{2}{3}\]+\[ \frac{9}{6}\]</span>이므로 등호가
+                <br>성립하지 않는다.
               </div>
             </div>
           </div>

@@ -12,6 +12,7 @@
   <script src="js/contentResize.js"></script>
   <script src="js/handleConfirm.js"></script>
   <script src="js/handleNext.js"></script>
+  <script id="MathJax-script" async src="js/lib/tex-mml-chtml.js"></script>
 <!--  <script src="js/pagingButton.js"></script>-->
 <!--  <script src="js/pagingList.js"></script>-->
 <!--  <script src="js/pagingStatus.js"></script>-->
@@ -35,20 +36,20 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">1</div>
-            <div class="desc">다음 중 합성수인 것은?</div>
+            <div class="desc">다음 중 등식인 것은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt">11</span>
+              <span class="txt">2+5=7</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt">37</span>
+              <span class="txt">5x-2</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt">93</span>
+              <span class="txt">2x-1<0</span>
             </button>
           </div>
         </div>
@@ -61,9 +62,10 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                등호를 사용하여 관계를 나타낸 식을 등식이라 하므로 첫 번째
+                <br>보기만 맞다.
+              </div>
             </div>
           </div>
         </div>
@@ -76,9 +78,10 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                등호를 사용하여 관계를 나타낸 식을 등식이라 하므로 첫 번째
+                <br>보기만 맞다.
+              </div>
             </div>
           </div>
         </div>
@@ -107,20 +110,22 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">2</div>
-            <div class="desc"><span class="notranslate" aria-label="이 곱하기 이 곱하기 이">2_2_2</span>를 거듭제곱을 이용하여 나타내면?</div>
+            <div class="desc">
+              다음 중 해가 <span class="notranslate" aria-label="">x=-1</span>인 일차방정식은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱">3_2</span>
+              <span class="txt" aria-label="">2x+3=-1</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱">2<span class="cup">3</span></span>
+              <span class="txt" aria-label="">x+2=-x</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="삼의 제곱">3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">3x+4=x-2</span>
             </button>
           </div>
         </div>
@@ -134,7 +139,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>이다.</div>
+                <strong>각각의 방정식에 <span class="notranslate">x=-1</span>을 대입하면
+                <br>첫 번째 보기에서 (좌변)<span class="notranslate">=2_(-1)+3=1,</span>
+                <br>(우변)<span class="notranslate">=-1</span>이므로 해가 <span class="notranslate">x=-1</span>인 일차방정식 아니다.
+                <br>두 번째 보기에서 (좌변)<span class="notranslate">=(-1)+2=1,</span> (우변)<span class="notranslate">=1</span>이므로
+                <br>해가 <span class="notranslate">x=-1</span>인 일차방정식이다.
+                <br>세 번째 보기에서 (좌변)<span class="notranslate">=3_(-1)+4=1,</span> (우변)
+                  <br><span class="notranslate">=-1-2=-3</span>이므로 해가 <span class="notranslate">x=-1</span>인 일차방정식 아니다.</strong>
+              </div>
             </div>
           </div>
         </div>
@@ -147,7 +159,15 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>이다.</div>
+              <div class="value">
+                <strong>각각의 방정식에 <span class="notranslate">x=-1</span>을 대입하면
+                  <br>첫 번째 보기에서 (좌변)<span class="notranslate">=2_(-1)+3=1,</span>
+                  <br>(우변)<span class="notranslate">=-1</span>이므로 해가 <span class="notranslate">x=-1</span>인 일차방정식 아니다.
+                  <br>두 번째 보기에서 (좌변)<span class="notranslate">=(-1)+2=1,</span> (우변)<span class="notranslate">=1</span>이므로
+                  <br>해가 <span class="notranslate">x=-1</span>인 일차방정식이다.
+                  <br>세 번째 보기에서 (좌변)<span class="notranslate">=3_(-1)+4=1,</span> (우변)
+                  <br><span class="notranslate">=-1-2=-3</span>이므로 해가 <span class="notranslate">x=-1</span>인 일차방정식 아니다.</strong>
+              </div>
             </div>
           </div>
         </div>
@@ -177,20 +197,20 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">3</div>
-            <div class="desc">다음 중 <span class="notranslate">12</span>와 서로소인 것은?</div>
+            <div class="desc"><span class="notranslate">4a=b</span>일 때, 다음 중 옳지 않은 것은?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt">18</span>
+              <span class="txt">12a=4b</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt">25</span>
+              <span class="txt">2a=\[ \frac{b}{2}\]</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt">45</span>
+              <span class="txt">a-1=\[ \frac{b}{4}\]-1</span>
             </button>
           </div>
         </div>
@@ -204,11 +224,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                <span class="notranslate">4a=b</span>의 양변에 3을 곱하면
+                <span class="notranslate">12a=3b</span>이므로
+                <br>첫 번째 보기는 옳지 않다.
+                <br><span class="notranslate">4a=b</span>의 양변을 <span class="notranslate">2</span>로 나누면
+                <br><span class="notranslate">2a=\[ \frac{b}{2}\]</span> 이므로 두 번째 보기는 옳다.
+                <br><span class="notranslate">4a=b</span>의 양변을 <span class="notranslate">4</span>로
+                <br>나누고 <span class="notranslate">1</span>을 빼면 <span class="notranslate">a=\[ \frac{b}{4}\] , a-1=\[ \frac{b}{4}\]-1</span>이므로
+                <br>세 번째 보기는 옳다.
               </div>
             </div>
           </div>
@@ -223,11 +246,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                <span class="notranslate">4a=b</span>의 양변에 3을 곱하면
+                <span class="notranslate">12a=3b</span>이므로
+                <br>첫 번째 보기는 옳지 않다.
+                <br><span class="notranslate">4a=b</span>의 양변을 <span class="notranslate">2</span>로 나누면
+                <br><span class="notranslate">2a=\[ \frac{b}{2}\]</span> 이므로 두 번째 보기는 옳다.
+                <br><span class="notranslate">4a=b</span>의 양변을 <span class="notranslate">4</span>로
+                <br>나누고 <span class="notranslate">1</span>을 빼면 <span class="notranslate">a=\[ \frac{b}{4}\] , a-1=\[ \frac{b}{4}\]-1</span>이므로
+                <br>세 번째 보기는 옳다.
               </div>
             </div>
           </div>
@@ -258,20 +284,20 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">4</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate" aria-label="이의 세 제곱 곱하기, 이의 네 제곱 곱하기 삼">2<span class="cup">3</span>_3<span class="cup">2</span>, 2<span class="cup">4</span>_3</span>의 최대공약수는?</div>
+            <div class="desc">다음 중 일차방정식이 아닌 것은?</div>
           </div>
-          <div class="select-cont-wrap notranslate">
+          <div class="select-cont-wrap vertical notranslate">
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱 곱하기 삼">2<span class="cup">3</span>_3</span>
+              <span class="txt" aria-label="">3x=7x</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱 곱하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">x<span class="cup">2</span>+x=8-2x+x<span class="cup">2</span></span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 네 제곱 곱하기 삼의 제곱">2<span class="cup">4</span>_3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">6-4x=2(3-2x)</span>
             </button>
           </div>
         </div>
@@ -285,11 +311,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>와 <span class="notranslate" aria-label="이의 사 제곱">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate" aria-label="삼의 두 제곱">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate" aria-label="이의 세 제곱 곱하기 삼">2<span class="cup">3</span>_3</span>이다.
+                우변의 모든 항을 좌변으로 이항하여 동류항끼리 정리하였을
+                <br>때, (<span class="notranslate" aria-label="">x</span>에 대한 일차식)<span class="notranslate" aria-label="">=0</span>의 꼴이 되는 방정식을 찾아본다.
+                <br><span class="notranslate" aria-label="">3x=7x</span>에서 <span class="notranslate" aria-label="">-4x=0</span>이므로 일차방정식이다.
+                <br><span class="notranslate" aria-label="">x2+x=8-2x+x2</span>에서
+                <span class="notranslate" aria-label="">3x-8=0</span>이므로 일차방정식이다.
+                <br><span class="notranslate" aria-label="">6-4x=2(3-2x)</span> 에서
+                <span class="notranslate" aria-label="">0=0</span> 이므로
+                <br>세 번째 보기가 일차방정식이 아니다.
               </div>
             </div>
           </div>
@@ -304,11 +333,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+                우변의 모든 항을 좌변으로 이항하여 동류항끼리 정리하였을
+                <br>때, (<span class="notranslate" aria-label="">x</span>에 대한 일차식)<span class="notranslate" aria-label="">=0</span>의 꼴이 되는 방정식을 찾아본다.
+                <br><span class="notranslate" aria-label="">3x=7x</span>에서 <span class="notranslate" aria-label="">-4x=0</span>이므로 일차방정식이다.
+                <br><span class="notranslate" aria-label="">x2+x=8-2x+x2</span>에서
+                <span class="notranslate" aria-label="">3x-8=0</span>이므로 일차방정식이다.
+                <br><span class="notranslate" aria-label="">6-4x=2(3-2x)</span> 에서
+                <span class="notranslate" aria-label="">0=0</span> 이므로
+                <br>세 번째 보기가 일차방정식이 아니다.
               </div>
             </div>
           </div>
@@ -338,20 +370,22 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">5</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate" aria-label="이 곱하기 칠, 이 곱하기 삼의 제곱 곱하기 칠">2_7, 2_3<span class="cup">2</span>_7</span>의 최소공배수는?</div>
+            <div class="desc">
+              다음 중 일차방정식 <span class="notranslate" aria-label="">2(x+7)-8=0</span>의 해는?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이 곱하기 삼 곱하기 칠">2_3_7</span>
+              <span class="txt" aria-label="">x=-6</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 제곱 곱하기 삼 곱하기 칠">2<span class="cup">2</span>_3_7</span>
+              <span class="txt" aria-label="">x=-3</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>
+              <span class="txt" aria-label="">x=3</span>
             </button>
 
           </div>
@@ -366,11 +400,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate" aria-label="삼의 제곱">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>이다.
+                주어진 일차방정식의 괄호를 풀면 <span class="notranslate">2x+14-8=0</span>
+                <br>좌변을 정리하면 <span class="notranslate">2x+6=0, 6</span>을 이항하면 <span class="notranslate">2x=-6</span>
+                <br>양변을 <span class="notranslate">2</span>로 나누면 <span class="notranslate">x=-3</span>
               </div>
             </div>
           </div>
@@ -385,11 +417,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate" aria-label="삼의 제곱">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>이다.
+                주어진 일차방정식의 괄호를 풀면 <span class="notranslate">2x+14-8=0</span>
+                <br>좌변을 정리하면 <span class="notranslate">2x+6=0, 6</span>을 이항하면 <span class="notranslate">2x=-6</span>
+                <br>양변을 <span class="notranslate">2</span>로 나누면 <span class="notranslate">x=-3</span>
               </div>
             </div>
           </div>

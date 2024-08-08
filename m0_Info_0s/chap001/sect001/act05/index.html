@@ -12,6 +12,7 @@
   <script src="js/contentResize.js"></script>
   <script src="js/handleConfirm.js"></script>
   <script src="js/handleNext.js"></script>
+  <script id="MathJax-script" async src="js/lib/tex-mml-chtml.js"></script>
 <!--  <script src="js/pagingButton.js"></script>-->
 <!--  <script src="js/pagingList.js"></script>-->
 <!--  <script src="js/pagingStatus.js"></script>-->
@@ -35,20 +36,20 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">1</div>
-            <div class="desc">다음 중 합성수인 것은?</div>
+            <div class="desc"><span class="notranslate">x</span>좌표가 <span class="notranslate">-3, y</span>좌표가 <span class="notranslate">1</span>인 좌표평면 위의 점의 좌표는?</div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt">11</span>
+              <span class="txt">(1, -3)</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt">37</span>
+              <span class="txt">(-3, 1)</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt">93</span>
+              <span class="txt">(-3, 0)</span>
             </button>
           </div>
         </div>
@@ -61,9 +62,10 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                <span class="notranslate">x</span>좌표가 <span class="notranslate">-3</span>이고 <span class="notranslate">y</span>좌표가 <span class="notranslate">1</span>이므로 순서쌍으로
+                <br><span class="notranslate">(-3, 1)</span>으로 표기한다.
+              </div>
             </div>
           </div>
         </div>
@@ -76,9 +78,10 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">11</span>의 약수는 <span class="notranslate">1, 11</span>이고 <span class="notranslate">37</span>의 약수는
-                <span class="notranslate">1, 37</span>이므로 소수이다.
-                <br><span class="notranslate">93</span>의 약수는 <span class="notranslate">1, 3, 31, 93</span>이므로 합성수이다.</div>
+              <div class="value">
+                <span class="notranslate">x</span>좌표가 <span class="notranslate">-3</span>이고 <span class="notranslate">y</span>좌표가 <span class="notranslate">1</span>이므로 순서쌍으로
+                <br><span class="notranslate">(-3, 1)</span>으로 표기한다.
+              </div>
             </div>
           </div>
         </div>
@@ -107,20 +110,23 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">2</div>
-            <div class="desc"><span class="notranslate" aria-label="이 곱하기 이 곱하기 이">2_2_2</span>를 거듭제곱을 이용하여 나타내면?</div>
+            <div class="desc">
+              두 순서쌍 <span class="notranslate" aria-label="">(a, 2), (3, b)</span>가 같을 때,
+              <span class="notranslate" aria-label="">a-b</span>의 값은?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱">3_2</span>
+              <span class="txt" aria-label="">-1</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱">2<span class="cup">3</span></span>
+              <span class="txt" aria-label="">0</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="삼의 제곱">3<span class="cup">2</span></span>
+              <span class="txt" aria-label="">1</span>
             </button>
           </div>
         </div>
@@ -134,7 +140,10 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>이다.</div>
+                두 순서쌍이 같으므로 <span class="notranslate">a=3</span>이고  <span class="notranslate">2=b</span>이다.
+                <br>따라서
+                <span class="notranslate">a-b=3-2=1</span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -147,7 +156,11 @@
           </div>
           <div class="desc">
             <div class="text-area">
-              <div class="value"><span class="notranslate">2</span>를 <span class="notranslate">3</span> 번 곱했으므로 <span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>이다.</div>
+              <div class="value">
+                두 순서쌍이 같으므로 <span class="notranslate">a=3</span>이고  <span class="notranslate">2=b</span>이다.
+                <br>따라서
+                <span class="notranslate">a-b=3-2=1</span>이다.
+              </div>
             </div>
           </div>
         </div>
@@ -177,20 +190,22 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">3</div>
-            <div class="desc">다음 중 <span class="notranslate">12</span>와 서로소인 것은?</div>
+            <div class="desc">
+              점 <span class="notranslate">A(a-1, a+1)</span>이 <span class="notranslate">x</span>축 위에 있을 때 점 <span class="notranslate">A</span>의 좌표는?
+            </div>
           </div>
           <div class="select-cont-wrap notranslate">
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt">18</span>
+              <span class="txt">(-2, 0)</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt">25</span>
+              <span class="txt">(0, 0)</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt">45</span>
+              <span class="txt">(2, 0)</span>
             </button>
           </div>
         </div>
@@ -204,11 +219,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                점 <span class="notranslate">A</span>가 <span class="notranslate">x</span>축 위에 있을 때
+                <span class="notranslate">y</span>좌표가
+                <span class="notranslate">0</span>이므로
+                <span class="notranslate">a+1=0</span>이다.
+                <br>따라서 <span class="notranslate">a=-1</span>이고
+                <span class="notranslate">A(-1-1, -1+1)</span>이므로
+                <br><span class="notranslate">(-2, 0)</span>이다.
               </div>
             </div>
           </div>
@@ -223,11 +240,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                최대공약수가 <span class="notranslate">1</span>인 두 자연수를 서로소라고 한다.
-                <br><span class="notranslate">12</span>와 <span class="notranslate">18</span>와 최대공약수가 <span class="notranslate">6</span>이고,
-                <span class="notranslate">12</span>와 <span class="notranslate">45</span>는 최대공약수가
-                <br><span class="notranslate">3</span>이므로 서로소가 아니다.
-                <br>한편 <span class="notranslate">12</span>와 <span class="notranslate">25</span>는 최대공약수가 <span class="notranslate">1</span>이므로 서로소이다.
+                점 <span class="notranslate">A</span>가 <span class="notranslate">x</span>축 위에 있을 때
+                <span class="notranslate">y</span>좌표가
+                <span class="notranslate">0</span>이므로
+                <span class="notranslate">a+1=0</span>이다.
+                <br>따라서 <span class="notranslate">a=-1</span>이고
+                <span class="notranslate">A(-1-1, -1+1)</span>이므로
+                <br><span class="notranslate">(-2, 0)</span>이다.
               </div>
             </div>
           </div>
@@ -258,20 +277,23 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">4</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate" aria-label="이의 세 제곱 곱하기, 이의 네 제곱 곱하기 삼">2<span class="cup">3</span>_3<span class="cup">2</span>, 2<span class="cup">4</span>_3</span>의 최대공약수는?</div>
+            <div class="desc">
+              <span class="notranslate" aria-label="">a>0, b<0</span>일 때,  점
+              <span class="notranslate" aria-label="">(a, -b)</span>는 제 몇 사분면 위에 있는 점인가?
+            </div>
           </div>
-          <div class="select-cont-wrap notranslate">
+          <div class="select-cont-wrap">
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱 곱하기 삼">2<span class="cup">3</span>_3</span>
+              <span class="txt ttype">제 1사분면</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 세 제곱 곱하기 삼의 제곱">2<span class="cup">3</span>_3<span class="cup">2</span></span>
+              <span class="txt ttype">제 2사분면</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 네 제곱 곱하기 삼의 제곱">2<span class="cup">4</span>_3<span class="cup">2</span></span>
+              <span class="txt ttype">제 3사분면</span>
             </button>
           </div>
         </div>
@@ -285,11 +307,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate" aria-label="이의 세 제곱">2<span class="cup">3</span></span>와 <span class="notranslate" aria-label="이의 사 제곱">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate" aria-label="삼의 두 제곱">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate" aria-label="이의 세 제곱 곱하기 삼">2<span class="cup">3</span>_3</span>이다.
+                <span class="notranslate" aria-label="">a>0, -b>0</span> 이므로
+                <span class="notranslate" aria-label="">(a, -b)</span> 는 제 <span class="notranslate">1</span>사분면 위에 있는
+                <br>점이다.
               </div>
             </div>
           </div>
@@ -304,11 +324,9 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최대공약수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로,
-                <br>다르면 작은 것을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2<span class="cup">3</span></span>와 <span class="notranslate">2<span class="cup">4</span></span> 중 작은 것을 택하고,
-                <br><span class="notranslate">3<span class="cup">2</span></span>과 <span class="notranslate">3</span> 중 작은 것을 택하여 곱한 <span class="notranslate">2<span class="cup">3</span>_3</span>이다.
+                <span class="notranslate" aria-label="">a>0, -b>0</span> 이므로
+                <span class="notranslate" aria-label="">(a, -b)</span> 는 제 <span class="notranslate">1</span>사분면 위에 있는
+                <br>점이다.
               </div>
             </div>
           </div>
@@ -338,20 +356,34 @@
           <input type="hidden" class="select-value" value="" aria-hidden="true">
           <div class="select-header-wrap">
             <div class="num notranslate">5</div>
-            <div class="desc">다음 중 두 수 <span class="notranslate" aria-label="이 곱하기 칠, 이 곱하기 삼의 제곱 곱하기 칠">2_7, 2_3<span class="cup">2</span>_7</span>의 최소공배수는?</div>
+            <div class="desc">
+              다음은 민서가 공원으로 가는 동안 집에서 출발한 후 시간에 따른 민서의 이동
+              <br>거리를 나타낸 그래프이다. 민서가 공원에 가는 중 잠시 멈춰 있다 다시 공원으로
+              <br>갈 때, 그래프로 알맞은 것은?
+            </div>
           </div>
-          <div class="select-cont-wrap notranslate">
+          <div class="select-cont-wrap">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이 곱하기 삼 곱하기 칠">2_3_7</span>
+              <span class="txt">
+                <img src="./images/etc-chart01-list01.png" alt="">
+                <span class="e01">거리</span>
+                <span class="e02">시간</span>
+              </span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이의 제곱 곱하기 삼 곱하기 칠">2<span class="cup">2</span>_3_7</span>
+              <span class="txt"><img src="./images/etc-chart01-list02.png" alt="">
+                <span class="e01">거리</span>
+                <span class="e02">시간</span>
+              </span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>
+              <span class="txt"><img src="./images/etc-chart01-list03.png" alt="">
+                <span class="e01">거리</span>
+                <span class="e02">시간</span>
+              </span>
             </button>
 
           </div>
@@ -366,11 +398,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate" aria-label="삼의 제곱">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>이다.
+                민서가 공원에 가는 중 집에서 출발하여 민서의 이동 거리가
+                <br>계속 증가하다가
+                <br>잠시 멈춰 있는 동안에는 거리가 늘어나지
+                <br>않다가 다시 공원으로 가면 민서의
+                <br>이동거리는 계속 증가하게
+                <br>된다. 따라서 시간에 따른 민서의 이동거리를 바르게 나타낸
+                <br>그래프는 두 번째 그래프이다.
               </div>
             </div>
           </div>
@@ -385,11 +419,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                주어진 자연수들의 최소공배수는 공통인 소인수의
-                <br>거듭제곱 중에서 지수가 같으면 그대로, 다르면 큰 것을 택하고,
-                <br>공통이 아닌 소인수의 거듭제곱을 택하여 모두 곱한 것과 같다.
-                <br><span class="notranslate">2</span>와 <span class="notranslate">7</span>은 지수가 같으니 그대로 두고,
-                <br><span class="notranslate" aria-label="삼의 제곱">3<span class="cup">2</span></span>은 공통이 아닌 소인수이므로 <span class="notranslate" aria-label="이 곱하기 삼의 제곱 곱하기 칠">2_3<span class="cup">2</span>_7</span>이다.
+                민서가 공원에 가는 중 집에서 출발하여 민서의 이동 거리가
+                <br>계속 증가하다가
+                <br>잠시 멈춰 있는 동안에는 거리가 늘어나지
+                <br>않다가 다시 공원으로 가면 민서의
+                <br>이동거리는 계속 증가하게
+                <br>된다. 따라서 시간에 따른 민서의 이동거리를 바르게 나타낸
+                <br>그래프는 두 번째 그래프이다.
               </div>
             </div>
           </div>

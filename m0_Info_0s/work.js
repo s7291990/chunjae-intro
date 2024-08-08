@@ -2,7 +2,17 @@ var work = [
 	/*기타*/
   { "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "인트로", "url": "chap001/sect001/game/index.html", "date": "2024-08-08", "status": ""
   },
-	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "수와 연산 소인수분해", "url": "chap001/sect001/act01/index.html", "date": "2024-08-07", "status": ""
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "01", "url": "chap001/sect001/act01/index.html", "date": "2024-08-07", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "02", "url": "chap001/sect001/act02/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "03", "url": "chap001/sect001/act03/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "04", "url": "chap001/sect001/act04/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "05", "url": "chap001/sect001/act05/index.html", "date": "2024-08-09", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "06", "url": "chap001/sect001/act06/index.html", "date": "2024-08-09", "status": ""
 	},
 
   { "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "인트로", "url": "chap001/sect002/game/index.html", "date": "2024-08-08", "status": ""
