@@ -15,7 +15,7 @@ function pageNext(){
 	//audioPlay('audio04');
 
 	var pageListItem = ".paging li";
-	if(currentPage < 10){
+	if(currentPage < 12){
 
 		currentPage++;
 		//pageInit(currentPage);
