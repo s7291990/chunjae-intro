@@ -163,7 +163,7 @@ body{
   box-sizing: border-box;border: 6px dashed rgba(203, 231, 245, 0.60);
 }
 .select-type-wrap .select-header-wrap{width:100%;display:flex;justify-content:flex-start;
-  align-items:center;}
+  align-items:flex-start;}
 .select-type-wrap .select-header-wrap .num{width:58px;height:58px;border-radius:10px;background:#003760;
   display:flex;justify-content:center;
   align-items:center;font-size:47.52px;font-weight:800;color:#fff;letter-spacing: -0.95px;
@@ -217,6 +217,9 @@ input[type=radio]:checked::-ms-check{color:transparent;
   display:flex;margin-left:16px;font-size:54px;color:#003760;font-weight:400;line-height:100%;
   font-family: amsusic_italic;transform:translateY(5px);position:relative;
 }
+.select-type-wrap .select-cont-wrap button .txt.ttype{
+  font-family: Pretendard;transform:translateY(-4px);
+}
 .select-type-wrap .select-cont-wrap button .txt:before{
   content:"";width:100%;height:100%;display:block;background:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:10;
 }
@@ -261,7 +264,7 @@ input[type=radio]:checked::-ms-check{color:transparent;
   bottom: 16px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   text-align: left;
   box-sizing: border-box;
   padding: 40px;
@@ -308,3 +311,28 @@ mjx-mfrac{
 .hide{display:none !important;}
 
 .hidden{position:absolute;left:-200000px;width:1px;height:1px;}
+
+.ex-item-wrap{
+  border-radius: 20px;
+  border: 4px solid #E0F1F9;
+  background: #FFF;
+  width:424px;height:434px;overflow:Hidden;position:absolute;    right: 65px;
+  top: 65px;
+  font-family: amsusic_italic !important;font-size: 54px;
+  color: #333;
+  font-weight: 400;display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ex-item-wrap img{
+  max-width:100%;
+}
+.ex-item-wrap *,
+.ex-item-wrap *:before{
+  font-family: amsusic_italic !important;font-size: 54px;
+  color: #333;
+  font-weight: 400;
+}
+.ex-item-wrap:before{
+  content:"";width:100%;height:100%;display:block;background:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:10;
+}

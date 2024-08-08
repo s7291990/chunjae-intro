@@ -163,7 +163,7 @@ body{
   box-sizing: border-box;border: 6px dashed rgba(203, 231, 245, 0.60);
 }
 .select-type-wrap .select-header-wrap{width:100%;display:flex;justify-content:flex-start;
-  align-items:center;}
+  align-items:flex-start;}
 .select-type-wrap .select-header-wrap .num{width:58px;height:58px;border-radius:10px;background:#003760;
   display:flex;justify-content:center;
   align-items:center;font-size:47.52px;font-weight:800;color:#fff;letter-spacing: -0.95px;
@@ -234,7 +234,7 @@ input[type=radio]:checked::-ms-check{color:transparent;
   align-items:flex-start;
 }
 .select-type-wrap .select-cont-wrap.vertical button{
-  justify-content:flex-start;width:600px;max-height:80px;
+  justify-content:flex-start;width:800px;max-height:80px;
 }
 
 
@@ -261,7 +261,7 @@ input[type=radio]:checked::-ms-check{color:transparent;
   bottom: 16px;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   text-align: left;
   box-sizing: border-box;
   padding: 40px;
