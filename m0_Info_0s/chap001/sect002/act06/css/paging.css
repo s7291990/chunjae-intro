@@ -1,0 +1,113 @@
+
+.paging{
+    width:100%;
+    height:0;
+    position:absolute;
+    left:0;
+    bottom:58px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.paging ul{
+    height:auto;
+    overflow:hidden;
+    position:relative;
+    display:inline-flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:15px;
+}
+.paging ul:before{
+    position:absolute;
+    left:10%;
+    top:50%;
+    margin-top:-4px;
+    content:"";
+    width:80%;
+    height:4px;
+    overflow:hidden;
+    background: #D1D1D1;
+}
+.paging ul li{
+    cursor:pointer;
+    width:70px;
+    height:70px;
+    overflow:hidden;
+    background:url(../images/bg-paging.png) no-repeat;
+    background-size:70px 70px;
+    position:relative;
+    z-index:10;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:36px;
+    color:#B3B3B3;
+    font-weight:800;
+}
+.paging ul li .current{display:none;visibility: hidden;}
+.paging ul li .move{}
+.paging ul li.on .current{display:block;}
+.paging ul li.on .move{display:none;}
+.paging ul li:first-child{
+}
+.paging ul li + li{
+}
+.paging ul li.end{
+    background:url(../images/bg-paging-end.png) no-repeat;
+    background-size:70px 70px;
+    color:#2A860B;
+}
+.paging ul li.on{
+    background:url(../images/bg-paging-on.png) no-repeat;
+    background-size:70px 70px;
+    color:#2A860B;
+}
+.paging button{
+    width:78px;
+    height:78px;
+    display:flex;
+    cursor:pointer;
+    border:0;
+    padding:0;
+    background:transparent;
+    margin:0 30px;
+    position:relative;
+
+}
+.paging button:before{
+    content:"";
+    width:86px;
+    height:84px;
+    overflow:hidden;
+    display:block;
+    background:rgba(255,255,255,1);
+    border-radius:50%;
+    position:absolute;
+    left:-4px;
+    top:-5px;
+    box-shadow: 0 0 20px 0 #FFD600, 0 0 15px 0 #FFD600;
+}
+
+
+.paging button.btn-next{
+    animation-name: bounce;
+    animation-duration: .5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.paging button[disabled]{
+    filter: grayscale(100%);
+    opacity:.6;
+    cursor:default;
+    animation:initial;
+}
+.paging button[disabled]:before{
+    display:none;
+}
+.paging button img{
+    width:78px;
+    height:78px;
+    position:relative;
+    z-index:5;
+}
