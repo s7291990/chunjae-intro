@@ -56,9 +56,59 @@ body{
   align-items:center;gap:37px;
 }
 .intro-btn-wrap button{
-  width:258px;height:128px;padding:0;border:0;background:transparent;display: flex;
+  width:258px;height:128px;border:0;background:transparent;display: flex;
+  justify-content: center;
+  align-items:center;box-sizing: border-box;
+  padding:0 20px;
+}
+.intro-btn-wrap button.btn-game{
+  background:url(../images/btn-type-game.png) no-repeat center center;
+  background-size:258px 128px;
+  color: #fff;
+  -webkit-text-stroke-width: 8px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 92% */
+}
+.intro-btn-wrap button.btn-normal{
+  background:url(../images/btn-type-normal.png) no-repeat center center;
+  background-size:258px 128px;
+  color: #fff;
+  -webkit-text-stroke-width: 8px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 92% */
+}
+.intro-btn-wrap button span{
+  width:100%;
+  height:128px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  color: #FFF;
+  display: flex;
   justify-content: center;
   align-items:center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px; /* 92% */
+  box-sizing: border-box;
+  padding:0 20px;
+}
+.intro-btn-wrap button.btn-game span{
+  color: #FF7305;
+  -webkit-text-stroke-color: #FF7305;
+}
+.intro-btn-wrap button.btn-normal span{
+  color: #1D84FF;
+  -webkit-text-stroke-color: #1D84FF;
 }
 .intro-btn-wrap button img{
   width:258px;height:128px;
