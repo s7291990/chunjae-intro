@@ -61,6 +61,7 @@ body{
 .intro-btn-wrap button img{
   width:258px;height:128px;
 }
+.block01{margin-top:20px;}
 
 
 /* 변동 컨텐츠 */
@@ -290,7 +291,7 @@ mjx-mfrac{
 .result-box-wrap .desc .text-area span *,
 .result-box-wrap .desc .text-area span *:before{
   font-family: amsusic_italic !important;
-  font-size:48px;color:#003760;font-weight:400;
+  font-size:48px;color:#680000;font-weight:400;
 }
 .result-box-wrap .desc .text-area span:before{
   content:"";width:100%;height:100%;display:block;background:rgba(0,0,0,0);position:absolute;left:0;top:0;z-index:10;

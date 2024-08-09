@@ -14,6 +14,16 @@ var work = [
 	},
 	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "06", "url": "chap001/sect001/act06/index.html", "date": "2024-08-09", "status": ""
 	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "07", "url": "chap001/sect001/act07/index.html", "date": "2024-08-10", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "08", "url": "chap001/sect001/act08/index.html", "date": "2024-08-10", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "09", "url": "chap001/sect001/act09/index.html", "date": "2024-08-10", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "10", "url": "chap001/sect001/act10/index.html", "date": "2024-08-10", "status": ""
+	},
+	{ "cate": "m01", "dep01": "냥냥붕어빵", "dep02": "11", "url": "chap001/sect001/act11/index.html", "date": "2024-08-10", "status": ""
+	},
 
   { "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "인트로", "url": "chap001/sect002/game/index.html", "date": "2024-08-08", "status": ""
   },

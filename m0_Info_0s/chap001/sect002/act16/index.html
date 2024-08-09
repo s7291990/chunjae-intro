@@ -1,0 +1,481 @@
+   <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/handleConfirm.js"></script>
+  <script src="js/handleNext.js"></script>
+  <script id="MathJax-script" async src="js/lib/tex-mml-chtml.js"></script>
+<!--  <script src="js/pagingButton.js"></script>-->
+<!--  <script src="js/pagingList.js"></script>-->
+<!--  <script src="js/pagingStatus.js"></script>-->
+</head>
+<body onresize="contentResize();">
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents">
+
+
+      <div id="page01" class="question on">
+
+        <div class="page-num-wrap notranslate">1/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">1</div>
+            <div class="desc">
+              다음 중 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="">x</span>에 반비례하는 것을 고른 것은?
+            </div>
+          </div>
+          <div class="select-cont-wrap notranslate">
+
+            <button type="button" onclick="handleSelect('#page01', 1)">
+              <span class="ico"></span>
+              <span class="txt">\[y= \frac{x}{3}\]</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page01', 2)">
+              <span class="ico"></span>
+              <span class="txt">y=-2x</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page01', 3)">
+              <span class="ico"></span>
+              <span class="txt">\[y=- \frac{4}{x}\]</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="와이">y</span>가
+                <span class="notranslate" aria-label="와이">x</span>에 반비례할 때,
+                <span class="notranslate" aria-label="">0</span>이 아닌 일정한 수
+                <span class="notranslate" aria-label="">a</span>에 대하여
+                <br><span class="notranslate" aria-label="">y=\[ \frac{a}{2}\]</span> 인 관계가 성립한다. 따라서
+                <span class="notranslate" aria-label="">y=\[- \frac{4}{x}\]</span> 이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="와이">y</span>가
+                <span class="notranslate" aria-label="와이">x</span>에 반비례할 때,
+                <span class="notranslate" aria-label="">0</span>이 아닌 일정한 수
+                <span class="notranslate" aria-label="">a</span>에 대하여
+                <br><span class="notranslate" aria-label="">y=\[ \frac{a}{2}\]</span> 인 관계가 성립한다. 따라서
+                <span class="notranslate" aria-label="">y=\[- \frac{4}{x}\]</span> 이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page01');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page02');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page02" class="question">
+
+        <div class="page-num-wrap notranslate">2/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">2</div>
+            <div class="desc">
+              <span class="notranslate" aria-label="">x</span>와 <span class="notranslate" aria-label="와이">y</span>사이의 관계가 다음 표와 같을 때,
+              <span class="notranslate" aria-label="">x</span>와 <span class="notranslate" aria-label="와이">y</span>사이의 관계를 식으로 나타내면?
+            </div>
+          </div>
+
+          <div class="table01">
+            <table>
+              <tr>
+                <td>x</td>
+                <td><span>1</span></td>
+                <td><span>2</span></td>
+                <td><span>3</span></td>
+                <td><span>4</span></td>
+                <td>...</td>
+              </tr>
+              <tr>
+                <td>y</td>
+                <td><span>36</span></td>
+                <td><span>18</span></td>
+                <td><span>12</span></td>
+                <td><span>9</span></td>
+                <td>...</td>
+              </tr>
+            </table>
+          </div>
+          <div class="select-cont-wrap notranslate">
+
+            <button type="button" onclick="handleSelect('#page02', 1)">
+              <span class="ico"></span>
+              <span class="txt">\[y= \frac{12}{x}\]</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page02', 2)">
+              <span class="ico"></span>
+              <span class="txt">\[y= \frac{24}{x}\]</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page02', 3)">
+              <span class="ico"></span>
+              <span class="txt">\[y= \frac{36}{x}\]</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="">xy</span>의 값이
+                <span class="notranslate" aria-label="">36</span>으로 일정하므로
+                <span class="notranslate" aria-label="">x</span>와
+                <span class="notranslate" aria-label="">y</span>사이의 관계식은
+                <br><span class="notranslate" aria-label="">\[y= \frac{36}{x}\]</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="">xy</span>의 값이
+                <span class="notranslate" aria-label="">36</span>으로 일정하므로
+                <span class="notranslate" aria-label="">x</span>와
+                <span class="notranslate" aria-label="">y</span>사이의 관계식은
+                <br><span class="notranslate" aria-label="">\[y= \frac{36}{x}\]</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page02');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page03');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page03" class="question">
+
+        <div class="page-num-wrap notranslate">3/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap middle">
+            <div class="num notranslate">3</div>
+            <div class="desc">
+              다음 중 반비례 관계 <span class="notranslate" aria-label="">\[y= \frac{8}{x}\]</span>의 그래프는?
+            </div>
+          </div>
+
+          <div class="select-cont-wrap notranslate">
+
+            <button type="button" onclick="handleSelect('#page03', 1)">
+              <span class="ico"></span>
+              <span class="txt"><img src="./images/etc-page03-img01.png" alt=""></span>
+            </button>
+            <button type="button" onclick="handleSelect('#page03', 2)">
+              <span class="ico"></span>
+              <span class="txt"><img src="./images/etc-page03-img02.png" alt=""></span>
+            </button>
+            <button type="button" onclick="handleSelect('#page03', 3)">
+              <span class="ico"></span>
+              <span class="txt"><img src="./images/etc-page03-img03.png" alt=""></span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="">\[y= \frac{8}{x}\]</span>의 그래프는 점
+                <span class="notranslate" aria-label="">(2, 4)</span>를 지나고 원점에
+                <div class="block01">대칭인 한 쌍의 매끄러운 곡선이므로 두 번째 보기이다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="">\[y= \frac{8}{x}\]</span>의 그래프는 점
+                <span class="notranslate" aria-label="">(2, 4)</span>를 지나고 원점에
+                <div class="block01">대칭인 한 쌍의 매끄러운 곡선이므로 두 번째 보기이다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page03');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page04');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page04" class="question">
+
+        <div class="page-num-wrap notranslate">4/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap middle">
+            <div class="num notranslate">4</div>
+            <div class="desc">
+              다음 중 반비례 관계
+              <span class="notranslate" aria-label="">\[y= \frac{5}{x}\]</span>의 그래프 위의 점이 <span class="underline">아닌</span> 것은?
+            </div>
+          </div>
+
+          <div class="select-cont-wrap notranslate">
+
+            <button type="button" onclick="handleSelect('#page04', 1)">
+              <span class="ico"></span>
+              <span class="txt">(-1, -5)</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page04', 2)">
+              <span class="ico"></span>
+              <span class="txt">(5, 1)</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page04', 3)">
+              <span class="ico"></span>
+              <span class="txt">(10, 2)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="">\[y= \frac{5}{x}\]</span>에 주어진 점의 좌표를 대입했을 때, 등식이 성립하지
+                <br>않는 것을 찾는다. <span class="notranslate" aria-label="">\[2≠ \frac{5}{10}\]<</span> 이므로
+                <span class="notranslate" aria-label="">(10, 2)</span> 는
+                <span class="notranslate" aria-label="">\[y= \frac{5}{x}\]</span>의
+                <div class="block01">그래프 위의 점이 아니다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                <span class="notranslate" aria-label="">\[y= \frac{5}{x}\]</span>에 주어진 점의 좌표를 대입했을 때, 등식이 성립하지
+                <br>않는 것을 찾는다. <span class="notranslate" aria-label="">\[2≠ \frac{5}{10}\]<</span> 이므로
+                <span class="notranslate" aria-label="">(10, 2)</span> 는
+                <span class="notranslate" aria-label="">\[y= \frac{5}{x}\]</span>의
+                <div class="block01">그래프 위의 점이 아니다.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page04');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page05');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page05" class="question">
+
+        <div class="page-num-wrap notranslate">5/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap middle">
+            <div class="num notranslate">5</div>
+            <div class="desc">
+              다음 중 그래프가 제<span class="notranslate">1</span>사분면과 제<span class="notranslate">3</span>사분면을 지나는 한 쌍의 매끄러운 곡선은?
+            </div>
+          </div>
+
+          <div class="select-cont-wrap notranslate">
+            <button type="button" onclick="handleSelect('#page05', 1)">
+              <span class="ico"></span>
+              <span class="txt">\[y= \frac{7}{x}\]</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page05', 2)">
+              <span class="ico"></span>
+              <span class="txt">y=3x</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page05', 3)">
+              <span class="ico"></span>
+              <span class="txt">\[y=- \frac{11}{x}\]</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                제<span class="notranslate" aria-label="">1</span>사분면과 제<span class="notranslate" aria-label="">3</span>사분면을 지나는 한 쌍의 매끄러운 곡선은
+                <br>반비례 관계 <span class="notranslate" aria-label="">y=\[ \frac{a}{x}\](a≠0)</span>에서
+                <span class="notranslate" aria-label="">a＞0</span>이므로
+                <span class="notranslate" aria-label="">y=\[ \frac{7}{x}\]</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                제<span class="notranslate" aria-label="">1</span>사분면과 제<span class="notranslate" aria-label="">3</span>사분면을 지나는 한 쌍의 매끄러운 곡선은
+                <br>반비례 관계 <span class="notranslate" aria-label="">y=\[ \frac{a}{x}\](a≠0)</span>에서
+                <span class="notranslate" aria-label="">a＞0</span>이므로
+                <span class="notranslate" aria-label="">y=\[ \frac{7}{x}\]</span>이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page05');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
