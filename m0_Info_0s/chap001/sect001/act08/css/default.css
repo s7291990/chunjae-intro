@@ -355,4 +355,5 @@ mjx-mfrac{
 }
 .ex-item-wrap img{
   max-width:100%;
+  max-height:100%;
 }
