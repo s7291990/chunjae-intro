@@ -1,4 +1,4 @@
-   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="utf-8">
@@ -13,9 +13,9 @@
   <script src="js/handleConfirm.js"></script>
   <script src="js/handleNext.js"></script>
   <script id="MathJax-script" async src="js/lib/tex-mml-chtml.js"></script>
-<!--  <script src="js/pagingButton.js"></script>-->
-<!--  <script src="js/pagingList.js"></script>-->
-<!--  <script src="js/pagingStatus.js"></script>-->
+  <!--  <script src="js/pagingButton.js"></script>-->
+  <!--  <script src="js/pagingList.js"></script>-->
+  <!--  <script src="js/pagingStatus.js"></script>-->
 </head>
 <body onresize="contentResize();">
 
@@ -36,22 +36,27 @@
           <div class="select-header-wrap">
             <div class="num notranslate">1</div>
             <div class="desc">
-              다음 중 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례하는 것을 고른 것은?
+              다음 그림의 직선  <span class="notranslate" aria-label="">l</span> 위의 점이 아닌 것은?
             </div>
           </div>
-          <div class="select-cont-wrap notranslate">
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img01.png" alt="">
+          </div>
+
+          <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt">xy=3</span>
+              <span class="txt"><span class="normal" aria-label="대문자 에이">A</span></span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt">y=-2x</span>
+              <span class="txt"><span class="normal" aria-label="대문자 비">B</span></span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt">y=x-5</span>
+              <span class="txt"><span class="normal" aria-label="대문자 씨">C</span></span>
             </button>
 
           </div>
@@ -66,9 +71,7 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례할 때, <span class="notranslate">0</span>이 아닌 일정한 수 <span class="notranslate">a</span>에 대하여
-                <br><span class="notranslate">y=ax</span>인 관계가 성립한다. 따라서 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례하는 것은
-                <br><span class="notranslate">y=-2x</span>이다.
+                점 <span class="notranslate normal" aria-label="대문자 에이">A</span>는 직선 <span class="notranslate" aria-label="">l</span> 위의 점이 아니다.
               </div>
             </div>
           </div>
@@ -83,9 +86,7 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례할 때, <span class="notranslate">0</span>이 아닌 일정한 수 <span class="notranslate">a</span>에 대하여
-                <br><span class="notranslate">y=ax</span>인 관계가 성립한다. 따라서 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례하는 것은
-                <br><span class="notranslate">y=-2x</span>이다.
+                점 <span class="notranslate normal" aria-label="대문자 에이">A</span>는 직선 <span class="notranslate" aria-label="">l</span> 위의 점이 아니다.
               </div>
             </div>
           </div>
@@ -117,33 +118,28 @@
           <div class="select-header-wrap">
             <div class="num notranslate">2</div>
             <div class="desc">
-              다음 중 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례하는 것을 고른 것은?
+              다음 그림의 삼각기둥에서 모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 한 점에서
+              <br>만나는 모서리의 개수는?
             </div>
           </div>
-          <div class="select-cont-wrap vertical">
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img02.png" alt="">
+          </div>
+
+          <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt ttype">
-                <span class="notranslate">1m</span>의 무게가
-                &nbsp;<span class="notranslate">20g</span>인 철사
-                &nbsp;<span class="notranslate">xm</span>의 무게
-                &nbsp;<span class="notranslate">yg</span>
-              </span>
+              <span class="txt" aria-label="삼">3</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt ttype">
-                넓이가&nbsp;<span class="notranslate">50cm<span class="cup">2</span></span>인 직사각형의 가로의 길이
-                &nbsp;<span class="notranslate">xcm</span>와 세로의 길이
-                &nbsp;<span class="notranslate">ycm</span>
-              </span>
+              <span class="txt" aria-label="사">4</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate">200</span>쪽인 책을
-                &nbsp;<span class="notranslate" aria-label="엑스">x</span>쪽 읽고 남은 쪽수
-                &nbsp;<span class="notranslate" aria-label="와이">y</span>쪽</span>
+              <span class="txt" aria-label="오">5</span>
             </button>
 
           </div>
@@ -158,9 +154,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate">① y=20x, ② xy=50, ③ y=200-x</span>
-                <br>따라서 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례하는 것은 첫 번째
-                <br>보기이다.
+                모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 한 점에서 만나는 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 에이 씨">AC</span>,
+                <br>모서리
+                <span class="notranslate normal" aria-label="대문자 에이 디">AD</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 비 씨">BC</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 비 이">BE</span>이므로
+                <span class="notranslate" aria-label="사">4</span>개다.
               </div>
             </div>
           </div>
@@ -175,9 +175,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate">① y=20x, ② xy=50, ③ y=200-x</span>
-                <br>따라서 <span class="notranslate" aria-label="와이">y</span>가 <span class="notranslate" aria-label="엑스">x</span>에 정비례하는 것은 첫 번째
-                <br>보기이다.
+                모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 한 점에서 만나는 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 에이 씨">AC</span>,
+                <br>모서리
+                <span class="notranslate normal" aria-label="대문자 에이 디">AD</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 비 씨">BC</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 비 이">BE</span>이므로
+                <span class="notranslate" aria-label="사">4</span>개다.
               </div>
             </div>
           </div>
@@ -209,27 +213,28 @@
           <div class="select-header-wrap">
             <div class="num notranslate">3</div>
             <div class="desc">
-              두 변수 <span class="notranslate" aria-label="">x, y</span>에 대하여
-              <span class="notranslate" aria-label="">y</span>가
-              <span class="notranslate" aria-label="">x</span>에 정비례하고,
-              <span class="notranslate" aria-label="">x=4</span>일 때
-              <span class="notranslate" aria-label="">y=5</span>이다. 이때
-              <br><span class="notranslate" aria-label="엑스">x</span>와 <span class="notranslate" aria-label="">y</span>사이의 관계식을 구하면?</div>
+              다음 그림의 직육면체에서 모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 꼬인 위치에
+              <br>있는 모서리의 개수는?
+            </div>
           </div>
 
-          <div class="select-cont-wrap notranslate">
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img03.png" alt="">
+          </div>
+
+          <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt">\[y= \frac{4}{4}x\]</span>
+              <span class="txt" aria-label="삼">3</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt">\[y= \frac{4}{5}x\]</span>
+              <span class="txt" aria-label="사">4</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt">\[y=- \frac{4}{5}x\]</span>
+              <span class="txt" aria-label="오">5</span>
             </button>
           </div>
         </div>
@@ -243,15 +248,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate" aria-label="">y</span>가
-                <span class="notranslate" aria-label="">x</span>에 정비례하므로
-                <span class="notranslate" aria-label="">y=ax</span>로 놓고
-                <span class="notranslate" aria-label="">x=4, y=5</span>를
-                <br>대입하면 <span class="notranslate" aria-label="">5=4a</span>이므로
-                <span class="notranslate" aria-label="">a=\[ \frac{5}{4}\]</span> 이다.
-                <br>따라서 <span class="notranslate" aria-label="">x</span>와
-                <span class="notranslate" aria-label="">y</span>사이의 관계식은
-                <span class="notranslate" aria-label="">y=\[ \frac{5}{4}\]x</span>이다.
+                모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 꼬인 위치에 있는 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 씨 지">CG</span>,
+                <br>모서리
+                <span class="notranslate normal" aria-label="대문자 디 에이치">DH</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 이 에이치">EH</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>이므로
+                <span class="notranslate normal" aria-label="사">4</span>개다.
               </div>
             </div>
           </div>
@@ -266,15 +269,13 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate" aria-label="">y</span>가
-                <span class="notranslate" aria-label="">x</span>에 정비례하므로
-                <span class="notranslate" aria-label="">y=ax</span>로 놓고
-                <span class="notranslate" aria-label="">x=4, y=5</span>를
-                <br>대입하면 <span class="notranslate" aria-label="">5=4a</span>이므로
-                <span class="notranslate" aria-label="">a=\[ \frac{5}{4}\]</span> 이다.
-                <br>따라서 <span class="notranslate" aria-label="">x</span>와
-                <span class="notranslate" aria-label="">y</span>사이의 관계식은
-                <span class="notranslate" aria-label="">y=\[ \frac{5}{4}\]x</span>이다.
+                모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 꼬인 위치에 있는 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 씨 지">CG</span>,
+                <br>모서리
+                <span class="notranslate normal" aria-label="대문자 디 에이치">DH</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 이 에이치">EH</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>이므로
+                <span class="notranslate normal" aria-label="사">4</span>개다.
               </div>
             </div>
           </div>
@@ -303,26 +304,31 @@
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
           <input type="hidden" class="select-value" value="" aria-hidden="true">
-          <div class="select-header-wrap middle">
+          <div class="select-header-wrap">
             <div class="num notranslate">4</div>
             <div class="desc">
-              다음 중 정비례 관계 <span class="notranslate" aria-label="">y=\[ \frac{2}{3}\]x</span>의 그래프는?
+              다음 그림의 사각기둥에서 면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디">ABCD</span>와 평행한
+              <br>모서리의 개수는?
             </div>
           </div>
 
-          <div class="select-cont-wrap">
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img04.png" alt="">
+          </div>
+
+          <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page04-img01.png" alt=""></span>
+              <span class="txt" aria-label="사">4</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page04-img02.png" alt=""></span>
+              <span class="txt" aria-label="오">5</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page04-img03.png" alt=""></span>
+              <span class="txt" aria-label="육">6</span>
             </button>
           </div>
         </div>
@@ -336,9 +342,12 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate" aria-label="">y=\[ \frac{2}{3}\]x</span>의 그래프는 원점과 점
-                <span class="notranslate" aria-label="">(3, 2)</span>를 지나는 직선이므로
-                <br>세 번째 보기이다.
+                면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디">ABCD</span>와 평행한 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 이 에프">EF</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>,
+                <br>모서리 <span class="notranslate normal" aria-label="대문자 지 에이치">GH</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에이치 이">HE</span>이므로
+                <span class="notranslate" aria-label="사">4</span>개다.
               </div>
             </div>
           </div>
@@ -353,9 +362,12 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                <span class="notranslate" aria-label="">y=\[ \frac{2}{3}\]x</span>의 그래프는 원점과 점
-                <span class="notranslate" aria-label="">(3, 2)</span>를 지나는 직선이므로
-                <br>세 번째 보기이다.
+                면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디">ABCD</span>와 평행한 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 이 에프">EF</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>,
+                <br>모서리 <span class="notranslate normal" aria-label="대문자 지 에이치">GH</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에이치 이">HE</span>이므로
+                <span class="notranslate" aria-label="사">4</span>개다.
               </div>
             </div>
           </div>
@@ -384,25 +396,31 @@
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
           <input type="hidden" class="select-value" value="" aria-hidden="true">
-          <div class="select-header-wrap middle">
+          <div class="select-header-wrap">
             <div class="num notranslate">5</div>
             <div class="desc">
-              정비례 관계 <span class="notranslate" aria-label="">y=\[- \frac{1}{7}\]x</span>의 그래프가 지나는 사분면을 고르면?
+              다음 그림의 육각기둥에서
+              <span class="notranslate normal" aria-label="대문자 에이 비 씨 디 이 에프">ABCDEF</span>와 수직인
+              <br>모서리의 개수는?
             </div>
           </div>
 
-          <div class="select-cont-wrap vertical">
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img05.png" alt="">
+          </div>
+
+          <div class="select-cont-wrap notranslate start">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
-              <span class="txt ttype">제 <span class="notranslate">1</span>사분면, 제 <span class="notranslate">3</span>사분면</span>
+              <span class="txt" aria-label="사">4</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
-              <span class="txt ttype">제 <span class="notranslate">2</span>사분면, 제 <span class="notranslate">3</span>사분면</span>
+              <span class="txt" aria-label="오">5</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
-              <span class="txt ttype">제 <span class="notranslate">2</span>사분면, 제 <span class="notranslate">4</span>사분면</span>
+              <span class="txt" aria-label="육">6</span>
             </button>
 
           </div>
@@ -417,14 +435,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                정비례 관계 <span class="notranslate" aria-label="">y=ax (a≠0)</span>의 그래프에서
-                <span class="notranslate" aria-label="">a＜0</span>일 때,
-                <br>제 <span class="notranslate" aria-label="">2</span>사분면과 제
-                <span class="notranslate" aria-label="">4</span>사분면을 지난다. 따라서
-                <span class="notranslate" aria-label="">y=\[- \frac{1}{7}\]x</span>의
-                <br>그래프가 지나는 사분면은 제 <span class="notranslate" aria-label="">2</span>사분면, 제
-                <span class="notranslate" aria-label="">4</span>사분면이다.
-
+                면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디 이 에프">ABCDEF</span>와 수직인 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 에이 지">AG</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 비 에이치">BH</span>,
+                <br>모서리 <span class="notranslate normal" aria-label="대문자 씨 아이">CI</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 디 제이">DJ</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 이 케이">EK</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에프 엘">FL</span>이므로
+                <span class="notranslate" aria-label="육">6</span>개다.
               </div>
             </div>
           </div>
@@ -439,14 +457,14 @@
           <div class="desc">
             <div class="text-area">
               <div class="value">
-                정비례 관계 <span class="notranslate" aria-label="">y=ax (a≠0)</span>의 그래프에서
-                <span class="notranslate" aria-label="">a＜0</span>일 때,
-                <br>제 <span class="notranslate" aria-label="">2</span>사분면과 제
-                <span class="notranslate" aria-label="">4</span>사분면을 지난다. 따라서
-                <span class="notranslate" aria-label="">y=-7!x</span>의
-                <br>그래프가 지나는 사분면은 제 <span class="notranslate" aria-label="">2</span>사분면, 제
-                <span class="notranslate" aria-label="">4</span>사분면이다.
-
+                면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디 이 에프">ABCDEF</span>와 수직인 모서리는 모서리
+                <span class="notranslate normal" aria-label="대문자 에이 지">AG</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 비 에이치">BH</span>,
+                <br>모서리 <span class="notranslate normal" aria-label="대문자 씨 아이">CI</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 디 제이">DJ</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 이 케이">EK</span>, 모서리
+                <span class="notranslate normal" aria-label="대문자 에프 엘">FL</span>이므로
+                <span class="notranslate" aria-label="육">6</span>개다.
               </div>
             </div>
           </div>
