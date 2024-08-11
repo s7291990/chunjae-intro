@@ -141,7 +141,7 @@ body{
   color:transparent !important;
 }
 
-.page-num-wrap{width:121px;height:74px;overflow:hidden;background:url(../images/bg-page-num.svg) no-repeat;
+.page-num-wrap{tab-index:0;width:121px;height:74px;overflow:hidden;background:url(../images/bg-page-num.svg) no-repeat;
   display:flex;position:absolute;right:36px;top:68px;
   justify-content:center;
   align-items:center;
