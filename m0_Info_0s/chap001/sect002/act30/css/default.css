@@ -373,7 +373,7 @@ mjx-mfrac{
   position:relative;border-radius: 20px;
   border: 4px solid #E0F1F9;
   background: #FFF;
-  width:1328px;height:100px;overflow:Hidden;display: flex;
+  width:1328px;height:auto;overflow:Hidden;display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -384,6 +384,9 @@ mjx-mfrac{
   font-size: 42px;
   color: #333;
   font-weight: 700;
+}
+.ex-item-wrap01 img{
+  max-width:100%;
 }
 .normal,
 .select-type-wrap .select-header-wrap .desc span .normal{

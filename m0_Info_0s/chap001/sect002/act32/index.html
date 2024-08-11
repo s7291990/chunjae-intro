@@ -1,0 +1,481 @@
+   <!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <!--<meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">-->
+  <meta name="format-detection" content="telephone=no">
+  <title>천재교육</title>
+  <link rel="stylesheet" href="css/common.css" type="text/css">
+  <script src="js/lib/jquery.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contentResize.js"></script>
+  <script src="js/handleConfirm.js"></script>
+  <script src="js/handleNext.js"></script>
+  <script id="MathJax-script" async src="js/lib/tex-mml-chtml.js"></script>
+<!--  <script src="js/pagingButton.js"></script>-->
+<!--  <script src="js/pagingList.js"></script>-->
+<!--  <script src="js/pagingStatus.js"></script>-->
+</head>
+<body onresize="contentResize();">
+
+<div class="wrapper"><!-- start : wrapper -->
+
+  <div class="container">
+
+    <div class="contents">
+
+
+      <div id="page01" class="question on">
+
+        <div class="page-num-wrap notranslate">1/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">1</div>
+            <div class="desc">
+              다음은 수연이네 반 학생들의 앉은키를 조사하여 나타낸 히스토그램이다.
+              <br>수연이네 반 학생 수는?
+            </div>
+          </div>
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img01.png" alt="가로축이 앉은키, 세로축이 학생 수인 히스토그램이 있다. 앉은키가 칠십 센티미터 이상 칠십오 센티미터 미만인 학생 수는 세 명, 앉은키가 칠십오 센티미터 이상 팔십 센티미터 미만인 학생 수는 다섯 명, 앉은키가 팔십 센티미터 이상 팔십오 센티미터 미만인 학생 수는 여덟 명, 앉은키가 팔십오 센티미터 이상 구십 센티미터 미만인 학생 수는 네 명이다.">
+          </div>
+
+          <div class="select-cont-wrap start">
+
+            <button type="button" onclick="handleSelect('#page01', 1)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="스무">20</span>명</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page01', 2)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="스물다섯">25</span>명</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page01', 3)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="서른">30</span>명</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                (수연이네 반 학생 수)<span class="notranslate" aria-label="은 삼 더하기 오 더하기 팔 더하기 사 는 스무">=3+58+4=20</span>(명)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                (수연이네 반 학생 수)<span class="notranslate" aria-label="은 삼 더하기 오 더하기 팔 더하기 사 는 스무">=3+58+4=20</span>(명)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page01');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page02');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page02" class="question">
+
+        <div class="page-num-wrap notranslate">2/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">2</div>
+            <div class="desc">
+              다음은 규진이네 반 학생들의 오래 매달리기
+              <br>기록을 조사하여 나타낸 히스토그램이다.
+              <br>네 번째로 오래 매달린 학생이 속하는 계급은?
+            </div>
+          </div>
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img02.png" alt="가로축이 매달린 시간, 세로축이 학생 수인 히스토그램이 있다. 영 초 이상 오 초 미만인 학생 수는 네 명, 오 초 이상 십 초 미만인 학생 수는 여덟 명, 십 초 이상 십오 초 미만인 학생 수는 열한 명, 십오 초 이상 이십 초 미만인 학생 수는 다섯 명, 이십 초 이상 이십오 초 미만인 학생 수는 세 명, 이십오 초 이상 삼십 초 미만인 학생 수는 한 명이다.]">
+          </div>
+
+          <div class="select-cont-wrap start notranslate">
+
+            <button type="button" onclick="handleSelect('#page02', 1)">
+              <span class="ico"></span>
+              <span class="txt"><span class="notranslate" aria-label="십오">15</span>초 이상 <span class="notranslate" aria-label="이십">20</span>초 미만</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page02', 2)">
+              <span class="ico"></span>
+              <span class="txt"><span class="notranslate" aria-label="이십">20</span>초 이상 <span class="notranslate" aria-label="이십오">25</span>초 미만</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page02', 3)">
+              <span class="ico"></span>
+              <span class="txt"><span class="notranslate" aria-label="이십오">25</span>초 이상 <span class="notranslate" aria-label="삼십">30</span>초 미만</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                오래 매달린 기록이 <span class="notranslate" aria-label="이십오">25</span>초 이상인 학생 수는
+                <span class="notranslate" aria-label="한">1</span>명,
+                <span class="notranslate" aria-label="이십">20</span>초 이상인 학생 수는
+                <span class="notranslate" aria-label="삼 플러스 일은 사">3+1=4</span>명이므로 네 번째로 오래 매달린 학생이 속하는 계급은
+                <span class="notranslate" aria-label="이십">20</span>초 이상
+                <span class="notranslate" aria-label="이십오">25</span>초 미만이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                오래 매달린 기록이 <span class="notranslate" aria-label="이십오">25</span>초 이상인 학생 수는
+                <span class="notranslate" aria-label="한">1</span>명,
+                <span class="notranslate" aria-label="이십">20</span>초 이상인 학생 수는
+                <span class="notranslate" aria-label="삼 플러스 일은 사">3+1=4</span>명이므로 네 번째로 오래 매달린 학생이 속하는 계급은
+                <span class="notranslate" aria-label="이십">20</span>초 이상
+                <span class="notranslate" aria-label="이십오">25</span>초 미만이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page02');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page03');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page03" class="question">
+
+        <div class="page-num-wrap notranslate">3/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="3" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">3</div>
+            <div class="desc">
+              다음은 예은이네 반 학생들의 통학 시간을 조사하여 나타낸 히스토그램이다.
+              <br>통학 시간이 <span class="notranslate" aria-label="삼십">30</span>분 이상인 학생 수는?
+            </div>
+          </div>
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img03.png" alt="가로축이 통학 시간, 세로축이 학생 수인 히스토그램이 있다.
+통학 시간이 영 분 이상 십분 미만인 학생 수는 여섯 명, 통학 시간이 십 분 이상 이십 분 미만인 학생 수는 열 명, 통학 시간이 이십 분 이상 삼십 분 미만인 학생 수는 열세 명, 통학 시간이 삼십 분 이상 사십 분 미만인 학생 수는 여섯 명, 통학 시간이 사십 분 이상 오십 분 미만인 학생 수는 세 명, 통학 시간이 오십 분 이상 육십 분 미만인 학생 수는 두 명이다.">
+          </div>
+
+          <div class="select-cont-wrap start">
+
+            <button type="button" onclick="handleSelect('#page03', 1)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="여섯">6</span>명</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page03', 2)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="아홉">9</span>명</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page03', 3)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="열한">11</span>명</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                (통화 시간이 <span class="notranslate" aria-label="삼십">30</span>분 이상인 학생 수)
+                <span class="notranslate" aria-label="은 육 플러스 삼 플러스 이 는 열한">=6+3+2=11</span>(명)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                (통화 시간이 <span class="notranslate" aria-label="삼십">30</span>분 이상인 학생 수)
+                <span class="notranslate" aria-label="은 육 플러스 삼 플러스 이 는 열한">=6+3+2=11</span>(명)
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page03');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page04');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page04" class="question">
+
+        <div class="page-num-wrap notranslate">4/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="1" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">4</div>
+            <div class="desc">
+              다음은 현주네 반 학생들의 수면 시간을 조사하여 나타낸 도수분포다각형이다.
+              <br>수면 시간이<span class="notranslate" aria-label="열">10</span>번째로 긴 학생이 속하는 계급은?
+            </div>
+          </div>
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img04.png" alt="가로축이 수면 시간, 세로축이 학생 수인 도수분포다각형이다.
+수면 시간이 네 시간 이상 다섯 시간 미만인 학생 수는 세 명, 수면 시간이 다섯 시간 이상 여섯 시간 미만인 학생 수는 다섯 명, 수면 시간이 여섯 시간 이상 일곱 시간 미만인 학생 수는 아홉 명, 수면 시간이 일곱 시간 이상 여덟 시간 미만인 학생 수는 여덟 명, 수면 시간이 여덟 시간 이상 아홉 시간 미만인 학생 수는 네 명, 수면 시간이 아홉 시간 이상 열 시간 미만인 학생 수는 세 명이다.">
+          </div>
+
+          <div class="select-cont-wrap vertical">
+
+            <button type="button" onclick="handleSelect('#page04', 1)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="일곱">7</span>시간 이상 <span class="notranslate" aria-label="여덟">8</span>시간 미만</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page04', 2)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="여덟">8</span>시간 이상 <span class="notranslate" aria-label="아홉">9</span>시간 미만</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page04', 3)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="아홉">9</span>시간 이상 <span class="notranslate" aria-label="열">10</span>시간 미만</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                수면 시간이
+                <span class="notranslate" aria-label="아홉">9</span>시간 이상인 학생 수는
+                <span class="notranslate" aria-label="세">3</span>명,
+                <span class="notranslate" aria-label="여덟">8</span>시간 이상인 학생 수는
+                <span class="notranslate" aria-label="사 플러스 삼은 일곱">4+3=7</span>(명),
+                <span class="notranslate" aria-label="일곱">7</span>시간 이상인 학생 수는
+                <span class="notranslate" aria-label="팔 플러스 사 플러스 삼은 열다섯">8+4+3=15</span>(명)이므로 수면 시간이 번째로 긴 학생이 속하는 계급은
+                <span class="notranslate" aria-label="일곱">7</span>시간 이상
+                <span class="notranslate" aria-label="여덟">8</span>시간 미만이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                수면 시간이
+                <span class="notranslate" aria-label="아홉">9</span>시간 이상인 학생 수는
+                <span class="notranslate" aria-label="세">3</span>명,
+                <span class="notranslate" aria-label="여덟">8</span>시간 이상인 학생 수는
+                <span class="notranslate" aria-label="사 플러스 삼은 일곱">4+3=7</span>(명),
+                <span class="notranslate" aria-label="일곱">7</span>시간 이상인 학생 수는
+                <span class="notranslate" aria-label="팔 플러스 사 플러스 삼은 열다섯">8+4+3=15</span>(명)이므로 수면 시간이 번째로 긴 학생이 속하는 계급은
+                <span class="notranslate" aria-label="일곱">7</span>시간 이상
+                <span class="notranslate" aria-label="여덟">8</span>시간 미만이다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page04');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-next hide" onclick="handleNext('#page05');">
+            <span>다음 문제</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="page05" class="question">
+
+        <div class="page-num-wrap notranslate">5/5</div>
+
+        <div class="select-type-wrap">
+          <input type="hidden" class="answer-value" value="2" aria-hidden="true">
+          <input type="hidden" class="select-value" value="" aria-hidden="true">
+          <div class="select-header-wrap">
+            <div class="num notranslate">5</div>
+            <div class="desc">
+              다음은 어느 학급 학생들의 수학 성적을 조사하여 나타낸 도수분포다각형이다.
+              <br>성적이 가장 좋은 학생의 수학 점수는?
+            </div>
+          </div>
+
+          <div class="ex-item-wrap">
+            <img src="./images/etc-ex-img05.png" alt="가로축이 점수, 세로축이 학생 수인 도수분포다각형이다.
+사십 점 이상 오십 점 미만인 학생 수는 다섯 명, 오십 점 이상 육십 점 미만인 학생 수는 여덟 명, 육십 점 이상 칠십 점 미만인 학생 수는 열한 명, 칠십 점 이상 팔십 점 미만인 학생 수는 일곱 명, 팔십 점 이상 구십 점 미만인 학생 수는 세 명, 구십 점 이상 백 점 미만인 학생 수는 한 명이다.">
+          </div>
+
+          <div class="select-cont-wrap start">
+            <button type="button" onclick="handleSelect('#page05', 1)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="구십오">95</span>점</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page05', 2)">
+              <span class="ico"></span>
+              <span class="txt ttype"><span class="notranslate" aria-label="백">100</span>점</span>
+            </button>
+            <button type="button" onclick="handleSelect('#page05', 3)">
+              <span class="ico"></span>
+              <span class="txt ttype">알 수 없다.</span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- 오답 결과 -->
+        <div class="result-x result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
+            <span>오답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                도수분포다각형은 자료의 전체적인 분포 상태를 한눈에 알아볼 수 있지만, 성적이 가장 좋은 학생의 수학 점수는 알 수 없다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 정답 결과 -->
+        <div class="result-o result-box-wrap">
+          <div class="icon">
+            <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
+            <span>정답</span>
+          </div>
+          <div class="desc">
+            <div class="text-area">
+              <div class="value">
+                도수분포다각형은 자료의 전체적인 분포 상태를 한눈에 알아볼 수 있지만, 성적이 가장 좋은 학생의 수학 점수는 알 수 없다.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 하단 버튼 영역 -->
+        <div class="bottom">
+          <button type="button" class="btn-confirm" disabled onclick="handleConfirm('#page05');">
+            <img src="./images/ico-btn-chk.png" alt="" aria-hidden="true">
+            <span>정답확인</span>
+          </button>
+          <button type="button" class="btn-reset" onclick="handleOut()">
+            <span>나가기</span>
+          </button>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
