@@ -394,3 +394,5 @@ mjx-mfrac{
 .normal.arr03{background:url(../images/ico-arr03.svg) no-repeat center top;padding-top: 22px;display: inline-block;background-size: contain;}
 .normal.none{padding-top: 22px;display: inline-block;padding-right:20px;}
 .mml10{margin-left:-10px;margin-right:5px;}
+.mmr10{padding-right:10px;}
+.mmt10{transform: translateY(-10px)}
