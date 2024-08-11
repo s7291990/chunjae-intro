@@ -57,41 +57,41 @@ var work = [
 	},
 	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "15", "url": "chap001/sect002/act15/index.html", "date": "2024-08-09", "status": ""
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "16", "url": "chap001/sect002/act16/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "16", "url": "chap001/sect002/act16/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "17", "url": "chap001/sect002/act17/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "17", "url": "chap001/sect002/act17/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "18", "url": "chap001/sect002/act18/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "18", "url": "chap001/sect002/act18/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "19", "url": "chap001/sect002/act19/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "19", "url": "chap001/sect002/act19/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "20", "url": "chap001/sect002/act20/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "20", "url": "chap001/sect002/act20/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "21", "url": "chap001/sect002/act21/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "21", "url": "chap001/sect002/act21/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "22", "url": "chap001/sect002/act22/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "22", "url": "chap001/sect002/act22/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "23", "url": "chap001/sect002/act23/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "23", "url": "chap001/sect002/act23/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "24", "url": "chap001/sect002/act24/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "24", "url": "chap001/sect002/act24/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "25", "url": "chap001/sect002/act25/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "25", "url": "chap001/sect002/act25/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "26", "url": "chap001/sect002/act26/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "26", "url": "chap001/sect002/act26/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "27", "url": "chap001/sect002/act27/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "27", "url": "chap001/sect002/act27/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "28", "url": "chap001/sect002/act28/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "28", "url": "chap001/sect002/act28/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "29", "url": "chap001/sect002/act29/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "29", "url": "chap001/sect002/act29/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "30", "url": "chap001/sect002/act30/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "30", "url": "chap001/sect002/act30/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "31", "url": "chap001/sect002/act31/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "31", "url": "chap001/sect002/act31/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "32", "url": "chap001/sect002/act32/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "32", "url": "chap001/sect002/act32/index.html", "date": "작업중", "status": "작업중"
 	},
-	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "33", "url": "chap001/sect002/act33/index.html", "date": "2024-08-11", "status": ""
+	{ "cate": "m02", "dep01": "당꾸를 찾아라", "dep02": "33", "url": "chap001/sect002/act33/index.html", "date": "작업중", "status": "작업중"
 	},
 
 
