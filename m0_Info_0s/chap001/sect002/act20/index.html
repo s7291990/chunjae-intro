@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -37,7 +37,7 @@
             <div class="num notranslate">1</div>
             <div class="desc">
               다음 다음 그림과 같이 세 직선이 만날 때, 다음 각 중
-              <br><span class="notranslate" aria-label="">\[ \angle\]b</span>의 동위각은?
+              <br><span class="notranslate" aria-label="각 비">\[ \angle\]b</span>의 동위각은?
             </div>
           </div>
 
@@ -48,15 +48,21 @@
 
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt"><span class="angle">\[ \angle e\]</span></span>
+              <span class="txt"><span class="angle" aria-label="각 이">\[ \angle e\]</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt"><span class="angle">\[ \angle f\]</span></span>
+              <span class="txt"><span class="angle" aria-label="각 에프">\[ \angle f\]</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt"><span class="angle">\[ \angle h\]</span></span>
+              <span class="txt"><span class="angle" aria-label="각 에이치">\[ \angle h\]</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -64,15 +70,15 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">\[ \angle\]b</span>의 동위각은
-                <span class="notranslate" aria-label="">\[ \angle\]f</span>이다.
+                <span class="notranslate" aria-label="각 비">\[ \angle\]b</span>의 동위각은
+                <span class="notranslate" aria-label="각 에프">\[ \angle\]f</span>이다.
               </div>
             </div>
           </div>
@@ -80,15 +86,15 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">\[ \angle\]b</span>의 동위각은
-                <span class="notranslate" aria-label="">\[ \angle\]f</span>이다.
+                <span class="notranslate" aria-label="각 비">\[ \angle\]b</span>의 동위각은
+                <span class="notranslate" aria-label="각 에프">\[ \angle\]f</span>이다.
               </div>
             </div>
           </div>
@@ -112,7 +118,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -121,27 +127,33 @@
             <div class="num notranslate">2</div>
             <div class="desc">
               다음 그림과 같이 세 직선이 만날 때, 다음 각 중
-              <br><span class="notranslate" aria-label="와이">\[ \angle\]c</span>의 엇각이 아닌 것은?
+              <br><span class="notranslate" aria-label="각 씨">\[ \angle\]c</span>의 엇각이 아닌 것은?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img02.png" alt="">
+            <img src="./images/etc-ex-img02.png" alt="세 개의 직선이 서로 다른 점에서 교차하여 열두 개의 각을 이루고 있다. 첫 번째 직선과 두 번째 직선이 만나 왼쪽 위부터 시계 반대 방향으로 각 에이, 각 비, 각 씨, 각 디를 이루고 있다. 첫 번째 직선과 세 번째 직선이 만나 왼쪽 위부터 시계 반대 방향으로 각 이, 각 에프, 각 쥐, 각 에이치를 이루고 있다. 두 번째 직선과 세 번째 직선이 만나 왼쪽 위부터 시계 반대 방향으로 각 아이, 각 제이, 각 케이, 각 엘을 이루고 있다.">
           </div>
 
           <div class="select-cont-wrap notranslate start">
 
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt"><span class="angle">\[ \angle e\]</span></span>
+              <span class="txt"><span class="angle" aria-label="각 이">\[ \angle e\]</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt"><span class="angle">\[ \angle j\]</span></span>
+              <span class="txt"><span class="angle" aria-label="각 제이">\[ \angle j\]</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt"><span class="angle">\[ \angle l\]</span></span>
+              <span class="txt"><span class="angle" aria-label="각 엘">\[ \angle l\]</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -149,17 +161,17 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">\[ \angle\]c</span>의 엇각은
-                <span class="notranslate" aria-label="">\[ \angle\]e</span>와
-                <span class="notranslate" aria-label="">\[ \angle\]l</span>이므로
-                <span class="notranslate" aria-label="">\[ \angle\]j</span>는 엇각이 아니다.
+                <span class="notranslate" aria-label="각 씨">\[ \angle\]c</span>의 엇각은
+                <span class="notranslate" aria-label="각 이">\[ \angle\]e</span>와
+                <span class="notranslate" aria-label="각 엘">\[ \angle\]l</span>이므로
+                <span class="notranslate" aria-label="각 제이">\[ \angle\]j</span>는 엇각이 아니다.
               </div>
             </div>
           </div>
@@ -167,17 +179,17 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">\[ \angle\]c</span>의 엇각은
-                <span class="notranslate" aria-label="">\[ \angle\]e</span>와
-                <span class="notranslate" aria-label="">\[ \angle\]l</span>이므로
-                <span class="notranslate" aria-label="">\[ \angle\]j</span>는 엇각이 아니다.
+                <span class="notranslate" aria-label="각 씨">\[ \angle\]c</span>의 엇각은
+                <span class="notranslate" aria-label="각 이">\[ \angle\]e</span>와
+                <span class="notranslate" aria-label="각 엘">\[ \angle\]l</span>이므로
+                <span class="notranslate" aria-label="각 제이">\[ \angle\]j</span>는 엇각이 아니다.
               </div>
             </div>
           </div>
@@ -201,7 +213,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -209,13 +221,13 @@
           <div class="select-header-wrap" tabindex="0">
             <div class="num notranslate">3</div>
             <div class="desc">
-              다음 그림에서 <span class="notranslate" aria-label="">l<span class="math">8</span>m</span>일 때,
-              <span class="notranslate" aria-label="">\[ \angle\]x</span>의 크기는?
+              다음 그림에서 <span class="notranslate" aria-label="엘과 엠이 평행">l<span class="math">8</span>m</span>일 때,
+              <span class="notranslate" aria-label="각 엑스">\[ \angle\]x</span>의 크기는?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img03.png" alt="">
+            <img src="./images/etc-ex-img03.png" alt="직선 엘과 직선 엠을 가로지르는 한 개의 직선이 여덟 개의 각을 이루고 있다. 직선 엘과 이를 가로지르는 직선이 교차하는 지점에 백이십도가 표시되어 있다. 직선 엠과 이를 가로지르는 직선이 교차하는 지점에 엑스가 표시되어 있다. 백이십도와 엑스는 위치상 마주 보고 있다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
@@ -223,30 +235,36 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="백도">100^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="백십도">110^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="백이십도">120^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                직선 <span class="notranslate" aria-label="">l</span>과 직선
-                <span class="notranslate" aria-label="">m</span>이 평행이므로
-                <span class="notranslate" aria-label="">\[ \angle\]x=120^</span> (엇각)
+                직선 <span class="notranslate" aria-label="엘">l</span>과 직선
+                <span class="notranslate" aria-label="엠">m</span>이 평행이므로
+                <span class="notranslate" aria-label="각 엑스는 백이십 도">\[ \angle\]x=120^</span> (엇각)
               </div>
             </div>
           </div>
@@ -254,16 +272,16 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                직선 <span class="notranslate" aria-label="">l</span>과 직선
-                <span class="notranslate" aria-label="">m</span>이 평행이므로
-                <span class="notranslate" aria-label="">\[ \angle\]x=120^</span> (엇각)
+                직선 <span class="notranslate" aria-label="엘">l</span>과 직선
+                <span class="notranslate" aria-label="엠">m</span>이 평행이므로
+                <span class="notranslate" aria-label="각 엑스는 백이십 도">\[ \angle\]x=120^</span> (엇각)
               </div>
             </div>
           </div>
@@ -287,7 +305,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -295,7 +313,7 @@
           <div class="select-header-wrap middle">
             <div class="num notranslate">4</div>
             <div class="desc">
-              다음 중 두 직선 <span class="notranslate" aria-label="">l, m</span>이 서로 평행하지 않는 것은?
+              다음 중 두 직선 <span class="notranslate" aria-label="엘 콤마 엠">l, m</span>이 서로 평행하지 않는 것은?
             </div>
           </div>
 
@@ -303,31 +321,37 @@
 
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page04-img01.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page04-img01.png" alt="평행선 엘과 엠을 가로지르는 한 개의 직선이 여덟 개의 각을 이루고 있다. 직선 엘과 이를 가로지르는 직선이 교차하는 지점에 백삼십도가 표시되어 있다. 직선 엠과 이를 가로지르는 직선이 교차하는 지점에 육십도가 표시되어 있다. 백삼십도와 육십도는 위치상 옆에 붙어 있다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page04-img02.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page04-img02.png" alt="평행선 엘과 엠을 가로지르는 한 개의 직선이 여덟 개의 각을 이루고 있다. 직선 엘과 이를 가로지르는 직선이 교차하는 지점에 백이십도가 표시되어 있다. 직선 엠과 이를 가로지르는 직선이 교차하는 지점에 백이십도가 표시되어 있다. 백이십도와 백이십도는 위치상 마주 보고 있다. "></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page04-img03.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page04-img03.png" alt="평행선 엘과 엠을 가로지르는 한 개의 직선이 여덟 개의 각을 이루고 있다. 직선 엘과 이를 가로지르는 직선이 교차하는 지점에 백십도가 표시되어 있다. 직선 엠과 이를 가로지르는 직선이 교차하는 지점에 칠십도가 표시되어 있다. 백삼십도와 육십도는 위치상 옆에 붙어 있다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                첫 번째 보기에서 <span class="notranslate" aria-label="">180^-130^=50^</span> 이므로 동위각의 크기가
-                <br><span class="notranslate" aria-label="">50^, 60^</span> 로 같지 않으므로 두 직선
-                <span class="notranslate" aria-label="">l, m</span>은
+                첫 번째 보기에서 <span class="notranslate" aria-label="백팔십 도 마이너스 백삼십 도는 오십 도">180^-130^=50^</span> 이므로 동위각의 크기가
+                <br><span class="notranslate" aria-label="오십 도 콤마 육십 도">50^, 60^</span> 로 같지 않으므로 두 직선
+                <span class="notranslate" aria-label="엘 콤마 엠">l, m</span>은
                 <br>서로 평행하지 않다.
               </div>
             </div>
@@ -336,16 +360,16 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                첫 번째 보기에서 <span class="notranslate" aria-label="">180^-130^=50^</span> 이므로 동위각의 크기가
-                <br><span class="notranslate" aria-label="">50^, 60^</span> 로 같지 않으므로 두 직선
-                <span class="notranslate" aria-label="">l, m</span>은
+                첫 번째 보기에서 <span class="notranslate" aria-label="백팔십 도 마이너스 백삼십 도는 오십 도">180^-130^=50^</span> 이므로 동위각의 크기가
+                <br><span class="notranslate" aria-label="오십 도 콤마 육십 도">50^, 60^</span> 로 같지 않으므로 두 직선
+                <span class="notranslate" aria-label="엘 콤마 엠">l, m</span>은
                 <br>서로 평행하지 않다.
               </div>
             </div>
@@ -370,7 +394,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -378,27 +402,33 @@
           <div class="select-header-wrap middle">
             <div class="num notranslate">5</div>
             <div class="desc">
-              다음 그림에서 <span class="notranslate" aria-label="">l<span class="math">8</span>m</span>일 때,
-              <span class="notranslate" aria-label="">\[ \angle\]x</span>의 크기는?
+              다음 그림에서 <span class="notranslate" aria-label="엘과 엠이 평행">l<span class="math">8</span>m</span>일 때,
+              <span class="notranslate" aria-label="각 엑스">\[ \angle\]x</span>의 크기는?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img04.png" alt="">
+            <img src="./images/etc-ex-img04.png" alt="평행한 직선 엘과 직선 엠 사이에 한 번 꺾인 모양의 선분이 두 평행선을 연결하고 있다. 직선 엘과 꺾인 모양의 선분이 각 삼십오도를 이루고 있고 직선 엠과 꺾인 모양의 선분이 엑스를 이루고 있다. 꺾인 모양의 선분에 꺾인 부분은 직각을 나타내는 기호가 있다.">
           </div>
 
           <div class="select-cont-wrap notranslate start">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="사십오도">45^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="오십도">50^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="오십오도">55^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -406,15 +436,15 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">90^=\[ \angle\]x+35^</span>이므로
-                <span class="notranslate" aria-label="">\[ \angle\]x=55^</span>
+                <span class="notranslate" aria-label="구십 도는 각 엑스 플러스 삼십오 도">90^=\[ \angle\]x+35^</span>이므로
+                <span class="notranslate" aria-label="각 엑스는 오십오 도">\[ \angle\]x=55^</span>
               </div>
             </div>
           </div>
@@ -422,15 +452,15 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">90^=\[ \angle\]x+35^</span>이므로
-                <span class="notranslate" aria-label="">\[ \angle\]x=55^</span>
+                <span class="notranslate" aria-label="구십 도는 각 엑스 플러스 삼십오 도">90^=\[ \angle\]x+35^</span>이므로
+                <span class="notranslate" aria-label="각 엑스는 오십오 도">\[ \angle\]x=55^</span>
               </div>
             </div>
           </div>

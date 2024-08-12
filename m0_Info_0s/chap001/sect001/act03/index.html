@@ -29,7 +29,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -42,26 +42,32 @@
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="에이 곱하기 삼 더하기 비는 삼에이비">a_3+b=3ab</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="마이너스 영점일 곱하기 엑스 곱하기 와이는 마이너스 영점엑스와이">(-0.1)_x_y=0.xy</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="에이 나누기 비 곱하기 이 분의 일은 이비 분의 에이">a/b_\[ \frac{1}{2}\]=\[ \frac{a}{2b}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value" aria-label="① 에이 곱하기 삼 더하기 비는 삼에이 더하기 비
 ② 마이너스 영점일 곱하기 엑스 곱하기 와이는 마이너스 영점일 곱하기 엑스와이는 마이너스 영점일엑스와이
 ③ 에이 나누기 비 곱하기 이 분의 일은 에이 곱하기 비 분의 일 곱하기 이 분의 일은 이비 분의 에이">
@@ -76,12 +82,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value" aria-label="① 에이 곱하기 삼 더하기 비는 삼에이 더하기 비
 ② 마이너스 영점일 곱하기 엑스 곱하기 와이는 마이너스 영점일 곱하기 엑스와이는 마이너스 영점일엑스와이
 ③ 에이 나누기 비 곱하기 이 분의 일은 에이 곱하기 비 분의 일 곱하기 이 분의 일은 이비 분의 에이">
@@ -111,7 +117,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -126,26 +132,32 @@
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
               <span class="txt">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
               <span class="txt">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
               <span class="txt">6</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="마이너스 이 분의 일 에이 더하기 오">-\[ \frac{1}{2}\] a+5</span>에
                 <span class="notranslate" aria-label="에이는 마이너스 이">a=-2</span>를 대입하면
@@ -157,12 +169,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="마이너스 이 분의 일 에이 더하기 오">-\[ \frac{1}{2}\] a+5</span>에
                 <span class="notranslate" aria-label="에이는 마이너스 이">a=-2</span>를 대입하면
@@ -190,7 +202,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -203,26 +215,32 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt">5</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="사 분의 비 빼기 일">\[ \frac{b}{4}\]-1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="일 더하기 비의 제곱">1+b<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 차수가 <span class="notranslate" aria-label="일">1</span>인 다항식을 일차식이라고 한다.
                 <br><span class="notranslate">5</span>는 상수항이므로 일차식이 아니다.
@@ -235,12 +253,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 차수가 <span class="notranslate" aria-label="일">1</span>인 다항식을 일차식이라고 한다.
                 <br><span class="notranslate">5</span>는 상수항이므로 일차식이 아니다.
@@ -269,7 +287,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -282,26 +300,32 @@
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="마이너스 육 곱하기 이엑스는 마이너스 십이엑스">-6_2x=-12x</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="이 분의 일엑스와 삼 분의 이의 합 곱하기 육은 삼엑스 더하기 사">(\[ \frac{1}{2}\] x+\[ \frac{2}{3}\])_6=3x+4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼엑스 빼기 사의 두 배는 삼 엑스의 제곱 빼기 팔">(3x-4)_2=3x2-8</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="마이너스 육 곱하기 이엑스는 마이너스 십이엑스">-6_2x=-12x</span>
                 <br><span class="notranslate" aria-label="이분의 일엑스와 삼 분의 이의 합 곱하기 육은 이 분의 일엑스 곱하기 육 더하기 삼 분의 이 곱하기 육은 삼엑스 더하기 사">(\[ \frac{1}{2}\]x+(\[ \frac{2}{3}\])_6=(\[ \frac{1}{2}\]x_6+(\[ \frac{2}{3}\]_6=3x+4</span>
@@ -314,12 +338,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="마이너스 육 곱하기 이엑스는 마이너스 십이엑스">-6_2x=-12x</span>
                 <br><span class="notranslate" aria-label="이분의 일엑스와 삼 분의 이의 합 곱하기 육은 이 분의 일엑스 곱하기 육 더하기 삼 분의 이 곱하기 육은 삼엑스 더하기 사">(\[ \frac{1}{2}\]x+(\[ \frac{2}{3}\])_6=(\[ \frac{1}{2}\]x_6+(\[ \frac{2}{3}\]_6=3x+4</span>
@@ -347,7 +371,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -360,14 +384,20 @@
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="에이, 마이너스 비">a, -b</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="에이의 제곱, 이에이">a<span class="cup">2</span>, 2a</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="마이너스 에이, 영점이에이">-a, 0.2a</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -375,12 +405,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 문자와 차수가 각각 같은 항을 동류항이라고 한다.
                 <br>첫 번째 보기는 문자가 서로 다르며, 두 번째 보기는 문자는
@@ -393,12 +423,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 문자와 차수가 각각 같은 항을 동류항이라고 한다.
                 <br>첫 번째 보기는 문자가 서로 다르며, 두 번째 보기는 문자는

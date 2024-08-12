@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -43,15 +43,21 @@
 
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page01-img01.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page01-img01.png" alt="오각형 그림이다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page01-img02.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page01-img02.png" alt="사각뿔 그림이다. "></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page01-img03.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page01-img03.png" alt="삼각기둥 그림이다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -59,16 +65,16 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                오각형의 교점은 <span class="notranslate" aria-label="">5</span>개, 사각뿔은 교점은
-                <span class="notranslate" aria-label="">5</span>개, 삼각기둥의
-                <br>교점은 <span class="notranslate" aria-label="">6</span>개다. 따라서 교점의 개수가 다른 것은 삼각기둥이다.
+                오각형의 교점은 <span class="notranslate" aria-label="다섯">5</span>개, 사각뿔은 교점은
+                <span class="notranslate" aria-label="다섯">5</span>개, 삼각기둥의
+                <br>교점은 <span class="notranslate" aria-label="여섯">6</span>개다. 따라서 교점의 개수가 다른 것은 삼각기둥이다.
               </div>
             </div>
           </div>
@@ -76,16 +82,16 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                오각형의 교점은 <span class="notranslate" aria-label="">5</span>개, 사각뿔은 교점은
-                <span class="notranslate" aria-label="">5</span>개, 삼각기둥의
-                <br>교점은 <span class="notranslate" aria-label="">6</span>개다. 따라서 교점의 개수가 다른 것은 삼각기둥이다.
+                오각형의 교점은 <span class="notranslate" aria-label="여섯">5</span>개, 사각뿔은 교점은
+                <span class="notranslate" aria-label="여섯">5</span>개, 삼각기둥의
+                <br>교점은 <span class="notranslate" aria-label="여섯">6</span>개다. 따라서 교점의 개수가 다른 것은 삼각기둥이다.
               </div>
             </div>
           </div>
@@ -109,7 +115,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -118,27 +124,33 @@
             <div class="num notranslate">2</div>
             <div class="desc">
               다음 그림과 같이 한 직선 위에 세 점
-              <br><span class="notranslate normal" aria-label="">A, B, C</span>가 있다. 다음 중 다른 하나는?
+              <br><span class="notranslate normal" aria-label="에이 콤마 비 콤마 씨">A, B, C</span>가 있다. 다음 중 다른 하나는?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img01.png" alt="">
+            <img src="./images/etc-ex-img01.png" alt="수직선 위에 점이 왼쪽부터 순서대로 대문자 에이, 대문자 비, 대문자 씨 순으로 그려져 있다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt"><span class="normal arr03">AB</span></span>
+              <span class="txt"><span class="normal arr03" aria-label="오른쪽 반직선 대문자 에이 비">AB</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt"><span class="normal arr03">BC</span></span>
+              <span class="txt"><span class="normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt"><span class="normal arr03">AC</span></span>
+              <span class="txt"><span class="normal arr03" aria-label="오른쪽 반직선 대문자 에이 씨">AC</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -146,17 +158,17 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate normal arr03">AB</span>와
-                <span class="notranslate normal arr03">AC</span>는 시작점과 방향이 모두 같으므로 같은
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 에이 비">AB</span>와
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 에이 씨">AC</span>는 시작점과 방향이 모두 같으므로 같은
                 <br>반직선이다. 따라서 다른 하나는
-                <span class="notranslate normal arr03">BC</span>이다.
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span>이다.
               </div>
             </div>
           </div>
@@ -164,17 +176,17 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate normal arr03">AB</span>와
-                <span class="notranslate normal arr03">AC</span>는 시작점과 방향이 모두 같으므로 같은
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 에이 비">AB</span>와
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 에이 씨">AC</span>는 시작점과 방향이 모두 같으므로 같은
                 <br>반직선이다. 따라서 다른 하나는
-                <span class="notranslate normal arr03">BC</span>이다.
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span>이다.
               </div>
             </div>
           </div>
@@ -198,7 +210,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -206,46 +218,52 @@
           <div class="select-header-wrap" tabindex="0">
             <div class="num notranslate">3</div>
             <div class="desc">
-              다음 그림과 같이 한 직선 위에 세 점 <span class="notranslate normal" aria-label="">A, B, C</span>가 있다.
+              다음 그림과 같이 한 직선 위에 세 점 <span class="notranslate normal" aria-label="대문자 에이 콤마 대문자 비 콤마 대문자 씨">A, B, C</span>가 있다.
               <br>다음 중 짝지어진 것이 서로 다른 것은?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img02.png" alt="">
+            <img src="./images/etc-ex-img02.png" alt="수직선 위에 점이 왼쪽부터 순서대로 대문자 에이, 대문자 비, 대문자 씨 순으로 그려져 있다.">
           </div>
 
           <div class="select-cont-wrap vertical notranslate">
 
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt"><span class="normal arr02" aria-label="">AB</span><span class="normal none" aria-label="">, </span> <span class="normal arr02" aria-label="">BA</span></span>
+              <span class="txt" aria-label="선분 대문자 에이 비 콤마 선분 대문자 비 에이"><span class="normal arr02">AB</span><span class="normal none">, </span> <span class="normal arr02">BA</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt"><span class="normal arr03" aria-label="">BC</span><span class="normal none" aria-label="">, </span> <span class="normal arr03" aria-label="">CB</span></span>
+              <span class="txt" aria-label="오른쪽 반직선 대문자 비 씨 콤마 오른쪽 반직선 대문자 씨 비"><span class="normal arr03">BC</span><span class="normal none">, </span> <span class="normal arr03">CB</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt"><span class="normal arr01" aria-label="">AC</span><span class="normal none" aria-label="">, </span> <span class="normal arr01" aria-label="">CA</span></span>
+              <span class="txt" aria-label="직선 대문자 에이 씨 콤마 직선 대문자 씨 에이"><span class="normal arr01">AC</span><span class="normal none">, </span> <span class="normal arr01">CA</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate normal arr03" aria-label="">BC</span>와
-                <span class="notranslate normal arr03" aria-label="">CB</span>는 시작점과 방향이 모두 다르므로 같은
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span>와
+                <span class="notranslate normal arr03" aria-label="른쪽 반직선 대분자 씨 비">CB</span>는 시작점과 방향이 모두 다르므로 같은
                 <br>반직선이 아니다. 따라서 서로 다른 것은
-                <span class="notranslate normal arr03" aria-label="">BC</span>,
-                <span class="notranslate normal arr03" aria-label="">CB</span>
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span>,
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 씨 비">CB</span>
                 <br>이다.
               </div>
             </div>
@@ -254,18 +272,18 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate normal arr03" aria-label="">BC</span>와
-                <span class="notranslate normal arr03" aria-label="">CB</span>는 시작점과 방향이 모두 다르므로 같은
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span>와
+                <span class="notranslate normal arr03" aria-label="른쪽 반직선 대분자 씨 비">CB</span>는 시작점과 방향이 모두 다르므로 같은
                 <br>반직선이 아니다. 따라서 서로 다른 것은
-                <span class="notranslate normal arr03" aria-label="">BC</span>,
-                <span class="notranslate normal arr03" aria-label="">CB</span>
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 비 씨">BC</span>,
+                <span class="notranslate normal arr03" aria-label="오른쪽 반직선 대문자 씨 비">CB</span>
                 <br>이다.
               </div>
             </div>
@@ -290,7 +308,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -299,54 +317,60 @@
             <div class="num notranslate">4</div>
             <div class="desc">
               다음 그림에서
-              <span class="notranslate normal arr02" aria-label="">AB</span>
-              <span class="notranslate" aria-label="">=</span>
-              <span class="notranslate math" aria-label="">2</span>
-              <span class="notranslate normal arr02 mml10" aria-label="">AB</span>이다. 이때
-              <span class="notranslate math" aria-label="">2</span>안에
+              <span class="notranslate normal arr02" aria-label="선분 대문자 에이 비">AB</span>
+              <span class="notranslate" aria-label="는">=</span>
+              <span class="notranslate math" aria-label="네모">2</span>
+              <span class="notranslate normal arr02 mml10" aria-label="곱하기 선분 대문자 에이 큐">AQ</span>이다. 이때
+              <span class="notranslate math" aria-label="네모">2</span>안에
               <br>알맞은 수는?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img03.png" alt="">
+            <img src="./images/etc-ex-img03.png" alt="수직선 위에 점이 왼쪽부터 순서대로 대문자 에이, 대문자 큐, 대문자 피, 대문자 비 순으로 그려져 있다. 이때, 점 대문자 피는 선분 대문자 에이 비의 중점이고 점 대문자 큐는 선분 대문자 에이 피의 중점이다.]">
           </div>
 
           <div class="select-cont-wrap notranslate start">
 
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt">2</span>
+              <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt">3</span>
+              <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt">4</span>
+              <span class="txt" aria-label="사">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate normal arr02" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AP</span>이고
-                <span class="notranslate normal arr02" aria-label="">AP</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AQ</span>이므로
-                <span class="notranslate normal arr02" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AQ</span>이다.
+                <span class="notranslate normal arr02" aria-label="선분 대문자 에이 비">AB</span>
+                <span class="notranslate" aria-label="는 이">=2</span>
+                <span class="notranslate normal arr02 mml10" aria-label="선분 대문자 에이 피">AP</span>이고
+                <span class="notranslate normal arr02" aria-label="선분 대문자 에이 피">AP</span>
+                <span class="notranslate" aria-label="는 이 ">=2</span>
+                <span class="notranslate normal arr02 mml10" aria-label="선분 대문자 에이 큐">AQ</span>이므로
+                <span class="notranslate normal arr02" aria-label="선분 대문자 에이 비">AB</span>
+                <span class="notranslate" aria-label="는 사 ">=4</span>
+                <span class="notranslate normal arr02 mml10" aria-label="선분 대문자 에이 큐">AQ</span>이다.
               </div>
             </div>
           </div>
@@ -354,22 +378,22 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate normal arr02" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AP</span>이고
-                <span class="notranslate normal arr02" aria-label="">AP</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AQ</span>이므로
-                <span class="notranslate normal arr02" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AQ</span>이다.
+                <span class="notranslate normal arr02" aria-label="선분 대문자 에이 비">AB</span>
+                <span class="notranslate" aria-label="는 이">=2</span>
+                <span class="notranslate normal arr02 mml10" aria-label="선분 대문자 에이 피">AP</span>이고
+                <span class="notranslate normal arr02" aria-label="선분 대문자 에이 피">AP</span>
+                <span class="notranslate" aria-label="는 이 ">=2</span>
+                <span class="notranslate normal arr02 mml10" aria-label="선분 대문자 에이 큐">AQ</span>이므로
+                <span class="notranslate normal arr02" aria-label="선분 대문자 에이 비">AB</span>
+                <span class="notranslate" aria-label="는 사 ">=4</span>
+                <span class="notranslate normal arr02 mml10" aria-label="선분 대문자 에이 큐">AQ</span>이다.
               </div>
             </div>
           </div>
@@ -393,7 +417,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -401,32 +425,38 @@
           <div class="select-header-wrap" tabindex="0">
             <div class="num notranslate">5</div>
             <div class="desc">
-              다음 그림에서 두 점 <span class="notranslate normal" aria-label="">M, N</span>은 각각
-              <span class="notranslate normal arr02" aria-label="">AB</span>
-              <span class="notranslate" aria-label="">,</span>
-              <span class="notranslate normal arr02" aria-label="">BC</span>의
+              다음 그림에서 두 점 <span class="notranslate normal" aria-label="대문자 엠 콤마 대문자 엔">M, N</span>은 각각
+              <span class="notranslate normal arr02" aria-label="선분 대문자 에이 비">AB</span>
+              <span class="notranslate" aria-label="콤마">,</span>
+              <span class="notranslate normal arr02" aria-label="선분 대문자 비 씨">BC</span>의
 
               <br>중점이다. 선분
-              <span class="notranslate normal" aria-label="">AC</span>의 길이는?
+              <span class="notranslate normal" aria-label="대문자 에이 씨">AC</span>의 길이는?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img04.png" alt="">
+            <img src="./images/etc-ex-img04.png" alt="수직선 위에 점이 왼쪽부터 순서대로 대문자 에이, 대문자 엠, 대문자 비, 대문자 엔, 대문자 씨 순으로 그려져 있다. 이때, 선분 대문자 에이 엠은 사 센티미터, 선분 대문자 엔 씨는 이 센티미터이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
-              <span class="txt">12cm</span>
+              <span class="txt" aria-label="십이 센티미터">12cm</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
-              <span class="txt">13cm</span>
+              <span class="txt" aria-label="십삼 센티미터">13cm</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
-              <span class="txt">14cm</span>
+              <span class="txt" aria-label="십사 센티미터">14cm</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -434,24 +464,24 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
-              <div class="value">
-                <span class="notranslate normal arr02" aria-label="">AC</span>
-                <span class="notranslate" aria-label="">=</span>
-                <span class="notranslate normal arr02" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">+</span>
-                <span class="notranslate normal arr02" aria-label="">BC</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">+2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">NC</span>이므로
-                <br><span class="notranslate normal arr02" aria-label="">AC</span>
-                <span class="notranslate" aria-label="">=2_4+2_2=12</span>
+            <div class="text-area" tabindex="0">
+              <div class="value" aria-label="선분 대문자 에이 씨는 선분 대문자 에이 비 플러스 선분 대문자 비 씨는 이 선분 대문자 에이 엠 플러스 이 선분 대문자 엔 씨 이므로 선분 대문자 에이 씨는 이 곱하기 사 플러스 이 곱하기 이는 십이">
+                <span class="notranslate normal arr02">AC</span>
+                <span class="notranslate">=</span>
+                <span class="notranslate normal arr02">AB</span>
+                <span class="notranslate">+</span>
+                <span class="notranslate normal arr02">BC</span>
+                <span class="notranslate">=2</span>
+                <span class="notranslate normal arr02 mml10">AB</span>
+                <span class="notranslate">+2</span>
+                <span class="notranslate normal arr02 mml10">NC</span>이므로
+                <br><span class="notranslate normal arr02">AC</span>
+                <span class="notranslate">=2_4+2_2=12</span>
               </div>
             </div>
           </div>
@@ -459,24 +489,24 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
-              <div class="value">
-                <span class="notranslate normal arr02" aria-label="">AC</span>
-                <span class="notranslate" aria-label="">=</span>
-                <span class="notranslate normal arr02" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">+</span>
-                <span class="notranslate normal arr02" aria-label="">BC</span>
-                <span class="notranslate" aria-label="">=2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">AB</span>
-                <span class="notranslate" aria-label="">+2</span>
-                <span class="notranslate normal arr02 mml10" aria-label="">NC</span>이므로
-                <br><span class="notranslate normal arr02" aria-label="">AC</span>
-                <span class="notranslate" aria-label="">=2_4+2_2=12</span>
+            <div class="text-area" tabindex="0">
+              <div class="value" aria-label="선분 대문자 에이 씨는 선분 대문자 에이 비 플러스 선분 대문자 비 씨는 이 선분 대문자 에이 엠 플러스 이 선분 대문자 엔 씨 이므로 선분 대문자 에이 씨는 이 곱하기 사 플러스 이 곱하기 이는 십이">
+                <span class="notranslate normal arr02">AC</span>
+                <span class="notranslate">=</span>
+                <span class="notranslate normal arr02">AB</span>
+                <span class="notranslate">+</span>
+                <span class="notranslate normal arr02">BC</span>
+                <span class="notranslate">=2</span>
+                <span class="notranslate normal arr02 mml10">AB</span>
+                <span class="notranslate">+2</span>
+                <span class="notranslate normal arr02 mml10">NC</span>이므로
+                <br><span class="notranslate normal arr02">AC</span>
+                <span class="notranslate">=2_4+2_2=12</span>
               </div>
             </div>
           </div>

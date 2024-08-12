@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -44,14 +44,20 @@
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 삼 곱하기 엑스 더하기 오 곱하기 와이 괄호 닫고">(3_x+5_y)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 오 곱하기 엑스 더하기 삼 곱하기 와이 괄호 닫고 ">(5_x+3_y)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 삼 나누기 엑스 더하기 오 곱하기 와이 괄호 닫고">(3/x+5_y)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -59,12 +65,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 한 자루에 <span class="notranslate" aria-label="엑스">x</span>원인 연필 <span class="notranslate" aria-label="오">5</span>자루는
                 <span class="notranslate" aria-label="오 곱하기 엑스">5_x</span>원이고,
@@ -78,12 +84,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 한 자루에 <span class="notranslate" aria-label="엑스">x</span>원인 연필 <span class="notranslate" aria-label="오">5</span>자루는
                 <span class="notranslate" aria-label="오 곱하기 엑스">5_x</span>원이고,
@@ -113,7 +119,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -129,14 +135,20 @@
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="육 엑스 와이">6xy</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="육 엑스의 제곱 와이의 세제곱">6x<span class="cup">2</span>y<span class="cup">3</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="분수 시작 육 분의 엑스의 제곱 와이의 세제곱 분수 끝">\[ \frac{x^2y^3}{6}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -144,12 +156,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="엑스 곱하기 엑스 곱하기 와이 곱하기 와이 곱하기 와이 곱하기 육은 육 엑스의 제곱 와이의 세제곱">x_x_y_y_y_6=6x<span class="cup">2</span>y<span class="cup">3</span></span>
               </div>
@@ -159,12 +171,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="엑스 곱하기 엑스 곱하기 와이 곱하기 와이 곱하기 와이 곱하기 육은 육 엑스의 제곱 와이의 세제곱">x_x_y_y_y_6=6x<span class="cup">2</span>y<span class="cup">3</span></span>
               </div>
@@ -190,7 +202,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -204,26 +216,32 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="칠엑스 빼기 삼와이">7x-3x</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="칠엑스 빼기 와이 분의 삼">\[7x-\frac{3}{y}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="칠엑스 빼기 삼 분의 와이">\[7x-\frac{y}{3}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="칠 곱하기 엑스 더하기 와이 나누기 괄호 열고 마이너스 삼 괄호 닫고 는 칠 곱하기 엑스 더하기 와이 곱하기 괄호 열고 마이너스 삼 분의 일 괄호 닫고 는 칠엑스 빼기 삼 분의 와이">7_x+y/(-3)=7_x+y_(-\[ \frac{1}{3}\])=7x-\[ \frac{y}{3}\]</span>
               </div>
@@ -233,12 +251,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="칠 곱하기 엑스 더하기 와이 나누기 괄호 열고 마이너스 삼 괄호 닫고 는 칠 곱하기 엑스 더하기 와이 곱하기 괄호 열고 마이너스 삼 분의 일 괄호 닫고 는 칠엑스 빼기 삼 분의 와이">7_x+y/(-3)=7_x+y_(-\[ \frac{1}{3}\])=7x-\[ \frac{y}{3}\]</span>
               </div>
@@ -264,7 +282,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -280,14 +298,20 @@
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="영">0</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="일">1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
             <div class="ex-item-wrap" aria-label="엑스 더하기 와이분의 삼">
@@ -298,12 +322,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="엑스 더하기 와이분의 삼 는 괄호 열고 음의 일 괄호 닫고 더하기 삼분의 삼 은 괄호열고 음의 일 괄호 닫고 더하기 일 은 영">x+\[ \frac{3}{y}\]=(-1)+\[ \frac{3}{3}\]=(-1)+1=0</span>
               </div>
@@ -313,12 +337,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="엑스 더하기 와이분의 삼 는 괄호 열고 음의 일 괄호 닫고 더하기 삼분의 삼 은 괄호열고 음의 일 괄호 닫고 더하기 일 은 영">x+\[ \frac{3}{y}\]=(-1)+\[ \frac{3}{3}\]=(-1)+1=0</span>
               </div>
@@ -344,7 +368,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -360,14 +384,20 @@
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="육">6</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="구">9</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
             <div class="ex-item-wrap" aria-label="이 엑스 이의 제곱 빼기 와이">
@@ -379,12 +409,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="이 엑스 제곱 이 빼기 와이 는 이 곱하기 괄호열고 이 괄호 닫고 제곱 이 빼기 괄호열고 음의 일 괄호 닫고 는 팔 더하기 일은 구">2x<span class="cup">2</span>-y=2_(2)<span class="cup">2</span>-(-1)=8+1=9</span>
               </div>
@@ -394,12 +424,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="이 엑스 제곱 이 빼기 와이 는 이 곱하기 괄호열고 이 괄호 닫고 제곱 이 빼기 괄호열고 음의 일 괄호 닫고 는 팔 더하기 일은 구">2x<span class="cup">2</span>-y=2_(2)<span class="cup">2</span>-(-1)=8+1=9</span>
               </div>

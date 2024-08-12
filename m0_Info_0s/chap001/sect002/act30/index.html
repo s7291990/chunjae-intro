@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -47,14 +47,20 @@
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="일">1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -62,12 +68,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 (평균)<span class="notranslate" aria-label="분수 시작 오 분의 일 플러스 이 플러스 삼 플러스 사 플러스 오 분수 끝은 삼 ">\[= \frac{1+2+3+4+5}{5}=3\]</span>
               </div>
@@ -77,12 +83,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 (평균)<span class="notranslate" aria-label="분수 시작 오 분의 일 플러스 이 플러스 삼 플러스 사 플러스 오 분수 끝은 삼 ">\[= \frac{1+2+3+4+5}{5}=3\]</span>
               </div>
@@ -108,7 +114,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -129,14 +135,20 @@
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="일">1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -144,12 +156,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 변량을 작은 값부터 크기순으로 나열하면
                 <br><span class="notranslate" aria-label="와이">1, 2, 3, 3, 3</span>이므로 중앙값은
@@ -161,12 +173,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 변량을 작은 값부터 크기순으로 나열하면
                 <br><span class="notranslate" aria-label="와이">1, 2, 3, 3, 3</span>이므로 중앙값은
@@ -194,7 +206,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -215,26 +227,32 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="일">1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 변량 중에서 가장 많이 나타나는 값은 <span class="notranslate" aria-label="일">1</span>이므로 최빈값은 <span class="notranslate" aria-label="일">1</span>이다.
               </div>
@@ -244,12 +262,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 변량 중에서 가장 많이 나타나는 값은 <span class="notranslate" aria-label="일">1</span>이므로 최빈값은 <span class="notranslate" aria-label="일">1</span>이다.
               </div>
@@ -275,7 +293,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -296,26 +314,32 @@
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
               <span class="txt ttype">평균</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
               <span class="txt ttype">중앙값</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
               <span class="txt ttype">최빈값</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 변량을 작은 값부터 크기순으로 나열하면
                 <br><span class="notranslate" aria-label="">1, 1, 1, 2, 3, 4, 5</span>이므로
@@ -329,12 +353,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 변량을 작은 값부터 크기순으로 나열하면
                 <br><span class="notranslate" aria-label="">1, 1, 1, 2, 3, 4, 5</span>이므로
@@ -364,7 +388,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -384,14 +408,20 @@
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="일">1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -399,12 +429,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 주어진 자료에서
                 <span class="notranslate" aria-label="일 콤마 이">1, 2</span>의 도수가
@@ -430,12 +460,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 주어진 자료에서
                 <span class="notranslate" aria-label="일 콤마 이">1, 2</span>의 도수가

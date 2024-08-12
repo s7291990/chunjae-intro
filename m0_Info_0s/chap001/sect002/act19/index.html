@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -36,12 +36,12 @@
           <div class="select-header-wrap" tabindex="0">
             <div class="num notranslate">1</div>
             <div class="desc">
-              다음 그림의 직선  <span class="notranslate" aria-label="">l</span> 위의 점이 아닌 것은?
+              다음 그림의 직선  <span class="notranslate" aria-label="엘">l</span> 위의 점이 아닌 것은?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img01.png" alt="">
+            <img src="./images/etc-ex-img01.png" alt="직선 엘 위에 두 점 대문자 비와 대문자 씨가 있고 직선 엘 밖에 점 대문자 에이가 있는 그림이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
@@ -49,14 +49,20 @@
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
               <span class="txt"><span class="normal" aria-label="대문자 에이">A</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
               <span class="txt"><span class="normal" aria-label="대문자 비">B</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
               <span class="txt"><span class="normal" aria-label="대문자 씨">C</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -64,14 +70,14 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                점 <span class="notranslate normal" aria-label="대문자 에이">A</span>는 직선 <span class="notranslate" aria-label="">l</span> 위의 점이 아니다.
+                점 <span class="notranslate normal" aria-label="대문자 에이">A</span>는 직선 <span class="notranslate" aria-label="엘">l</span> 위의 점이 아니다.
               </div>
             </div>
           </div>
@@ -79,14 +85,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                점 <span class="notranslate normal" aria-label="대문자 에이">A</span>는 직선 <span class="notranslate" aria-label="">l</span> 위의 점이 아니다.
+                점 <span class="notranslate normal" aria-label="대문자 에이">A</span>는 직선 <span class="notranslate" aria-label="엘">l</span> 위의 점이 아니다.
               </div>
             </div>
           </div>
@@ -110,7 +116,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -124,7 +130,7 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img02.png" alt="">
+            <img src="./images/etc-ex-img02.png" alt="삼각기둥 대문자 에이 비 씨 다시 대문자 디 이 에프의 그림이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
@@ -132,14 +138,20 @@
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="사">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="오">5</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -147,12 +159,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 한 점에서 만나는 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 에이 씨">AC</span>,
@@ -160,7 +172,7 @@
                 <span class="notranslate normal" aria-label="대문자 에이 디">AD</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 비 씨">BC</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 비 이">BE</span>이므로
-                <span class="notranslate" aria-label="사">4</span>개다.
+                <span class="notranslate" aria-label="네">4</span>개다.
               </div>
             </div>
           </div>
@@ -168,12 +180,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 한 점에서 만나는 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 에이 씨">AC</span>,
@@ -181,7 +193,7 @@
                 <span class="notranslate normal" aria-label="대문자 에이 디">AD</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 비 씨">BC</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 비 이">BE</span>이므로
-                <span class="notranslate" aria-label="사">4</span>개다.
+                <span class="notranslate" aria-label="네">4</span>개다.
               </div>
             </div>
           </div>
@@ -205,7 +217,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -219,7 +231,7 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img03.png" alt="">
+            <img src="./images/etc-ex-img03.png" alt="직육면체 대문자 에이 비 씨 디 다시 대문자 이 에프 쥐 에이치의 그림이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
@@ -227,26 +239,32 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="사">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="오">5</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 꼬인 위치에 있는 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 씨 지">CG</span>,
@@ -254,7 +272,7 @@
                 <span class="notranslate normal" aria-label="대문자 디 에이치">DH</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 이 에이치">EH</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>이므로
-                <span class="notranslate normal" aria-label="사">4</span>개다.
+                <span class="notranslate normal" aria-label="네">4</span>개다.
               </div>
             </div>
           </div>
@@ -262,12 +280,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 모서리 <span class="notranslate normal" aria-label="대문자 에이 비">AB</span>와 꼬인 위치에 있는 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 씨 지">CG</span>,
@@ -275,7 +293,7 @@
                 <span class="notranslate normal" aria-label="대문자 디 에이치">DH</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 이 에이치">EH</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>이므로
-                <span class="notranslate normal" aria-label="사">4</span>개다.
+                <span class="notranslate normal" aria-label="네">4</span>개다.
               </div>
             </div>
           </div>
@@ -299,7 +317,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -313,7 +331,7 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img04.png" alt="">
+            <img src="./images/etc-ex-img04.png" alt="사각기둥 대문자 에이 비 씨 디 다시 대문자 이 에프 쥐 에이치의 그림이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
@@ -321,33 +339,39 @@
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="사">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="오">5</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="육">6</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디">ABCD</span>와 평행한 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 이 에프">EF</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>,
                 <br>모서리 <span class="notranslate normal" aria-label="대문자 지 에이치">GH</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에이치 이">HE</span>이므로
-                <span class="notranslate" aria-label="사">4</span>개다.
+                <span class="notranslate" aria-label="네">4</span>개다.
               </div>
             </div>
           </div>
@@ -355,19 +379,19 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디">ABCD</span>와 평행한 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 이 에프">EF</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에프 지">FG</span>,
                 <br>모서리 <span class="notranslate normal" aria-label="대문자 지 에이치">GH</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에이치 이">HE</span>이므로
-                <span class="notranslate" aria-label="사">4</span>개다.
+                <span class="notranslate" aria-label="네">4</span>개다.
               </div>
             </div>
           </div>
@@ -391,7 +415,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -406,21 +430,27 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img05.png" alt="">
+            <img src="./images/etc-ex-img05.png" alt="육각기둥 대문자 에이 비 씨 디 이 에프 다시 대문자 쥐 에이치 아이 제이 케이 엘의 그림이다.">
           </div>
 
           <div class="select-cont-wrap notranslate start">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="사">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="오">5</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="육">6</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -428,12 +458,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디 이 에프">ABCDEF</span>와 수직인 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 에이 지">AG</span>, 모서리
@@ -442,7 +472,7 @@
                 <span class="notranslate normal" aria-label="대문자 디 제이">DJ</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 이 케이">EK</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에프 엘">FL</span>이므로
-                <span class="notranslate" aria-label="육">6</span>개다.
+                <span class="notranslate" aria-label="여섯">6</span>개다.
               </div>
             </div>
           </div>
@@ -450,12 +480,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 면 <span class="notranslate normal" aria-label="대문자 에이 비 씨 디 이 에프">ABCDEF</span>와 수직인 모서리는 모서리
                 <span class="notranslate normal" aria-label="대문자 에이 지">AG</span>, 모서리
@@ -464,7 +494,7 @@
                 <span class="notranslate normal" aria-label="대문자 디 제이">DJ</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 이 케이">EK</span>, 모서리
                 <span class="notranslate normal" aria-label="대문자 에프 엘">FL</span>이므로
-                <span class="notranslate" aria-label="육">6</span>개다.
+                <span class="notranslate" aria-label="여섯">6</span>개다.
               </div>
             </div>
           </div>

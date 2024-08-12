@@ -216,6 +216,18 @@ input[type=radio]:checked::-ms-check{color:transparent;
 .select-type-wrap .select-cont-wrap button.on .ico{
   background:url(../images/bg-chk-on.png) no-repeat;background-size:97px 97px;
 }
+.select-type-wrap .select-cont-wrap button .unselect{
+  display:block;position:absolute;left:-20000px;
+}
+.select-type-wrap .select-cont-wrap button .select{
+  display:none;position:absolute;left:-20000px;
+}
+.select-type-wrap .select-cont-wrap button.on .unselect{
+  display:none;
+}
+.select-type-wrap .select-cont-wrap button.on .select{
+  display:block;
+}
 
 .cup{
   font-family: amsusic_italic !important;

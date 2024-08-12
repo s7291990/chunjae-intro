@@ -172,7 +172,7 @@ body{
   display:flex;justify-content:center;
   align-items:center;font-size:47.52px;font-weight:800;color:#fff;letter-spacing: -0.95px;
 }
-.select-type-wrap .select-header-wrap .desc{margin:5px 0 0 26px;width:100%;flex:1;height:auto;font-size:48px;color:#003760;font-weight:700;line-height:100%;}
+.select-type-wrap .select-header-wrap .desc{margin:5px 0 0 26px;width:100%;flex:1;height:auto;font-size:48px;color:#003760;font-weight:700;line-height:130%;}
 .select-type-wrap .select-header-wrap .desc span{
   font-size:48px;color:#003760;font-weight:400;line-height:100%;font-family: amsusic_italic;position:relative;
 }
@@ -247,6 +247,18 @@ input[type=radio]:checked::-ms-check{color:transparent;
 }
 .select-type-wrap .select-cont-wrap button.on .ico{
   background:url(../images/bg-chk-on.png) no-repeat;background-size:97px 97px;
+}
+.select-type-wrap .select-cont-wrap button .unselect{
+  display:block;position:absolute;left:-20000px;
+}
+.select-type-wrap .select-cont-wrap button .select{
+  display:none;position:absolute;left:-20000px;
+}
+.select-type-wrap .select-cont-wrap button.on .unselect{
+  display:none;
+}
+.select-type-wrap .select-cont-wrap button.on .select{
+  display:block;
 }
 .select-type-wrap .select-cont-wrap.vertical{
   flex-direction: column;gap:60px;justify-content:flex-start;
@@ -385,6 +397,15 @@ mjx-mfrac{
   color: #333;
   font-weight: 700;
 }
+.ex-item-wrap01 .eitem span{
+  font-family: amsusic_italic !important;font-size: 42px;
+  color: #333;
+  font-weight: 400;
+  transform:translateY(5px);
+}
+.ex-item-wrap01 .eitem span.square{
+  transform:translateY(-2px);
+}
 .normal,
 .select-type-wrap .select-header-wrap .desc span .normal{
   font-family: 'amsusic_normal_bold' !important;
@@ -396,3 +417,8 @@ mjx-mfrac{
 .mml10{margin-left:-10px;margin-right:5px;}
 .mmr10{padding-right:10px;}
 .mmt10{transform: translateY(-10px)}
+.square{
+  border: 4px solid #003760;
+  background: rgba(217, 217, 217, 0.00);
+  width:77px;height:52px;box-sizing: border-box;display:inline-block;margin:0 3px 0 5px;
+}

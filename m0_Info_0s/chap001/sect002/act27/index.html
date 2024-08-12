@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -41,22 +41,32 @@
           </div>
 
           <div class="ex-item-wrap01">
-            <img src="./images/etc-ex-img01.png" alt="(기둥의 겉넓이)=(밑넓이)_(          )+(옆넓이)">
+            <div class="eitem">
+              <span class="notranslate">(</span>기둥의 겉넓이<span class="notranslate">)=(</span>밑넓이<span class="notranslate">)_(</span>
+              <span class="square" aria-label="네모"></span>
+              <span class="notranslate">)+(</span>옆넓이<span class="notranslate">)</span>
+            </div>
           </div>
 
           <div class="select-cont-wrap notranslate">
 
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt">4</span>
+              <span class="txt" aria-label="사">4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt">2</span>
+              <span class="txt" aria-label="이">2</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt">3</span>
+              <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -64,12 +74,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 (기둥의 겉넓이)=(밑넓이)<span class="notranslate" aria-label="곱하기 이 더하기">_2+</span>(옆넓이)
               </div>
@@ -79,12 +89,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 (기둥의 겉넓이)=(밑넓이)<span class="notranslate" aria-label="곱하기 이 더하기">_2+</span>(옆넓이)
               </div>
@@ -110,7 +120,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -123,22 +133,28 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img02.png" alt="">
+            <img src="./images/etc-ex-img02.png" alt="밑면이 직각삼각형인 삼각기둥이다. 밑면의 가로의 길이는 구 센티미터, 세로의 길이는 팔 센티미터이고 직각을 이룬다. 삼각기둥의 높이는 칠 센티미터이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt normal">24cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="이십사 제곱센티미터">24cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt normal">27cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="이십칠 제곱센티미터">27cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt normal">37cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="삼십육 제곱센티미터">37cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -146,14 +162,14 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (밑넓이)<span class="notranslate" aria-label="">=\[ \frac{1}{2}\]_8_9=36(cm<span class="cup">2</span>)</span>
+                (밑넓이)<span class="notranslate normal" aria-label="는 이 분의 일 곱하기 팔 곱하기 구는 삼십육 괄호 열고 제곱센티미터 괄호 닫고">=\[ \frac{1}{2}\]_8_9=36(cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -161,14 +177,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (밑넓이)<span class="notranslate" aria-label="">=\[ \frac{1}{2}\]_8_9=36(cm<span class="cup">2</span>)</span>
+                (밑넓이)<span class="notranslate normal" aria-label="는 이 분의 일 곱하기 팔 곱하기 구는 삼십육 괄호 열고 제곱센티미터 괄호 닫고">=\[ \frac{1}{2}\]_8_9=36(cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -192,7 +208,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -205,36 +221,42 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img03.png" alt="">
+            <img src="./images/etc-ex-img03.png" alt="밑면이 직사각형인 각기둥의 전개도이다. 밑면의 가로의 길이는 삼 센티미터, 세로의 길이는 이 센티미터이다. 각기둥의 옆면의 세로의 길이는 사 센티미터이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt normal">20cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="이십 제곱센티미터">20cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt normal">30cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="삼십 제곱센티미터">30cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt normal">40cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="사십 제곱센티미터">40cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (옆넓이)<span class="notranslate normal" aria-label="">=4_(2+3+2+3)=40(cm<span class="cup">2</span>)</span>
+                (옆넓이)<span class="notranslate normal" aria-label="는 사 곱하기 괄호 열고 이 플러스 삼 플러스 이 플러스 삼 괄호 닫고는 사십 괄호 열고 제곱 센티미터 괄호 닫고">=4_(2+3+2+3)=40(cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -242,14 +264,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (옆넓이)<span class="notranslate normal" aria-label="">=4_(2+3+2+3)=40(cm<span class="cup">2</span>)</span>
+                (옆넓이)<span class="notranslate normal" aria-label="는 사 곱하기 괄호 열고 이 플러스 삼 플러스 이 플러스 삼 괄호 닫고는 사십 괄호 열고 제곱 센티미터 괄호 닫고">=4_(2+3+2+3)=40(cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -273,7 +295,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -286,36 +308,42 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img04.png" alt="">
+            <img src="./images/etc-ex-img04.png" alt="밑면은 가로의 길이는 사 센티미터, 세로의 길이는 이 센티미터인 직사각형이고 각기둥의 높이는 오 센티미터인 사각기둥이다.">
           </div>
 
           <div class="select-cont-wrap start notranslate">
 
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt normal">20cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="이십 세제곱 센티미터">20cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt normal">40cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="사십 세제곱 센티미터">40cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt normal">60cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="육십 세제곱 센티미터">60cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (부피)<span class="notranslate" aria-label="">=4_2_5=40(cm<span class="cup">2</span>)</span>
+                (부피)<span class="notranslate normal" aria-label="는 사 곱하기 이 곱하기 오는 사십 괄호 열고 세제곱 센티미터 괄호 닫고">=4_2_5=40(cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -323,14 +351,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (부피)<span class="notranslate" aria-label="">=4_2_5=40(cm<span class="cup">2</span>)</span>
+                (부피)<span class="notranslate normal" aria-label="는 사 곱하기 이 곱하기 오는 사십 괄호 열고 세제곱 센티미터 괄호 닫고">=4_2_5=40(cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -354,7 +382,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -367,21 +395,27 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img05.png" alt="">
+            <img src="./images/etc-ex-img05.png" alt="반지름이 사 센티미터인 원을 밑면으로 하고 높이가 십 센티미터인 원기둥이다.">
           </div>
 
-          <div class="select-cont-wrap star notranslate">
+          <div class="select-cont-wrap start notranslate">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
-              <span class="txt normal"><span class="mmr10">16\[ \pi\]</span>cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="십육 파이 제곱 센티미터"><span class="mmr10">16\[ \pi\]</span>cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
-              <span class="txt normal"><span class="mmr10">9\[ \pi\]</span>cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="구 파이 제곱 센티미터"><span class="mmr10">9\[ \pi\]</span>cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
-              <span class="txt normal"><span class="mmr10">25\[ \pi\]</span>cm<span class="cup">2</span></span>
+              <span class="txt normal" aria-label="이십오 파이 제곱 센티미터"><span class="mmr10">25\[ \pi\]</span>cm<span class="cup">2</span></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -389,14 +423,14 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (밑넓이)<span class="notranslate" aria-label="">=\[ \pi\]_4<span class="cup">2</span>=16\[ \pi\](cm<span class="cup">2</span>)</span>
+                (밑넓이)<span class="notranslate normal" aria-label="는 파이 곱하기 사의 제곱은 십육 파이 괄호 열고 제곱 센티미터 괄호 닫고">=\[ \pi\]_4<span class="cup">2</span>=16\[ \pi\](cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>
@@ -404,14 +438,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                (밑넓이)<span class="notranslate" aria-label="">=\[ \pi\]_4<span class="cup">2</span>=16\[ \pi\](cm<span class="cup">2</span>)</span>
+                (밑넓이)<span class="notranslate normal" aria-label="는 파이 곱하기 사의 제곱은 십육 파이 괄호 열고 제곱 센티미터 괄호 닫고">=\[ \pi\]_4<span class="cup">2</span>=16\[ \pi\](cm<span class="cup">2</span>)</span>
               </div>
             </div>
           </div>

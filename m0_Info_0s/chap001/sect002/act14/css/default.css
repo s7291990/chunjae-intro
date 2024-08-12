@@ -169,7 +169,7 @@ body{
   display:flex;justify-content:center;
   align-items:center;font-size:47.52px;font-weight:800;color:#fff;letter-spacing: -0.95px;
 }
-.select-type-wrap .select-header-wrap .desc{margin:5px 0 0 26px;width:100%;flex:1;height:auto;font-size:48px;color:#003760;font-weight:700;line-height:100%;}
+.select-type-wrap .select-header-wrap .desc{margin:5px 0 0 26px;width:100%;flex:1;height:auto;font-size:48px;color:#003760;font-weight:700;line-height:130%;}
 .select-type-wrap .select-header-wrap .desc span{
   font-size:48px;color:#003760;font-weight:400;line-height:100%;font-family: amsusic_italic;position:relative;
 }
@@ -235,6 +235,18 @@ input[type=radio]:checked::-ms-check{color:transparent;
 }
 .select-type-wrap .select-cont-wrap button.on .ico{
   background:url(../images/bg-chk-on.png) no-repeat;background-size:97px 97px;
+}
+.select-type-wrap .select-cont-wrap button .unselect{
+  display:block;position:absolute;left:-20000px;
+}
+.select-type-wrap .select-cont-wrap button .select{
+  display:none;position:absolute;left:-20000px;
+}
+.select-type-wrap .select-cont-wrap button.on .unselect{
+  display:none;
+}
+.select-type-wrap .select-cont-wrap button.on .select{
+  display:block;
 }
 .select-type-wrap .select-cont-wrap.vertical{
   flex-direction: column;gap:60px;justify-content:flex-start;

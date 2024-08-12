@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -47,14 +47,20 @@
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼">3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="십오 ">15</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="삼십">30</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -62,14 +68,14 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate hangle01" aria-label="영점 삼은 백분의 그 계급의 도수">\[0.3 \frac{(그 계급의 도수))}{100}\]</span>이므로 이 계급의 도수는
+                <span class="notranslate hangle01" aria-label="영점 삼은 백분의 그 계급의 도수">\[0.3 \frac{(그 계급의 도수)}{100}\]</span>이므로 이 계급의 도수는
                 <span class="notranslate" aria-label="삼십">30</span>이다.
               </div>
             </div>
@@ -78,12 +84,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate hangle01" aria-label="영점 삼은 백분의 그 계급의 도수">\[0.3 \frac{(그 계급의 도수))}{100}\]</span>이므로 이 계급의 도수는
                 <span class="notranslate" aria-label="삼십">30</span>이다.
@@ -110,7 +116,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -119,7 +125,7 @@
             <div class="num notranslate">2</div>
             <div class="desc">
               다음은 지수네 반 학생
-              <span class="notranslate" aria-label="스무">20</span>명의 키를 조사하여 나타낸 상대도수의 분포표이다.
+              <span class="notranslate" aria-label="스무">20</span>명의 키를 조사하여 나타낸 <br>상대도수의 분포표이다.
               <span class="notranslate normal" aria-label="대문자 에이">A</span>의 값은?
             </div>
           </div>
@@ -133,14 +139,20 @@
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="영점 삼">0.3</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="영점 사">0.4</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt" aria-label="십칠">영점 팔</span>
+              <span class="txt" aria-label="영점 팔">0.8</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -148,12 +160,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="에이는 이십분의 팔은 영점사">\[A= \frac{8}{20} =0.4\]</span>
               </div>
@@ -163,12 +175,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="에이는 이십분의 팔은 영점사">\[A= \frac{8}{20} =0.4\]</span>
               </div>
@@ -194,7 +206,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -203,7 +215,7 @@
             <div class="num notranslate">3</div>
             <div class="desc">
               다음은 학생
-              <span class="notranslate" aria-label="스무">20</span>명이 볼링 점수를 조사하여 나타낸 상대도수의 분포표이다.
+              <span class="notranslate" aria-label="스무">20</span>명이 볼링 점수를 조사하여 나타낸 <br>상대도수의 분포표이다.
               <span class="notranslate" aria-label="대문자 에이">A</span>의 값은?
             </div>
           </div>
@@ -217,26 +229,32 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="영점일">0.1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="일">1</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="이십">20</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 상대도수의 합은 항상
                 <span class="notranslate normal" aria-label="일">1</span>이므로
@@ -248,12 +266,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 상대도수의 합은 항상
                 <span class="notranslate normal" aria-label="일">1</span>이므로
@@ -281,7 +299,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -290,8 +308,8 @@
             <div class="num notranslate">4</div>
             <div class="desc">
               다음은 학생
-              <span class="notranslate" aria-label="오십">50</span>명의 일주일 동안의 운동 시간에 대한 상대도수의 분포를 나타낸 그래프이다. 운동 시간이
-              <span class="notranslate" aria-label="네">4</span>시간 이상
+              <span class="notranslate" aria-label="오십">50</span>명의 일주일 동안의 운동 시간에 대한 <br>상대도수의 분포를 나타낸 그래프이다. 운동 시간이
+              <br><span class="notranslate" aria-label="네">4</span>시간 이상
               <span class="notranslate" aria-label="다섯">5</span>시간 미만인 학생 수는?
             </div>
           </div>
@@ -300,31 +318,37 @@
             <img src="./images/etc-ex-img04.png" alt="가로축이 운동 시간 세로축이 상대도수인 그래프이다. 네 시간 이상 다섯 시간 미만인 상대도수는 영 점 일, 다섯 시간 이상 여섯 시간 미만인 상대도수는 영 점 일 팔, 여섯 시간 이상 일곱 시간 미만인 상대도수는 영 점 이 사, 일곱 시간 이상 여덟 시간 미만인 상대도수는 영 점 이 이, 여덟 시간 이상 아홉 시간 미만인 상대도수는 영 점 일 사, 아홉 시간 이상 열 시간 미만인 상대도수는 영 점 일 이이다.">
           </div>
 
-          <div class="select-cont-wrap vertical">
+          <div class="select-cont-wrap start">
 
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
               <span class="txt ttype"><span class="notranslate" aria-label="다섯">5</span>명</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
               <span class="txt ttype"><span class="notranslate" aria-label="열">10</span>명</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
               <span class="txt ttype"><span class="notranslate" aria-label="열다섯">15</span>명</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 운동 시간이
                 <span class="notranslate" aria-label="네">4</span>시간 이상
@@ -338,12 +362,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 운동 시간이
                 <span class="notranslate" aria-label="네">4</span>시간 이상
@@ -373,7 +397,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -382,8 +406,8 @@
             <div class="num notranslate">5</div>
             <div class="desc">
               다음은 어느 방송 프로그램의 시청자
-              <span class="notranslate" aria-label="백">100</span>명의 나이에 대한 상대도수의 분포를 나타낸 그래프이다.
-              <span class="notranslate" aria-label="사십">40</span>세 이상인 시청자는 전체의
+              <span class="notranslate" aria-label="백">100</span>명의 나이에 <br>대한 상대도수의 분포를 나타낸 그래프이다.
+              <br><span class="notranslate" aria-label="사십">40</span>세 이상인 시청자는 전체의
               <span class="notranslate" aria-label="퍼센트">%</span>몇 인가?
             </div>
           </div>
@@ -396,14 +420,20 @@
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="오퍼센트">5%</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="십퍼센트">10%</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="이십퍼센트">20%</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -411,12 +441,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 시청자가
                 <span class="notranslate" aria-label="사십">40</span>세 이상인 계급의 상대도수는
@@ -429,12 +459,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 시청자가
                 <span class="notranslate" aria-label="사십">40</span>세 이상인 계급의 상대도수는

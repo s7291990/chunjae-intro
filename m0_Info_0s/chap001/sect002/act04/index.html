@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -42,14 +42,20 @@
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 음의 일 괄호 닫고 더하기 괄호 열고 양의 삼 괄호 닫고">(-1)+(+3)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 음의 삼 괄호 닫고 더하기 괄호 열고 양의 오 괄호 닫고">(-3)+(+5)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 양의 이 괄호 닫고 더하기 괄호 열고 음의 사 괄호 닫고">(+2)+(-4)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -57,12 +63,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호열고 음의 일 괄호 닫고 더하기 괄호열고 양의 삼 괄호닫고 는 양의 이
 괄호 열고 음의 삼 괄호 닫고 더하기 괄호 열고 양의 오 괄호 닫고 는 양의 이
@@ -75,12 +81,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호열고 음의 일 괄호 닫고 더하기 괄호열고 양의 삼 괄호닫고 는 양의 이
 괄호 열고 음의 삼 괄호 닫고 더하기 괄호 열고 양의 오 괄호 닫고 는 양의 이
@@ -109,7 +115,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -123,14 +129,20 @@
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 양의 일 점 삼 괄호 닫고 더하기 괄호 열고 양의 이 점 칠 괄호 닫고">(+1.3)+(+2.7)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 음의 삼 점 이 괄호 닫고 더하기 괄호 열고 양의 사 점 팔 괄호 닫고">(-3.2)+(+4.8)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 양의 구 점 팔 괄호 닫고 더하기 괄호 열고 음의 오 점 삼 괄호 닫고">(+9.8)+(-5.3)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -138,12 +150,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호 열고 양의 일 점 삼 괄호 닫고 더하기 괄호 열고 양의 이 점 칠 괄호 닫고는 양의 사점영
 괄호 열고 음의 삼 점 이 괄호 닫고 더하기 괄호 열고 양의 사 점 팔 괄호 닫고는 양의 일점육
@@ -158,12 +170,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호 열고 양의 일 점 삼 괄호 닫고 더하기 괄호 열고 양의 이 점 칠 괄호 닫고는 양의 사점영
 괄호 열고 음의 삼 점 이 괄호 닫고 더하기 괄호 열고 양의 사 점 팔 괄호 닫고는 양의 일점육
@@ -194,7 +206,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -208,26 +220,32 @@
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 양의 일점오 더하기 음의 이점삼 괄호 닫고">(+1.5)+(-2.3)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 음의 삼점육 더하기 양의 일점 팔 괄호 닫고">(-3.6)+(+1.8)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="괄호 열고 양의 오점 팔 더하기 음의 사점 일 괄호 닫고">(+5.8)+(-4.1)</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호 열고 양의 일점오 괄호 닫고 더하기 괄호 열고 음의 이점삼 괄호 닫고는 음의 괄호 열고 이점삼 빼기 일점오 괄호 닫고 는 음의 영점팔
 괄호 열고 음의 삼점육 괄호 닫고 더하기 괄호 열고 양의 일점팔 괄호 닫고는 음의 괄호 열고 삼점육 빼기 일점팔 괄호 닫고 는 음의 일점팔
@@ -242,12 +260,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호 열고 양의 일점오 괄호 닫고 더하기 괄호 열고 음의 이점삼 괄호 닫고는 음의 괄호 열고 이점삼 빼기 일점오 괄호 닫고 는 음의 영점팔
 괄호 열고 음의 삼점육 괄호 닫고 더하기 괄호 열고 양의 일점팔 괄호 닫고는 음의 괄호 열고 삼점육 빼기 일점팔 괄호 닫고 는 음의 일점팔
@@ -278,7 +296,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -296,26 +314,32 @@
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="음의 오 분의 이">\[- \frac{2}{5}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="양의 오 분의 이">\[+ \frac{2}{5}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="양의 오 분의 삼">\[+ \frac{3}{5}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value t01">
                 <span class="notranslate" aria-label="괄호 열고 양의 이 점 삼 괄호 닫고 더하기 괄호 열고 음의 오 분의 삼 괄호 닫고 더하기 괄호 열고 음의 일 점 삼 괄호 닫고
 는 양의 괄호 열고 이 점 삼 빼기 일 점 삼 괄호 닫고 더하기 괄호 열고 음의 오 분의 삼 괄호 닫고
@@ -333,12 +357,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value t01">
                 <span class="notranslate" aria-label="괄호 열고 양의 이 점 삼 괄호 닫고 더하기 괄호 열고 음의 오 분의 삼 괄호 닫고 더하기 괄호 열고 음의 일 점 삼 괄호 닫고
 는 양의 괄호 열고 이 점 삼 빼기 일 점 삼 괄호 닫고 더하기 괄호 열고 음의 오 분의 삼 괄호 닫고
@@ -372,7 +396,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -388,14 +412,20 @@
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="양의 이분의 일">\[+ \frac{1}{2}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="양의 육분의 일">\[+ \frac{1}{6}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="양의 십이분의 일">\[+ \frac{1}{12}\]</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -403,12 +433,12 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호 열고 음의 사 분의 삼 괄호 닫고 더하기 괄호 열고 양의 사 분의 일 괄호 닫고 더하기 괄호 열고 양의 삼 분의 일  괄호 닫고 더하기 괄호 열고 양의 삼 분의 이 괄호 닫고
 는 음의 괄호 열고 사 분의 삼 빼기 사 분의 일 괄호 닫고 더하기 괄호 열고 삼 분의 일 더하기 삼 분의 이 괄호 닫고
@@ -422,12 +452,12 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 <span class="notranslate" aria-label="괄호 열고 음의 사 분의 삼 괄호 닫고 더하기 괄호 열고 양의 사 분의 일 괄호 닫고 더하기 괄호 열고 양의 삼 분의 일  괄호 닫고 더하기 괄호 열고 양의 삼 분의 이 괄호 닫고
 는 음의 괄호 열고 사 분의 삼 빼기 사 분의 일 괄호 닫고 더하기 괄호 열고 삼 분의 일 더하기 삼 분의 이 괄호 닫고

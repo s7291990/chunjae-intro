@@ -28,7 +28,7 @@
 
       <div id="page01" class="question on">
 
-        <div class="page-num-wrap notranslate" tabindex="0">1/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 첫번째 문제입니다.">1/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -41,22 +41,28 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img01.png" alt="">
+            <img src="./images/etc-ex-img01.png" alt="팔각형 그림이다.">
           </div>
 
           <div class="select-cont-wrap start">
 
             <button type="button" onclick="handleSelect('#page01', 1)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="칠">7</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="일곱">7</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 2)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="팔">8</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="여덟">8</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page01', 3)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="구">9</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="아홉">9</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -64,14 +70,14 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                팔각형의 꼭짓점의 개수는 <span class="notranslate" aria-label="팔">8</span>개다.
+                팔각형의 꼭짓점의 개수는 <span class="notranslate" aria-label="여덟">8</span>개다.
               </div>
             </div>
           </div>
@@ -79,14 +85,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                팔각형의 꼭짓점의 개수는 <span class="notranslate" aria-label="팔">8</span>개다.
+                팔각형의 꼭짓점의 개수는 <span class="notranslate" aria-label="여덟">8</span>개다.
               </div>
             </div>
           </div>
@@ -110,7 +116,7 @@
 
       <div id="page02" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">2/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 두번째 문제입니다.">2/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="1" aria-hidden="true">
@@ -125,15 +131,21 @@
 
             <button type="button" onclick="handleSelect('#page02', 1)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page01-img01.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page01-img01.png" alt="사각형 그림이다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 2)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page01-img02.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page01-img02.png" alt="원 그림이다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page02', 3)">
               <span class="ico"></span>
-              <span class="txt"><img src="./images/etc-page01-img03.png" alt=""></span>
+              <span class="txt"><img src="./images/etc-page01-img03.png" alt="직육면체 그림이다."></span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -141,14 +153,14 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                다각형은 <span class="notranslate" aria-label="삼">3</span>개 이상의 선분으로 둘러싸인 평면도형이므로
+                다각형은 <span class="notranslate" aria-label="세">3</span>개 이상의 선분으로 둘러싸인 평면도형이므로
                 <br>다각형은 사각형이다.
               </div>
             </div>
@@ -157,14 +169,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                다각형은 <span class="notranslate" aria-label="삼">3</span>개 이상의 선분으로 둘러싸인 평면도형이므로
+                다각형은 <span class="notranslate" aria-label="세">3</span>개 이상의 선분으로 둘러싸인 평면도형이므로
                 <br>다각형은 사각형이다.
               </div>
             </div>
@@ -189,7 +201,7 @@
 
       <div id="page03" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">3/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 세번째 문제입니다.">3/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -201,36 +213,42 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img02.png" alt="">
+            <img src="./images/etc-ex-img02.png" alt="사각형 그림이다.">
           </div>
 
           <div class="select-cont-wrap start">
 
             <button type="button" onclick="handleSelect('#page03', 1)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="사">4</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="네">4</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 2)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="삼">3</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="세">3</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page03', 3)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="이">2</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="두">2</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                사각형의 대각선의 개수는 <span class="notranslate" aria-label="">\[ \frac{4\times(4-3)}{2}=2\]</span>(개)이다.
+                사각형의 대각선의 개수는 <span class="notranslate" aria-label="분수 시작 이 분의 사 곱하기 괄호 열고 사 마이너스 삼 괄호 닫고 분수 끝은 이">\[ \frac{4\times(4-3)}{2}=2\]</span>(개)이다.
               </div>
             </div>
           </div>
@@ -238,14 +256,14 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                사각형의 대각선의 개수는 <span class="notranslate" aria-label="">\[ \frac{4\times(4-3)}{2}=2\]</span>(개)이다.
+                사각형의 대각선의 개수는 <span class="notranslate" aria-label="분수 시작 이 분의 사 곱하기 괄호 열고 사 마이너스 삼 괄호 닫고 분수 끝은 이">\[ \frac{4\times(4-3)}{2}=2\]</span>(개)이다.
               </div>
             </div>
           </div>
@@ -269,7 +287,7 @@
 
       <div id="page04" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">4/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 네번째 문제입니다.">4/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="2" aria-hidden="true">
@@ -282,37 +300,43 @@
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img03.png" alt="">
+            <img src="./images/etc-ex-img03.png" alt="오각형 그림이다.">
           </div>
 
           <div class="select-cont-wrap start">
 
             <button type="button" onclick="handleSelect('#page04', 1)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="일">1</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="한">1</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 2)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="이">2</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="두">2</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page04', 3)">
               <span class="ico"></span>
-              <span class="txt ttype"><span class="notranslate" aria-label="삼">3</span>개</span>
+              <span class="txt ttype"><span class="notranslate" aria-label="세">3</span>개</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
           </div>
         </div>
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 오각형의 한 꼭짓점에서 그을 수 있는 대각선 개수는
-                <br><span class="notranslate" aria-label="">5-3=2</span>(개)이다.
+                <br><span class="notranslate" aria-label="오 마이너스 삼은 이">5-3=2</span>(개)이다.
               </div>
             </div>
           </div>
@@ -320,15 +344,15 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
                 오각형의 한 꼭짓점에서 그을 수 있는 대각선 개수는
-                <br><span class="notranslate" aria-label="">5-3=2</span>(개)이다.
+                <br><span class="notranslate" aria-label="오 마이너스 삼은 이">5-3=2</span>(개)이다.
               </div>
             </div>
           </div>
@@ -352,7 +376,7 @@
 
       <div id="page05" class="question">
 
-        <div class="page-num-wrap notranslate" tabindex="0">5/5</div>
+        <div class="page-num-wrap notranslate" tabindex="0" aria-label="다섯 문제 중 다섯번째 문제입니다.">5/5</div>
 
         <div class="select-type-wrap">
           <input type="hidden" class="answer-value" value="3" aria-hidden="true">
@@ -360,26 +384,32 @@
           <div class="select-header-wrap middle">
             <div class="num notranslate">5</div>
             <div class="desc">
-              다음 삼각형에서 내각 <span class="notranslate" aria-label="">\[ \angle\]x</span>의 크기는?
+              다음 삼각형에서 내각 <span class="notranslate" aria-label="각 엑스">\[ \angle\]x</span>의 크기는?
             </div>
           </div>
 
           <div class="ex-item-wrap">
-            <img src="./images/etc-ex-img04.png" alt="">
+            <img src="./images/etc-ex-img04.png" alt="삼각형의 한 각의 크기를 엑스라 하면 이 각의 외각은 백이십도이다.">
           </div>
 
           <div class="select-cont-wrap start">
             <button type="button" onclick="handleSelect('#page05', 1)">
               <span class="ico"></span>
               <span class="txt" aria-label="육십도">60^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 2)">
               <span class="ico"></span>
               <span class="txt" aria-label="팔십도">80^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
             <button type="button" onclick="handleSelect('#page05', 3)">
               <span class="ico"></span>
               <span class="txt" aria-label="사십도">40^</span>
+              <span class="unselect">선택안함</span>
+              <span class="select">선택</span>
             </button>
 
           </div>
@@ -387,15 +417,15 @@
 
         <!-- 오답 결과 -->
         <div class="result-x result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-x.svg" alt="" aria-hidden="true">
             <span>오답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">\[ \angle\]x+120^=180^</span>이므로
-                <span class="notranslate" aria-label="">\[ \angle\]x=60^</span>이다.
+                <span class="notranslate" aria-label="각 엑스 플러스 백이십 도는 백팔십 도">\[ \angle\]x+120^=180^</span>이므로
+                <span class="notranslate" aria-label="각 엑스는 육십 도">\[ \angle\]x=60^</span>이다.
               </div>
             </div>
           </div>
@@ -403,15 +433,15 @@
 
         <!-- 정답 결과 -->
         <div class="result-o result-box-wrap">
-          <div class="icon">
+          <div class="icon" tabindex="0">
             <img src="./images/ico-result-o.svg" alt="" aria-hidden="true">
             <span>정답</span>
           </div>
           <div class="desc">
-            <div class="text-area">
+            <div class="text-area" tabindex="0">
               <div class="value">
-                <span class="notranslate" aria-label="">\[ \angle\]x+120^=180^</span>이므로
-                <span class="notranslate" aria-label="">\[ \angle\]x=60^</span>이다.
+                <span class="notranslate" aria-label="각 엑스 플러스 백이십 도는 백팔십 도">\[ \angle\]x+120^=180^</span>이므로
+                <span class="notranslate" aria-label="각 엑스는 육십 도">\[ \angle\]x=60^</span>이다.
               </div>
             </div>
           </div>
