@@ -46,7 +46,7 @@ body{
   align-items:center;padding-top:178px;
 }
 .intro-title img{
-  width:1308px;
+  width:1508px;
 }
 .intro-btn-wrap{
   margin-top:60px;
@@ -121,7 +121,7 @@ body{
   top:50%;
   width:432px;height:227px;overflow:hidden;
   background:url(../images/bg-lang.png);background-size:432px 227px;
-  margin:174px 0 0 -364px;display:none;
+  margin:90px 0 0 -364px;display:none;
 }
 .btn-game.on + .lang-select-wrap{display:block;}
 .select-list-wrap{width:100%;height:auto;overflow:hidden;display: flex;

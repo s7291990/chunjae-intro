@@ -31,7 +31,7 @@
     url(../fonts/amsusic_math_bold.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'amsusic_italic';
+	font-family: 'amsusic_italic';
     font-weight: 600;
     src: url(../fonts/amsusic_italic_bold.eot);
     src: url(../fonts/amsusic_italic_bold.eot?#iefix) format('embedded-opentype'),
