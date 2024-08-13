@@ -13,3 +13,4 @@
 + \[ \angle\] 앵글 
 + \[ \bigtriangleup\] 빈 세모
 + \[ \pi\] 파이 
++ \[ \neq\] 같지 않다

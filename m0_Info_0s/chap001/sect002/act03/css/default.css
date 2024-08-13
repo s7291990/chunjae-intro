@@ -289,9 +289,12 @@ mjx-container[jax="CHTML"][display="true"]{
 mjx-mfrac{
   padding:0 5px;transform: translateY(-8px);
 }
+.select-type-wrap .select-cont-wrap button .txt mjx-mfrac{
+  transform: translateY(-18px);
+}
 .result-box-wrap .desc .text-area span *{
   font-family: amsusic_italic !important;
-  font-size:48px;color:#003760;font-weight:400;
+  font-size:42px;color:#003760;font-weight:400;
 }
 .math{
   font-family: 'amsusic_math_bold' !important;

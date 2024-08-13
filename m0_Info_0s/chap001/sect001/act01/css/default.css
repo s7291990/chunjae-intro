@@ -258,9 +258,9 @@ input[type=radio]:checked::-ms-check{color:transparent;
 	padding: 40px;
 	overflow-y: hidden;
 	border-radius: 20px;
-	border: 8px solid #C5EAFF;
+	border: 8px solid #FFBFBF;
 	background: #FFF;
-	box-shadow: 0px -2px 4px 0px rgba(136, 198, 207, 0.60);
+	box-shadow: 0px -2px 4px 0px rgba(209, 56, 56, 0.60);
 }
 .result-box-wrap .desc .text-area .value{font-size:42px;color:#680000;font-weight:400;line-height:130%;}
 .result-box-wrap .desc .text-area .value span{font-size:42px;color:#680000;font-weight:400;line-height:120%;font-family: amsusic_italic;}
