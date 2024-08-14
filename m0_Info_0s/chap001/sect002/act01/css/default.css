@@ -61,7 +61,7 @@ body{
 .intro-btn-wrap button img{
   width:258px;height:128px;
 }
-.block01{margin-top:20px;}
+.block01{margin-top:20px;display:block;}
 
 
 /* 변동 컨텐츠 */
@@ -268,7 +268,7 @@ input[type=radio]:checked::-ms-check{color:transparent;
 	background: #FFF;
 	box-shadow: 0px -2px 4px 0px rgba(136, 198, 207, 0.60);
 }
-.result-box-wrap .desc .text-area .value{font-size:42px;color:#003760;font-weight:400;line-height:130%;}
+.result-box-wrap .desc .text-area .value{font-size:42px;color:#003760;font-weight:400;line-height:150%;}
 .result-box-wrap .desc .text-area .value span{font-size:42px;color:#003760;font-weight:400;line-height:120%;font-family: amsusic_italic;}
 .result-box-wrap .desc .text-area .value strong{font-size:42px;color:#003760;font-weight:700;line-height:120%;}
 .result-box-wrap .desc .text-area .value span .cup{

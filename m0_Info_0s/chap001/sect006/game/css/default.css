@@ -113,7 +113,7 @@ body{
 .intro-btn-wrap button img{
   width:258px;height:128px;
 }
-.block01{margin-top:20px;}
+.block01{margin-top:20px;display:block;}
 
 .lang-select-wrap{
   position:absolute;
