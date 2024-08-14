@@ -252,7 +252,6 @@ input[type=radio]:checked::-ms-check{color:transparent;
   font-family: amsusic_italic;font-size:54px;color:#003760;font-weight:400;
 }
 .select-type-wrap .select-cont-wrap button .txt .arr01,
-.select-type-wrap .select-cont-wrap button .txt .arr02,
 .select-type-wrap .select-cont-wrap button .txt .arr03,
 .select-type-wrap .select-cont-wrap button .txt .none{
   padding-top:30px;
@@ -336,10 +335,13 @@ input[type=radio]:checked::-ms-check{color:transparent;
 }
 .result-box-wrap .desc .text-area .value span{font-size:42px;color:#003760;font-weight:400;line-height:120%;font-family: amsusic_italic;position:relative;}
 
-.result-box-wrap .desc .text-area .value span.arr01,
-.result-box-wrap .desc .text-area .value span.arr02,
-.result-box-wrap .desc .text-area .value span.arr03{
+
+.result-box-wrap .desc .text-area .value span.arr02{
   padding-top:15px;
+}
+.result-box-wrap .desc .text-area .value span.arr01,
+.result-box-wrap .desc .text-area .value span.arr03{
+  padding-top:22px;
 }
 
 .result-box-wrap .desc .text-area .value strong{font-size:42px;color:#003760;font-weight:700;line-height:120%;}
@@ -432,8 +434,8 @@ mjx-mfrac{
 .select-type-wrap .select-header-wrap .desc span .normal{
   font-family: 'amsusic_normal_bold' !important;
 }
-.normal.arr01{background:url(../images/ico-arr01.svg) no-repeat center top;padding-top: 22px;display: inline-block;background-size: contain;}
-.normal.arr02{background:url(../images/ico-arr02.svg) no-repeat center top;padding-top: 22px;display: inline-block;background-size: contain;}
-.normal.arr03{background:url(../images/ico-arr03.svg) no-repeat center top;padding-top: 22px;display: inline-block;background-size: contain;}
+.normal.arr01{background:url(../images/ico-arr01.svg) no-repeat center top;padding-top: 22px;padding-left:5px;padding-right:5px;display: inline-block;background-size: contain;}
+.normal.arr02{background:url(../images/ico-arr02.svg) no-repeat center top;padding-top: 22px;display: inline-block;}
+.normal.arr03{background:url(../images/ico-arr03.svg) no-repeat right top;padding-top: 22px;padding-left:5px;padding-right:5px;display: inline-block;}
 .normal.none{padding-top: 22px;display: inline-block;padding-right:20px;}
 .mml10{margin-left:-10px;margin-right:5px;}
