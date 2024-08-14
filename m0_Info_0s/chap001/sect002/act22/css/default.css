@@ -435,3 +435,6 @@ mjx-mfrac{
   background: rgba(217, 217, 217, 0.00);
   width:77px;height:52px;box-sizing: border-box;display:inline-block;margin:0 3px 0 5px;
 }
+.mmt12{
+  transform: translateY(12px) !important;
+}
