@@ -301,3 +301,9 @@ input[type=radio]:checked::-ms-check{color:transparent;
 .mmt8{
   transform: translateY(-12px);
 }
+.mmt20{
+  transform: translateY(-20px);
+}
+.mmt20 mjx-container[jax="CHTML"][display="true"]{
+  margin:0;
+}
