@@ -187,6 +187,12 @@ body{
 .select-type-wrap .select-header-wrap .desc span *:before{
   font-family: amsusic_italic !important;font-size: 48px !important;font-weight:400;
 }
+.select-type-wrap .select-header-wrap.middle{
+  align-items:center;
+}
+.select-type-wrap .select-header-wrap.middle .num{
+  transform: translateY(0);
+}
 
 .select-type-wrap .select-cont-wrap{position:relative;z-index:1;width:100%;height:auto;padding:72px 0 22px 0;display:flex;justify-content:center;
   align-items:center;}
@@ -352,4 +358,19 @@ mjx-mfrac{
 }
 .yakmul{
   font-family: 'amsusic_yakmul_bold' !important;
+}
+.cover{
+  position:relative;padding:0 15px;display: inline-block;
+  height: auto;
+}
+.cover.type01{
+  height:90px;transform: translateY(-9px);
+}
+.cover:before{
+  content:"";display:block;width:20px !important;height:100% !important;overflow:hidden;position:absolute;left:0 !important;top:0;
+  background:url(../images/bg-cover-left.png) no-repeat left center !important;background-size:contain !important;
+}
+.cover:after{
+  content:"";display:block;width:20px;height:100%;overflow:hidden;position:absolute;right:0;top:0;
+  background:url(../images/bg-cover-right.png) no-repeat left center;background-size:contain;
 }

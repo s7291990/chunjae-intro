@@ -368,7 +368,8 @@ mjx-mfrac{
 .result-box-wrap .desc .text-area .value .normal{
   font-family: 'amsusic_normal_bold' !important;
 }
-.normal.arr01{background:url(../images/ico-arr01.svg) no-repeat center top;padding-top: 27px;display: inline-block;}
+.normal.arr01{background:url(../images/ico-arr01.svg) no-repeat center top;padding-top: 27px;display: inline-block;text-align: center;
+  width: 90px;}
 .normal.arr02{background:url(../images/ico-arr02.svg) no-repeat center top;padding-top: 22px;display: inline-block;}
 .normal.arr03{background:url(../images/ico-arr03.svg) no-repeat center top;padding-top: 27px;display: inline-block;}
  .yakmul{

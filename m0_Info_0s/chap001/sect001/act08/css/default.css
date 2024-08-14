@@ -169,7 +169,7 @@ body{
   display:flex;justify-content:center;
   align-items:center;font-size:47.52px;font-weight:800;color:#fff;letter-spacing: -0.95px;
 }
-.select-type-wrap .select-header-wrap .desc{margin:5px 0 0 26px;width:100%;flex:1;height:auto;font-size:48px;color:#680000;font-weight:700;line-height:100%;}
+.select-type-wrap .select-header-wrap .desc{margin:5px 0 0 26px;width:100%;flex:1;height:auto;font-size:48px;color:#680000;font-weight:700;line-height:130%;}
 .select-type-wrap .select-header-wrap .desc span{
   font-size:48px;color:#680000;font-weight:400;line-height:100%;font-family: amsusic_italic;position:relative;
 }

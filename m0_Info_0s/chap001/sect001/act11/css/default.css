@@ -220,7 +220,7 @@ input[type=radio]:checked::-ms-check{color:transparent;
   font-family: amsusic_italic;transform:translateY(5px);position:relative;
 }
 .select-type-wrap .select-cont-wrap button .txt.ttype{
-  font-family: Pretendard;transform:translateY(-4px);display:block;text-align:left;
+  font-family: Pretendard;transform:translateY(-2px);display:block;text-align:left;
 }
 .select-type-wrap .select-cont-wrap button .txt.ttype span{
   transform:translateY(8px);
@@ -329,6 +329,9 @@ mjx-mfrac{
 }
 .result-box-wrap .desc .text-area span.hangle01 *{
   font-family: Pretendard !important;font-style: normal !important;
+}
+.result-box-wrap .desc .text-area span.hangle01.type01 mjx-dtable mjx-row{
+  transform: translateY(10px);
 }
 .result-box-wrap .desc .text-area span.hangle02 mjx-utext{
   font-family: Pretendard !important;font-style: normal !important;
