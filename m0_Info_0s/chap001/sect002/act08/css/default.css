@@ -239,6 +239,15 @@ input[type=radio]:checked::-ms-check{color:transparent;
 .select-type-wrap .select-cont-wrap button .txt.type02 mjx-frac mjx-num{
   height: 64px;
 }
+.select-type-wrap .select-cont-wrap button .txt.type03 mjx-frac mjx-num{
+  height: 70px;
+}
+.select-type-wrap .select-cont-wrap button .txt.type04 mjx-frac mjx-num{
+  height: 52px;
+}
+.select-type-wrap .select-cont-wrap button .txt.type04 mjx-frac mjx-dbox mjx-row{
+  transform: translateY(-6px);
+}
 .select-type-wrap .select-cont-wrap button .txt mjx-frac mjx-row{
   transform: translateY(4px);height: 60px;
 }
