@@ -95,7 +95,7 @@ body{
   overflow:hidden;
   overflow-y:auto;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.10);box-sizing: border-box;
-  font-size:36px;color:#222;font-weight:600;line-height:180%;
+  font-size:36px;color:#222;font-weight:600;line-height:140%;
 }
 .question-sheet-wrap dd .textarea-wrap .value{
   padding:20px 0;text-align:center;width:100%;

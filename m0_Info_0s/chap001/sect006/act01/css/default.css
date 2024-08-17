@@ -245,7 +245,7 @@ input[type=radio]:checked::-ms-check{color:transparent;
   width:100%;height:auto;overflow:hidden;
 }
 .about-type-wrap ul li{
-  width:100%;height:auto;font-size:36px;color:#222;font-weight:600;line-height:180%;
+  width:100%;height:auto;font-size:36px;color:#222;font-weight:600;line-height:160%;
 }
 .about-type-wrap ul li + li{
   margin-top:40px;
@@ -293,4 +293,10 @@ input[type=radio]:checked::-ms-check{color:transparent;
   overflow-y:auto;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.10);box-sizing: border-box;
   font-size:36px;color:#222;font-weight:600;line-height:180%;
+}
+.normal{
+  font-family: 'amsusic_normal_bold' !important;
+}
+.italic{
+  font-family: 'amsusic_italic' !important;
 }
