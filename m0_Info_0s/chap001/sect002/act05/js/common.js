@@ -9,6 +9,9 @@ window.onload = () => {
 
 	contentResize();
 
+	$("mjx-container").each(function(i){
+		$(this).attr("tabindex", "-1");
+	});
 };
 
 
