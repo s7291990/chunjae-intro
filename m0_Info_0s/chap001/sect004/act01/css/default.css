@@ -185,7 +185,13 @@ input[type=radio]:checked::-ms-check{color:transparent;
   align-items:flex-start;text-align:left;box-sizing: border-box;padding:40px;}
 .result-box-wrap .desc .text-area .value{font-size:42px;color:#003760;font-weight:400;line-height:150%;}
 .result-box-wrap .desc .text-area .value span{font-size:42px;color:#003760;font-weight:400;line-height:120%;font-family: amsusic_italic;}
-.result-box-wrap .desc .text-area .value strong{font-size:42px;color:#003760;font-weight:700;line-height:120%;}
+.result-box-wrap .desc .text-area .value span.block01{
+  font-family: 'Pretendard';
+}
+.result-box-wrap .desc .text-area .value span.block01.number{
+  font-family: amsusic_italic;
+}
+.result-box-wrap .desc .text-area .value strong{font-size:42px;color:#003760;font-weight:400;line-height:120%;font-family: 'Pretendard' !important;}
 .result-box-wrap .desc .text-area .value span .cup{
   font-family: amsusic_italic !important;
   transform: translate(0, -22px) !important;
