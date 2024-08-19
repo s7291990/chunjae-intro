@@ -447,6 +447,12 @@ mjx-mfrac{
 .result-box-wrap .desc .text-area span.hangle01 *{
   font-family: Pretendard !important;font-style:normal !important;
 }
+.result-box-wrap .desc .text-area span.hangle01 mjx-num .mjx-i:nth-child(3){
+  margin-left:10px;
+}
+.result-box-wrap .desc .text-area span.hangle01 mjx-num .mjx-i:nth-child(6){
+  margin-left:10px;
+}
 .result-box-wrap .desc .text-area span.hangle02 mjx-utext{
   font-family: Pretendard !important;font-style:normal !important;
 }
