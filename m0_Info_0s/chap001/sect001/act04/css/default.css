@@ -359,3 +359,8 @@ mjx-mfrac{
 .yakmul{
   font-family: 'amsusic_yakmul_bold' !important;
 }
+
+.result-box-wrap .desc .text-area span.cup01 mjx-c.mjx-c32:before{
+  transform: translate(5px, -6px) !important;
+  font-size: 35px !important;
+}
